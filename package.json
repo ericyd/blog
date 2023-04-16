@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "My blog",
+  "main": "index.js",
+  "scripts": {
+    "login": "npx wrangler login",
+    "clean": "echo 'no clean script yet'",
+    "build": "echo 'no build script yet'",
+    "prepublish": "npm run clean && npm run build",
+    "publish": "export $(cat .env) && CLOUDFLARE_ACCOUNT_ID=$CLOUDFLARE_ACCOUNT_ID npx wrangler pages publish build --project-name blog --env production --branch main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericyd/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericyd/blog/issues"
+  },
+  "homepage": "https://github.com/ericyd/blog#readme",
+  "dependencies": {
+    "wrangler": "^2.15.1"
+  }
+}
