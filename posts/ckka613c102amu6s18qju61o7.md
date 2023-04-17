@@ -1,6 +1,6 @@
----
-title: "If you can code, then make art. Else, return false"
-datePublished: Sat Jan 23 2021 20:28:38 GMT+0000 (Coordinated Universal Time)
+# If you can code, then make art. Else, return false
+
+Sat Jan 23 2021 20:28:38 GMT+0000 (Coordinated Universal Time)
 cuid: ckka613c102amu6s18qju61o7
 slug: if-you-can-code-then-make-art-else-return-false
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1611433683308/mALzBZCJT.jpeg
@@ -16,18 +16,18 @@ Let me take a moment to convince you 😁
 
 - [What is generative art?](#what-is-generative-art)
 - [Why would I want to do that?](#why-would-i-want-to-do-that)
-    - [1. You get to play with code](#1-you-get-to-play-with-code)
-    - [2. You get to explore new algorithms and data structures](#2-you-get-to-explore-new-algorithms-and-data-structures)
-    - [3. You get to do what you love, but with lower stakes](#3-you-get-to-do-what-you-love-but-with-lower-stakes)
-    - [4. You have a much higher probability of finishing a piece of art than a side project](#4-you-have-a-much-higher-probability-of-finishing-a-piece-of-art-than-a-side-project)
-    - [5. You can bring something beautiful or interesting into the world](#5-you-can-bring-something-beautiful-or-interesting-into-the-world)
+  - [1. You get to play with code](#1-you-get-to-play-with-code)
+  - [2. You get to explore new algorithms and data structures](#2-you-get-to-explore-new-algorithms-and-data-structures)
+  - [3. You get to do what you love, but with lower stakes](#3-you-get-to-do-what-you-love-but-with-lower-stakes)
+  - [4. You have a much higher probability of finishing a piece of art than a side project](#4-you-have-a-much-higher-probability-of-finishing-a-piece-of-art-than-a-side-project)
+  - [5. You can bring something beautiful or interesting into the world](#5-you-can-bring-something-beautiful-or-interesting-into-the-world)
 - [Final thoughts](#final-thoughts)
 - [Notes](#notes)
 - [Resources](#resources)
-    - [Tutorials and learning](#tutorials-and-learning)
-    - [Just beautiful](#just-beautiful)
-    - [Social](#social)
-    - [Misc](#misc)
+  - [Tutorials and learning](#tutorials-and-learning)
+  - [Just beautiful](#just-beautiful)
+  - [Social](#social)
+  - [Misc](#misc)
 
 ![Void by Studio ANF](https://studioanf.com/wp-content/uploads/2015/void1/ANF_VOID_1448461364556_web.jpg)
 
@@ -153,9 +153,9 @@ _Credit: [Palmdrone](https://www.reddit.com/r/generative/comments/ktxuln/red/)_
 
 # Notes
 
-* [1]: If you're like me and thought "wtf is an autonomous system" and immediately googled it, you probably got a lot of results about IPs and the internet. Turns out, there are lots of types of autonomous systems and apparently randomness is one type of autonomous system. Who knew. So yeah, most generative art isn't made with IP addresses specifically, but randomness is extremely common in generative art.
-* [2]: Sure, some people make money on generative art, but for most of us it's just a hobby.
-* [3]: These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.
+- [1]: If you're like me and thought "wtf is an autonomous system" and immediately googled it, you probably got a lot of results about IPs and the internet. Turns out, there are lots of types of autonomous systems and apparently randomness is one type of autonomous system. Who knew. So yeah, most generative art isn't made with IP addresses specifically, but randomness is extremely common in generative art.
+- [2]: Sure, some people make money on generative art, but for most of us it's just a hobby.
+- [3]: These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.
 
 # Resources
 

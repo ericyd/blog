@@ -1,6 +1,6 @@
----
-title: "The most challenging part of being an adult is finding balance"
-datePublished: Wed Mar 08 2023 22:52:50 GMT+0000 (Coordinated Universal Time)
+# The most challenging part of being an adult is finding balance
+
+Wed Mar 08 2023 22:52:50 GMT+0000 (Coordinated Universal Time)
 cuid: clf09zv0f00000amuhak794yd
 slug: the-most-challenging-part-of-being-an-adult-is-finding-balance
 tags: life
@@ -11,24 +11,15 @@ Until I was an adult, I never knew that I could have multiple desires that confl
 
 For example, some of my adult values and desires include
 
-* Professional success
-    
-* Romantic fulfillment
-    
-* Platonic relationships / healthy social life
-    
-* Creative outlets / expression
-    
-* Non-productive leisure time
-    
-* Physical health (e.g. via exercise and diet)
-    
-* To nurture life around me (e.g. romantic partner, pet, environment)
-    
-* To live in accordance with my values (e.g. patience, generosity, fostering joy)
-    
-* Strong relationships with family
-    
+- Professional success
+- Romantic fulfillment
+- Platonic relationships / healthy social life
+- Creative outlets / expression
+- Non-productive leisure time
+- Physical health (e.g. via exercise and diet)
+- To nurture life around me (e.g. romantic partner, pet, environment)
+- To live in accordance with my values (e.g. patience, generosity, fostering joy)
+- Strong relationships with family
 
 The two most obvious conflicts between many of these that come up for me are **time** and **energy**, which is to say: there's never enough time, and/or I don't have enough energy. I certainly cannot spend dedicated time on each of the above areas of life every day. Naturally, this means I have to make choices frequently about how to spend my time and energy. It is this constant search for **balance** of priorities that I find to be far and away the most challenging aspect of being an adult.
 
@@ -40,17 +31,14 @@ In many ways, this is a natural progression for my life. I live with a long-term
 
 In addition to the "big rocks" of life, there are also less obvious conflicts of interest. Sometimes the conflict might even be between two things in the same "category" of life, for example
 
-* Desire to experience new music
-    
-* Desire to re-live old favorites
-    
-* Desire to occasionally experience silence
-    
+- Desire to experience new music
+- Desire to re-live old favorites
+- Desire to occasionally experience silence
 
 How does one balance such things? Particularly in an environment where music saturation is so high, how does one find adequate time to listen to new music meaningfully, while also taking time to enjoy established favorites?
 
 There are obviously no concrete or specific answers to questions like this. For me, the most useful observation I can make is to recognize that I have a finite amount of time and a finite amount of energy. The key is to accept these limitations, and acknowledge that spending my limited time and energy **intentionally** is the best way to ensure I meet as many of my desires as possible.
 
-As a younger person, it was tempting to believe that I could be "the best" at something. As an adult, its much more appealing to simply believe that I can spend my time on activities that align with my values and desires. It is important to remember that spending time is only valuable if the *value comes from the activity itself* rather than some hypothetical end state to which the activity might lead. Working on something personally valuable is where I find meaning now, because I recognize that it isn't in my interest to be "the best" in any one area - doing so would mean forsaking another part of my life that I value, because being "the best" requires substantial time and energy.
+As a younger person, it was tempting to believe that I could be "the best" at something. As an adult, its much more appealing to simply believe that I can spend my time on activities that align with my values and desires. It is important to remember that spending time is only valuable if the _value comes from the activity itself_ rather than some hypothetical end state to which the activity might lead. Working on something personally valuable is where I find meaning now, because I recognize that it isn't in my interest to be "the best" in any one area - doing so would mean forsaking another part of my life that I value, because being "the best" requires substantial time and energy.
 
 Ultimately, I do not have all the answers to life. But for now, I'm satisfied with the never-ending challenge of finding balance among all the competing interests and values in my life. I'm just grateful to have such a rich variety of experience that finding balance is the hardest challenge I'm facing.

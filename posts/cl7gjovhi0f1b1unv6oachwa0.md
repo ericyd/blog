@@ -1,6 +1,6 @@
----
-title: "Risotto is good, risotto is great"
-datePublished: Tue Aug 30 2022 18:50:54 GMT+0000 (Coordinated Universal Time)
+# Risotto is good, risotto is great
+
+Tue Aug 30 2022 18:50:54 GMT+0000 (Coordinated Universal Time)
 cuid: cl7gjovhi0f1b1unv6oachwa0
 slug: risotto-is-good-risotto-is-great
 cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/qrleIV6KkfI/upload/v1661883916329/16lAXoDGC.jpeg
@@ -67,45 +67,45 @@ Ok now that you're craving risotto hard, let's dive into a recipe!
 
 ### 1. Heat the broth
 
-* Add the water and miso paste to a pot and heat over medium heat. 
-* You want the broth hot but not boiling. If it boils at any point, just turn it down a bit. 
-* The broth will continue to heat throughout the cooking. Use the closest burner to where you're going to cook the rice; this will make it easier to ladle in the broth to the risotto.
+- Add the water and miso paste to a pot and heat over medium heat.
+- You want the broth hot but not boiling. If it boils at any point, just turn it down a bit.
+- The broth will continue to heat throughout the cooking. Use the closest burner to where you're going to cook the rice; this will make it easier to ladle in the broth to the risotto.
 
 ### 2. Cook the onion
 
-* Heat 2-3 Tbsp of butter in a large stainless steel sauté pan
-* Add the onion, stirring occasionally, until browned
+- Heat 2-3 Tbsp of butter in a large stainless steel sauté pan
+- Add the onion, stirring occasionally, until browned
 
 ### 3. Cook the rice
 
-* Add the rice to the onion and stir to combine. Let it cook for a little bit, a minute max
-* Add the wine. Stir everything together and then leave it alone to absorb the wine
-* When the wine is almost all absorbed, the pan should be fairly dry. If you have some brown spots on the pan, that's a good thing
+- Add the rice to the onion and stir to combine. Let it cook for a little bit, a minute max
+- Add the wine. Stir everything together and then leave it alone to absorb the wine
+- When the wine is almost all absorbed, the pan should be fairly dry. If you have some brown spots on the pan, that's a good thing
 
 ### 4. Add the broth
 
-* Add 1 ladle full of hot broth to the rice. Stir to combine
-* Allow the broth to be absorbed into the rice. Stir as necessary (you can scrape up the brown bits on the bottom of the pan every time you add broth!)
-* When the broth is absorbed and the pan is nearly dry, repeat step 4 until you have no more broth
-* As the rice cooks, it will take longer and longer to absorb the broth. This is your golden time you can use to focus on other parts of the dish!
-* It will probably take at least 30 - 40 minutes to cook the rice this way. Be patient - the process is the whole thing! If you finish way faster, you probably aren't letting the rice dry up enough before adding more broth.
+- Add 1 ladle full of hot broth to the rice. Stir to combine
+- Allow the broth to be absorbed into the rice. Stir as necessary (you can scrape up the brown bits on the bottom of the pan every time you add broth!)
+- When the broth is absorbed and the pan is nearly dry, repeat step 4 until you have no more broth
+- As the rice cooks, it will take longer and longer to absorb the broth. This is your golden time you can use to focus on other parts of the dish!
+- It will probably take at least 30 - 40 minutes to cook the rice this way. Be patient - the process is the whole thing! If you finish way faster, you probably aren't letting the rice dry up enough before adding more broth.
 
 ### 5. Sauté the mushrooms
 
-* In a separate pan, heat 2-3 Tbsp of butter
-* Add the mushrooms and stir
-* Add some salt and pepper. If you're using crimini mushrooms, a dash of red wine vinegar will bring out the umami. It can be a little overwhelming for more delicate mushrooms though which is why I only recommend it for crimini
-* Cook until the mushrooms are the texture you like. Set aside
+- In a separate pan, heat 2-3 Tbsp of butter
+- Add the mushrooms and stir
+- Add some salt and pepper. If you're using crimini mushrooms, a dash of red wine vinegar will bring out the umami. It can be a little overwhelming for more delicate mushrooms though which is why I only recommend it for crimini
+- Cook until the mushrooms are the texture you like. Set aside
 
 ### 6. Combine and savor the flavor
 
-* Dish some risotto onto your plate and top with mushrooms
-* Top with parmesan if you want
-* Savor the flavor, you earned it
+- Dish some risotto onto your plate and top with mushrooms
+- Top with parmesan if you want
+- Savor the flavor, you earned it
 
 ## Variations
 
-* Peas!
-* Asparagus!
-* Zucchini or yellow squash!
-* Pretty much anything you want to try!
+- Peas!
+- Asparagus!
+- Zucchini or yellow squash!
+- Pretty much anything you want to try!

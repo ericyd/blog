@@ -1,6 +1,6 @@
----
-title: "Loop Supreme, part 12: v1.0 release and project retro"
-datePublished: Wed Dec 14 2022 19:49:51 GMT+0000 (Coordinated Universal Time)
+# Loop Supreme, part 12: v1.0 release and project retro
+
+Wed Dec 14 2022 19:49:51 GMT+0000 (Coordinated Universal Time)
 cuid: clbo2gzr0000308l36bysf0l8
 slug: loop-supreme-part-12-v10-release-and-project-retro
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671046934439/MwC9pyOAe.png
@@ -10,18 +10,18 @@ tags: music, audio, build-in-public
 
 _This is the final installation in a series about building a browser-based live looper:_
 
-* Part 12: v1.0 release, and project retro
-* [Part 11: Exporting stems and changing inputs](https://ericyd.hashnode.dev/loop-supreme-part-11-exporting-stems-and-changing-inputs)
-* [Part 10: Keyboard bindings](https://ericyd.hashnode.dev/loop-supreme-part-10-keyboard-bindings)
-* [Part 9: Visualizing the waveform](https://ericyd.hashnode.dev/loop-supreme-part-9-visualizing-the-waveform)
-* [Part 8: Building and hosting](https://ericyd.hashnode.dev/loop-supreme-part-8-building-and-hosting)
-* [Part 7: Latency and adding Track functionality](https://ericyd.hashnode.dev/loop-supreme-part-7-latency-and-adding-track-functionality)
-* [Part 6: Workers and AudioWorklets](https://ericyd.hashnode.dev/loop-supreme-part-6-workers-and-audioworklets)
-* [Part 5: Record and loop a track](https://ericyd.hashnode.dev/loop-supreme-part-5-record-and-loop-a-track)
-* [Part 4: Adding a Scene](https://ericyd.hashnode.dev/loop-supreme-part-4-adding-a-scene)
-* [Part 3: Metronome click](https://ericyd.hashnode.dev/loop-supreme-part-3-metronome-click)
-* [Part 2: Adding a Metronome](https://ericyd.hashnode.dev/loop-supreme-part-2-adding-a-metronome)
-* [Part 1: New project: building a web-based audio looper!](https://ericyd.hashnode.dev/new-project-building-a-web-based-audio-looper)
+- Part 12: v1.0 release, and project retro
+- [Part 11: Exporting stems and changing inputs](https://ericyd.hashnode.dev/loop-supreme-part-11-exporting-stems-and-changing-inputs)
+- [Part 10: Keyboard bindings](https://ericyd.hashnode.dev/loop-supreme-part-10-keyboard-bindings)
+- [Part 9: Visualizing the waveform](https://ericyd.hashnode.dev/loop-supreme-part-9-visualizing-the-waveform)
+- [Part 8: Building and hosting](https://ericyd.hashnode.dev/loop-supreme-part-8-building-and-hosting)
+- [Part 7: Latency and adding Track functionality](https://ericyd.hashnode.dev/loop-supreme-part-7-latency-and-adding-track-functionality)
+- [Part 6: Workers and AudioWorklets](https://ericyd.hashnode.dev/loop-supreme-part-6-workers-and-audioworklets)
+- [Part 5: Record and loop a track](https://ericyd.hashnode.dev/loop-supreme-part-5-record-and-loop-a-track)
+- [Part 4: Adding a Scene](https://ericyd.hashnode.dev/loop-supreme-part-4-adding-a-scene)
+- [Part 3: Metronome click](https://ericyd.hashnode.dev/loop-supreme-part-3-metronome-click)
+- [Part 2: Adding a Metronome](https://ericyd.hashnode.dev/loop-supreme-part-2-adding-a-metronome)
+- [Part 1: New project: building a web-based audio looper!](https://ericyd.hashnode.dev/new-project-building-a-web-based-audio-looper)
 
 _\*Insert "it's done" Frodo meme.\*_ I'm quite pleased to announce that [Loop Supreme](https://loopsupreme.com) is live to the world! I mean, it has been for a while now, but now it is live _and_ complete. Of course, it's not 100% complete (nothing ever is), but I'm satisfied with the primary features for now. I wanted to recap the past 5-6 weeks I've spent working on it, reflect on what went well, what didn't go well, and anything I found remarkable after finishing the project.
 
@@ -82,7 +82,7 @@ On the whole, I really loved using Tailwind. I thought it was easy to use, well-
 
 However, I found myself visiting the Tailwind docs constantly. Is flex-wrap declared with `flex-wrap` or just `wrap`? Is `display: none` declared with `display-none` or `hidden` or `none`? Is `color` declared with `text-[color-name]` or `font-[color-name]`? I'm sure this would improve over time if I used Tailwind every day, but it made me wish for an offline version of their docs that I could reference more quickly. Perhaps there is a VSCode plugin or something that would achieve what I'm looking for, I didn't search too hard.
 
-### "Definition of done" was ambiguous
+### Definition of done was ambiguous
 
 It was a little hard to know when to stop. Eventually, it became a "gut feeling" kind of thing. Since I was making this app for my own musical interests, I kept using it and noticing a bunch of things that I'd want to change before releasing it. This led to scope creep that I didn't plan for. It wasn't exactly a problem since I didn't have a strict timeline, but for future side projects I think I'd spend a little bit more planning time up front.
 

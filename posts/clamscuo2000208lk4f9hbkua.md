@@ -1,6 +1,6 @@
----
-title: "Loop Supreme, part 8: Building and hosting"
-datePublished: Fri Nov 18 2022 17:39:14 GMT+0000 (Coordinated Universal Time)
+# Loop Supreme, part 8: Building and hosting
+
+Fri Nov 18 2022 17:39:14 GMT+0000 (Coordinated Universal Time)
 cuid: clamscuo2000208lk4f9hbkua
 slug: loop-supreme-part-8-building-and-hosting
 tags: music, audio, build-in-public
@@ -8,18 +8,19 @@ tags: music, audio, build-in-public
 ---
 
 _This is part 8 in a series about building a browser-based audio live looper_
-* [Part 12: v1.0 release, and project retro](https://ericyd.hashnode.dev/loop-supreme-part-12-v10-release-and-project-retro)
-* [Part 11: Exporting stems and changing inputs](https://ericyd.hashnode.dev/loop-supreme-part-11-exporting-stems-and-changing-inputs)
-* [Part 10: Keyboard bindings](https://ericyd.hashnode.dev/loop-supreme-part-10-keyboard-bindings)
-* [Part 9: Visualizing the waveform](https://ericyd.hashnode.dev/loop-supreme-part-9-visualizing-the-waveform)
-* Part 8: Building and hosting
-* [Part 7: Latency and adding Track functionality](https://ericyd.hashnode.dev/loop-supreme-part-7-latency-and-adding-track-functionality)
-* [Part 6: Workers and AudioWorklets](https://ericyd.hashnode.dev/loop-supreme-part-6-workers-and-audioworklets)
-* [Part 5: Record and loop a track](https://ericyd.hashnode.dev/loop-supreme-part-5-record-and-loop-a-track)
-* [Part 4: Adding a Scene](https://ericyd.hashnode.dev/loop-supreme-part-4-adding-a-scene)
-* [Part 3: Metronome click](https://ericyd.hashnode.dev/loop-supreme-part-3-metronome-click)
-* [Part 2: Adding a Metronome](https://ericyd.hashnode.dev/loop-supreme-part-2-adding-a-metronome)
-* [Part 1: New project: building a web-based audio looper!](https://ericyd.hashnode.dev/new-project-building-a-web-based-audio-looper)
+
+- [Part 12: v1.0 release, and project retro](https://ericyd.hashnode.dev/loop-supreme-part-12-v10-release-and-project-retro)
+- [Part 11: Exporting stems and changing inputs](https://ericyd.hashnode.dev/loop-supreme-part-11-exporting-stems-and-changing-inputs)
+- [Part 10: Keyboard bindings](https://ericyd.hashnode.dev/loop-supreme-part-10-keyboard-bindings)
+- [Part 9: Visualizing the waveform](https://ericyd.hashnode.dev/loop-supreme-part-9-visualizing-the-waveform)
+- Part 8: Building and hosting
+- [Part 7: Latency and adding Track functionality](https://ericyd.hashnode.dev/loop-supreme-part-7-latency-and-adding-track-functionality)
+- [Part 6: Workers and AudioWorklets](https://ericyd.hashnode.dev/loop-supreme-part-6-workers-and-audioworklets)
+- [Part 5: Record and loop a track](https://ericyd.hashnode.dev/loop-supreme-part-5-record-and-loop-a-track)
+- [Part 4: Adding a Scene](https://ericyd.hashnode.dev/loop-supreme-part-4-adding-a-scene)
+- [Part 3: Metronome click](https://ericyd.hashnode.dev/loop-supreme-part-3-metronome-click)
+- [Part 2: Adding a Metronome](https://ericyd.hashnode.dev/loop-supreme-part-2-adding-a-metronome)
+- [Part 1: New project: building a web-based audio looper!](https://ericyd.hashnode.dev/new-project-building-a-web-based-audio-looper)
 
 ## Goal
 
@@ -54,11 +55,11 @@ wrangler pages publish build --project-name=my-project
 ## State of the app
 
 - Merged PRs
-    - [#15 (track control refactor)](https://github.com/ericyd/loop-supreme/pull/15)
-    - [#16 (adding some basic SEO and HTML content)](https://github.com/ericyd/loop-supreme/pull/16)
-    - [#17 (adding a GitHub Actions deploy script)](https://github.com/ericyd/loop-supreme/pull/17)
-    - [#18 (fix the app build)]((https://github.com/ericyd/loop-supreme/pull/18))
-    - [#19 (fix deploy action)](https://github.com/ericyd/loop-supreme/pull/19)
+  - [#15 (track control refactor)](https://github.com/ericyd/loop-supreme/pull/15)
+  - [#16 (adding some basic SEO and HTML content)](https://github.com/ericyd/loop-supreme/pull/16)
+  - [#17 (adding a GitHub Actions deploy script)](https://github.com/ericyd/loop-supreme/pull/17)
+  - [#18 (fix the app build)](<(https://github.com/ericyd/loop-supreme/pull/18)>)
+  - [#19 (fix deploy action)](https://github.com/ericyd/loop-supreme/pull/19)
 - App can now build and deploy automatically
 - App is hosted at [loopsupreme.com](https://loopsupreme.com) (still working on the `www` subdomain redirect...)
 - A few styling updates

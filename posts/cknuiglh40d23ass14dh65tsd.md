@@ -1,6 +1,6 @@
----
-title: "The Quil tech stack"
-datePublished: Fri Apr 23 2021 16:11:08 GMT+0000 (Coordinated Universal Time)
+# The Quil tech stack
+
+Fri Apr 23 2021 16:11:08 GMT+0000 (Coordinated Universal Time)
 cuid: cknuiglh40d23ass14dh65tsd
 slug: the-quil-tech-stack
 tags: aws, technology, typescript, terraform
@@ -9,35 +9,23 @@ tags: aws, technology, typescript, terraform
 
 Here at [Quil](https://getquil.com/)\[1\], we are working on a financial safety net for everybody. Earlier this year, the development team broke ground on our application that will bring this vision to life. We wanted to share some details with the world about how we are building Quil.
 
-Greenfield projects are thrilling and terrifying for the same reason: you can do *anything*, and you must decide how to do *everything!* Though we never formally defined any #goals for the project, we all agreed on a few common principles to guide our decisions:
+Greenfield projects are thrilling and terrifying for the same reason: you can do _anything_, and you must decide how to do _everything!_ Though we never formally defined any #goals for the project, we all agreed on a few common principles to guide our decisions:
 
 1. Simplify configuration
-    
 2. Reduce cognitive load
-    
 3. Expect scale and complexity to grow
-    
 4. Implement secure practices by default
-    
 5. Focus on delivering the simplest MVP possible
-    
 
 With those in mind, let's talk about some nuts and bolts of our application.
 
-* [Language](#language)
-    
-* [Architecture and infrastructure](#architecture-and-infrastructure)
-    
-* [Code organization](#code-organization)
-    
-* [Testing](#testing)
-    
-* [CI](#ci)
-    
-* [Learning experiences](#learning-experiences)
-    
-* [Closing thoughts](#closing-thoughts)
-    
+- [Language](#language)
+- [Architecture and infrastructure](#architecture-and-infrastructure)
+- [Code organization](#code-organization)
+- [Testing](#testing)
+- [CI](#ci)
+- [Learning experiences](#learning-experiences)
+- [Closing thoughts](#closing-thoughts)
 
 # Language
 
@@ -46,13 +34,9 @@ TypeScript, top to bottom.
 The development team has a background in several different languages, and we considered several approaches. In the end, our decision to land on TypeScript was informed by:
 
 1. Ability to share developer resources between frontend and backend. As with many startups, our team is relatively slim so removing functional silos is paramount.
-    
 2. Ability to share code between frontend, backend, future microservices, and serverless functions. This has proved to be extremely valuable and made our codebase highly flexible.
-    
 3. Type safety. Our development team has backgrounds in both "untyped" scripting languages (Ruby, JavaScript) and strictly typed, compiled languages (Scala, Kotlin). We felt TypeScript provided a great middle-ground by adding compile-time type checks and improved developer tooling, while reducing complexity to maintain a fast development pace.
-    
 4. No limits. TypeScript (and by extension, JavaScript) can run anywhere we need to run code, so we knew wouldn't run into barriers due to runtime requirements.
-    
 
 We'll talk a bit more about the benefits gained from TypeScript in both the [Architecture and infrastructure](#architecture-and-infrastructure) and [Code organization](#code-organization) sections. In short, using TypeScript everywhere has saved us time and energy, and allowed us to be highly agile when swarming on features.
 
@@ -62,14 +46,10 @@ We'll talk a bit more about the benefits gained from TypeScript in both the [Arc
 
 Our MVP architecture, in a nutshell, is:
 
-* Progressive Web App (PWA)
-    
-* Monolith GraphQL API
-    
-* AWS Lambdas for asynchronous tasks and scheduled jobs
-    
-* Amazon Aurora relational database
-    
+- Progressive Web App (PWA)
+- Monolith GraphQL API
+- AWS Lambdas for asynchronous tasks and scheduled jobs
+- Amazon Aurora relational database
 
 We recognized that our MVP architecture would likely need adjustments in the future. For example, we spent a lot of time debating between monolith and microservice architecture, but decided that a monolith would improve our time-to-market substantially. The tradeoff we made internally was to structure our code in the most modular and loosely-coupled way possible, to benefit our future selves when we likely break apart the monolith into microservices (read more about that in the [Code organization](#code-organization) section).
 
@@ -96,11 +76,8 @@ Even in the planning phase, we had already identified several distinct pieces of
 We decided to use a monorepo configuration with [Nx](https://nx.dev/) as a management layer for our apps and libraries. This has turned out to be one of the best decisions we made as it provided several concrete benefits:
 
 1. Nx eliminates most manual configuration by including configurations for all the industry-standard tooling: TypeScript, ESLint, Jest, Prettier, as well as application libraries like React, Storybook, and Express. This ended up being a huge time saver
-    
 2. Nx encourages modularity in the code by making it dead simple to generate new libraries with a simple CLI command. In addition, importing internal libraries is as easy as a reference; by utilizing TypeScript's [path aliases](https://dev.to/larswaechter/path-aliases-with-typescript-in-nodejs-4353) we are able to share code between discrete applications without needing to publish libraries to an authorized repository.
-    
-3. CI is easier to configure because we can ensure that changes to shared libraries trigger tests and builds for *all* affected applications. In addition, end-to-end tests are dead simple to configure because they live next to the application code, but are logically distinct as a separate application.
-    
+3. CI is easier to configure because we can ensure that changes to shared libraries trigger tests and builds for _all_ affected applications. In addition, end-to-end tests are dead simple to configure because they live next to the application code, but are logically distinct as a separate application.
 
 [Nx](https://nx.dev/) has been a pleasure to use and we would recommend it for any new projects. Even a project that only has a single application could benefit from it's zero-thought-required setup and configuration. The monorepo also serves to reduce cognitive load by having one source of truth for everything.
 

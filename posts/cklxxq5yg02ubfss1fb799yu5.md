@@ -1,6 +1,6 @@
----
-title: "Make clean PRs with git merge --squash"
-datePublished: Sat Mar 06 2021 16:22:22 GMT+0000 (Coordinated Universal Time)
+# Make clean PRs with git merge --squash
+
+Sat Mar 06 2021 16:22:22 GMT+0000 (Coordinated Universal Time)
 cuid: cklxxq5yg02ubfss1fb799yu5
 slug: make-clean-prs-with-git-merge-squash
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1615047682054/cou-yZHEt.png
@@ -12,10 +12,10 @@ In an ideal world, every commit you make would be intentional, clean, and precis
 
 In the real world, every commit you make is incremental progress towards an elusive goal. It's quite common for larger feature branches to include some ugly commits that don't add value to the end PR. My most common ugly commits fall into one of these general categories
 
-* make a commit, then undo that work in a future commit
-* add debugging code that I forget to remove
-* attempt to solve the problem one way, then switch approaches and solve it a completely different way
-* merge upstream branches to work off their in-progress features, but then the upstream branch changes, resulting in merge conflicts
+- make a commit, then undo that work in a future commit
+- add debugging code that I forget to remove
+- attempt to solve the problem one way, then switch approaches and solve it a completely different way
+- merge upstream branches to work off their in-progress features, but then the upstream branch changes, resulting in merge conflicts
 
 For large PRs, it's very likely that my commit history is convoluted and contains some less-than-ideal commit messages.
 
@@ -30,6 +30,7 @@ git reset                      # unstage files for review
 ```
 
 After you commit something nice and clean, you can delete the original if desired
+
 ```bash
 git branch -D gonna-pr
 ```
@@ -44,7 +45,6 @@ git branch -D gonna-pr
 2. It reduces the possibility of including unnecessary files or changes in your PR because you're forced to manually add each meaningful file to the final branch.
 3. It reduces the number of extraneous commits in your branch. This can be a benefit to reviewers so they don't have the cognitive overhead of trying to read through your commit history and understand your changes.
 4. It allows you to remove embarrassing commit messages before review! We've all had those commits with messages like "typo...", or "fixing the thing", or "what is this??". Those are an important part of development but nobody needs to see those
-
 
 ## Why not interactive rebase?
 
