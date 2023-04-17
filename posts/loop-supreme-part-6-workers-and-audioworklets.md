@@ -50,7 +50,7 @@ Overall, I'm really pleased with the current progress. I still have some latency
 - From a user perspective, not much has changed. Some styling has been updated, but the basic click-track and recording track is identical.
 - Recording does work and the timing seems better, though there is still pretty significant latency between recording and playback. I'll need to see how to fix this so "playing in time" is possible
 
-![Loop Supreme Worklets](https://cdn.hashnode.com/res/hashnode/image/upload/v1668365663105/6vlTFFux4.png align="left")
+![Loop Supreme Worklets](https://cdn.hashnode.com/res/hashnode/image/upload/v1668365663105/6vlTFFux4.png)
 
 ## Time logging
 

@@ -55,7 +55,7 @@ Lastly, I [wrote down my project roadmap](https://github.com/ericyd/loop-supreme
 
 Here's a wireframe of what I'm imagining (at least right now)
 
-![loop supreme wireframe](https://cdn.hashnode.com/res/hashnode/image/upload/v1667522947185/ZZxai0zWE.png align="left")
+![loop supreme wireframe](https://cdn.hashnode.com/res/hashnode/image/upload/v1667522947185/ZZxai0zWE.png)
 
 ## Conclusion
 

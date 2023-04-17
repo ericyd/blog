@@ -49,7 +49,7 @@ CLOUDFLARE_ACCOUNT_ID=account-id \
 wrangler pages publish build --project-name=my-project
 ```
 
-![Cloudflare API token permissions](https://cdn.hashnode.com/res/hashnode/image/upload/v1668792585759/3wK8fUO6F.png align="left")
+![Cloudflare API token permissions](https://cdn.hashnode.com/res/hashnode/image/upload/v1668792585759/3wK8fUO6F.png)
 
 ## State of the app
 
