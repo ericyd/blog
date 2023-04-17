@@ -9,17 +9,17 @@ tags: music, audio, build-in-public
 _This is the final installation in a series about building a browser-based live looper:_
 
 - Part 12: v1.0 release, and project retro
-- [Part 11: Exporting stems and changing inputs](https://ericyd.hashnode.dev/loop-supreme-part-11-exporting-stems-and-changing-inputs)
-- [Part 10: Keyboard bindings](https://ericyd.hashnode.dev/loop-supreme-part-10-keyboard-bindings)
-- [Part 9: Visualizing the waveform](https://ericyd.hashnode.dev/loop-supreme-part-9-visualizing-the-waveform)
-- [Part 8: Building and hosting](https://ericyd.hashnode.dev/loop-supreme-part-8-building-and-hosting)
-- [Part 7: Latency and adding Track functionality](https://ericyd.hashnode.dev/loop-supreme-part-7-latency-and-adding-track-functionality)
-- [Part 6: Workers and AudioWorklets](https://ericyd.hashnode.dev/loop-supreme-part-6-workers-and-audioworklets)
-- [Part 5: Record and loop a track](https://ericyd.hashnode.dev/loop-supreme-part-5-record-and-loop-a-track)
-- [Part 4: Adding a Scene](https://ericyd.hashnode.dev/loop-supreme-part-4-adding-a-scene)
-- [Part 3: Metronome click](https://ericyd.hashnode.dev/loop-supreme-part-3-metronome-click)
-- [Part 2: Adding a Metronome](https://ericyd.hashnode.dev/loop-supreme-part-2-adding-a-metronome)
-- [Part 1: New project: building a web-based audio looper!](https://ericyd.hashnode.dev/new-project-building-a-web-based-audio-looper)
+- [Part 11: Exporting stems and changing inputs](/loop-supreme-part-11-exporting-stems-and-changing-inputs)
+- [Part 10: Keyboard bindings](/loop-supreme-part-10-keyboard-bindings)
+- [Part 9: Visualizing the waveform](/loop-supreme-part-9-visualizing-the-waveform)
+- [Part 8: Building and hosting](/loop-supreme-part-8-building-and-hosting)
+- [Part 7: Latency and adding Track functionality](/loop-supreme-part-7-latency-and-adding-track-functionality)
+- [Part 6: Workers and AudioWorklets](/loop-supreme-part-6-workers-and-audioworklets)
+- [Part 5: Record and loop a track](/loop-supreme-part-5-record-and-loop-a-track)
+- [Part 4: Adding a Scene](/loop-supreme-part-4-adding-a-scene)
+- [Part 3: Metronome click](/loop-supreme-part-3-metronome-click)
+- [Part 2: Adding a Metronome](/loop-supreme-part-2-adding-a-metronome)
+- [Part 1: New project: building a web-based audio looper!](/new-project-building-a-web-based-audio-looper)
 
 _\*Insert "it's done" Frodo meme.\*_ I'm quite pleased to announce that [Loop Supreme](https://loopsupreme.com) is live to the world! I mean, it has been for a while now, but now it is live _and_ complete. Of course, it's not 100% complete (nothing ever is), but I'm satisfied with the primary features for now. I wanted to recap the past 5-6 weeks I've spent working on it, reflect on what went well, what didn't go well, and anything I found remarkable after finishing the project.
 
@@ -84,7 +84,7 @@ However, I found myself visiting the Tailwind docs constantly. Is flex-wrap decl
 
 It was a little hard to know when to stop. Eventually, it became a "gut feeling" kind of thing. Since I was making this app for my own musical interests, I kept using it and noticing a bunch of things that I'd want to change before releasing it. This led to scope creep that I didn't plan for. It wasn't exactly a problem since I didn't have a strict timeline, but for future side projects I think I'd spend a little bit more planning time up front.
 
-Conversely, this project was intentionally ambiguous because I truly [didn't even know if it was going to be possible](https://ericyd.hashnode.dev/new-project-building-a-web-based-audio-looper#heading-goals). While it may not have been possible to define "done" at the onset of the project, I think it would have been helpful to spend a little time after the basic proof-of-concept was working to decide at what point the project would be considered complete.
+Conversely, this project was intentionally ambiguous because I truly [didn't even know if it was going to be possible](/new-project-building-a-web-based-audio-looper#heading-goals). While it may not have been possible to define "done" at the onset of the project, I think it would have been helpful to spend a little time after the basic proof-of-concept was working to decide at what point the project would be considered complete.
 
 ## Conclusion
 

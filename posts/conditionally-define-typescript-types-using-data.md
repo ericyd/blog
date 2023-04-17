@@ -83,7 +83,7 @@ function buildMeal<T extends Food>(
 
 # Background
 
-At [Quin](http://helloquin.com), we use a monorepo powered by [Nx](https://nx.dev/) to develop our primary API, PWA frontend, and serverless components (you can [read more about our tech stack here](https://ericyd.hashnode.dev/the-quin-tech-stack)). To bind all these together we have a substantial number of internal libraries we've written that handle everything from wrapping third-party APIs, to formatting event names (with the goal of better adherence to a standard [event naming framework](https://segment.com/academy/collecting-data/naming-conventions-for-clean-data/) across our codebase).
+At [Quin](http://helloquin.com), we use a monorepo powered by [Nx](https://nx.dev/) to develop our primary API, PWA frontend, and serverless components (you can [read more about our tech stack here](/the-quin-tech-stack)). To bind all these together we have a substantial number of internal libraries we've written that handle everything from wrapping third-party APIs, to formatting event names (with the goal of better adherence to a standard [event naming framework](https://segment.com/academy/collecting-data/naming-conventions-for-clean-data/) across our codebase).
 
 Internal libraries are one of the most potent areas to impact the quality of your code. A thoughtful, easy-to-use library API can make it a breeze to implement functionality in disparate call sites across many services.
 
