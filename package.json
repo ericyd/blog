@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My blog",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "login": "npx wrangler login",
     "clean": "echo 'no clean script yet'",
