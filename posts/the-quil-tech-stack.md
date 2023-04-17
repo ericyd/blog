@@ -1,8 +1,7 @@
 # The Quil tech stack
 
 2021-04-23T11:11:08Z
-cuid: cknuiglh40d23ass14dh65tsd
-slug: the-quil-tech-stack
+
 tags: aws, technology, typescript, terraform
 
 ---

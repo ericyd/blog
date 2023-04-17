@@ -1,9 +1,7 @@
 # Loop Supreme, part 4: Adding a Scene
 
 2022-11-07T12:58:26Z
-cuid: cla75ccfa000008l85agxg08m
-slug: loop-supreme-part-4-adding-a-scene
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667847381877/ipBP5WqdU.png
+
 tags: music, audio, build-in-public
 
 ---

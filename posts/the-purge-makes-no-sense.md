@@ -1,9 +1,7 @@
 # The Purge makes no sense
 
 2022-08-21T11:19:07Z
-cuid: cl73jb0rd00fg6rnv5hyf8fqa
-slug: the-purge-makes-no-sense
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661098020691/a1ZylkJoU.png
+
 tags: horror, film
 
 ---

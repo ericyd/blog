@@ -1,8 +1,7 @@
 # Loop Supreme, part 3: Metronome click
 
 2022-11-06T10:42:28Z
-cuid: cla5l1mji000308ms1oal1i2e
-slug: loop-supreme-part-3-metronome-click
+
 tags: audio, build-in-public
 
 ---

@@ -1,8 +1,7 @@
 # The most challenging part of being an adult is finding balance
 
 2023-03-08T16:52:50Z
-cuid: clf09zv0f00000amuhak794yd
-slug: the-most-challenging-part-of-being-an-adult-is-finding-balance
+
 tags: life
 
 ---

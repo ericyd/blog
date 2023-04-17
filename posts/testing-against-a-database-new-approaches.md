@@ -1,8 +1,7 @@
 # Testing against a database: new approaches
 
 2023-04-11T10:56:39Z
-cuid: clgcg3lpj000d0ak597fk5ghu
-slug: testing-against-a-database-new-approaches
+
 tags: postgresql, typescript, sequelize
 
 ---

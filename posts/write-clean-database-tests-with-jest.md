@@ -1,9 +1,7 @@
 # Write clean database tests with Jest
 
 2021-05-19T19:44:43Z
-cuid: ckow6987301kyl3s11r30b1up
-slug: write-clean-database-tests-with-jest
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1620677051313/T3Y5CzfRQ.png
+
 tags: javascript, databases, testing, typescript, jest
 
 ---

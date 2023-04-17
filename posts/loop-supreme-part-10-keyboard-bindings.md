@@ -1,9 +1,7 @@
 # Loop Supreme, part 10: Keyboard bindings
 
 2022-11-28T15:46:21Z
-cuid: clb1bl6cn000408l80fuy5beo
-slug: loop-supreme-part-10-keyboard-bindings
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1669671833527/rJpDEGXgN.png
+
 tags: music, audio, build-in-public
 
 ---

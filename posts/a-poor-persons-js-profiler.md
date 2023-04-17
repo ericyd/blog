@@ -1,8 +1,7 @@
 # A poor person's JS profiler
 
 2020-12-04T13:59:55Z
-cuid: ckiaozk4u02izqrs1e3wsdi0h
-slug: a-poor-persons-js-profiler
+
 tags: js, javascript, performance
 
 ---

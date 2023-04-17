@@ -1,9 +1,7 @@
 # How to communicate as a software engineer
 
 2022-07-30T16:15:31Z
-cuid: cl68e7g8o07dfy6nvgnqydm55
-slug: how-to-communicate-as-a-software-engineer
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1659215896565/mFycVV95V.jpg
+
 tags: programming, general-advice, communication
 
 ---

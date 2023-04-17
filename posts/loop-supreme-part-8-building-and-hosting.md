@@ -1,8 +1,7 @@
 # Loop Supreme, part 8: Building and hosting
 
 2022-11-18T11:39:14Z
-cuid: clamscuo2000208lk4f9hbkua
-slug: loop-supreme-part-8-building-and-hosting
+
 tags: music, audio, build-in-public
 
 ---

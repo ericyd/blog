@@ -1,9 +1,7 @@
 # My favorite album releases of 2022
 
 2022-12-09T10:58:09Z
-cuid: clbgr4wo9000308l35n4y5kg2
-slug: my-favorite-album-releases-of-2022
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670605060368/XB5FeQ0DO.png
+
 tags: music
 
 ---

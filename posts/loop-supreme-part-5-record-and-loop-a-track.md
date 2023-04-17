@@ -1,8 +1,7 @@
 # Loop Supreme, part 5: Record and loop a track
 
 2022-11-12T11:20:08Z
-cuid: clae716s5000a08l321cp3oh3
-slug: loop-supreme-part-5-record-and-loop-a-track
+
 tags: music, audio, build-in-public
 
 ---

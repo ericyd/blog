@@ -1,9 +1,7 @@
 # Risotto is good, risotto is great
 
 2022-08-30T13:50:54Z
-cuid: cl7gjovhi0f1b1unv6oachwa0
-slug: risotto-is-good-risotto-is-great
-cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/qrleIV6KkfI/upload/v1661883916329/16lAXoDGC.jpeg
+
 tags: cooking, risotto, rice
 
 ---

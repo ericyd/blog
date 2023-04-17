@@ -1,8 +1,7 @@
 # New project: building a web-based audio looper!
 
 2022-11-03T19:52:07Z
-cuid: cla1s7s3n000508mm4uolg17k
-slug: new-project-building-a-web-based-audio-looper
+
 tags: music, apis
 
 ---

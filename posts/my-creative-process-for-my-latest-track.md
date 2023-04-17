@@ -1,9 +1,7 @@
 # My creative process for my latest track, Long Heat
 
 2022-08-24T11:50:10Z
-cuid: cl77uqhzo01rg0jnv89r57zq7
-slug: my-creative-process-for-my-latest-track
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661358419745/T3LX5cH-q.jpg
+
 tags: music
 
 ---

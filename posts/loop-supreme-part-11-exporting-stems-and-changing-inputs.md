@@ -1,9 +1,7 @@
 # Loop Supreme, part 11: Exporting stems and changing inputs
 
 2022-12-08T10:19:45Z
-cuid: clbfaboqu000b08jngsh9c2wt
-slug: loop-supreme-part-11-exporting-stems-and-changing-inputs
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670515492618/DDi_1Dag0.png
+
 tags: music, audio, build-in-public
 
 ---

@@ -1,9 +1,7 @@
 # Hello from the crypto future!
 
 2022-03-26T11:49:11Z
-cuid: cl1837lyx026ssenvccmb2rom
-slug: hello-from-the-crypto-future
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1648313328346/otgDMJ1Ja.jpg
+
 tags: blockchain, cryptocurrency
 
 ---

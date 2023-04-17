@@ -1,9 +1,7 @@
 # Loop Supreme, part 12: v1.0 release and project retro
 
 2022-12-14T13:49:51Z
-cuid: clbo2gzr0000308l36bysf0l8
-slug: loop-supreme-part-12-v10-release-and-project-retro
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671046934439/MwC9pyOAe.png
+
 tags: music, audio, build-in-public
 
 ---
