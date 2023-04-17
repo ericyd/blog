@@ -50,7 +50,7 @@ index_html() {
 		link=$(echo "$f" | gsed -E 's|.*/(.*).md|\1/|')
 		created=$(echo $(head -3 "$f" | tail -1))
 	 	echo "<span class='created'>$created &mdash; <a href=\"$link\">$title</a></span>"
-	done < "$1"
+	done < "$1" | sort -r
 
 	# Print footer after post list
 	cat footer.html
