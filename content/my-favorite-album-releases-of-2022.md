@@ -1,6 +1,6 @@
 ---
 title: "My favorite album releases of 2022"
-date: Fri Dec 09 2022 16:58:09 GMT+0000 (Coordinated Universal Time)
+date: 2022-12-09T10:58:09Z
 cuid: clbgr4wo9000308l35n4y5kg2
 draft: false
 slug: my-favorite-album-releases-of-2022

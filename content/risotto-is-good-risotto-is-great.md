@@ -1,6 +1,6 @@
 ---
 title: "Risotto is good, risotto is great"
-date: Tue Aug 30 2022 18:50:54 GMT+0000 (Coordinated Universal Time)
+date: 2022-08-30T13:50:54Z
 cuid: cl7gjovhi0f1b1unv6oachwa0
 draft: false
 slug: risotto-is-good-risotto-is-great

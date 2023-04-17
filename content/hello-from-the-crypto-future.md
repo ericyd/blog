@@ -1,6 +1,6 @@
 ---
 title: "Hello from the crypto future!"
-date: Sat Mar 26 2022 16:49:11 GMT+0000 (Coordinated Universal Time)
+date: 2022-03-26T11:49:11Z
 cuid: cl1837lyx026ssenvccmb2rom
 draft: false
 slug: hello-from-the-crypto-future

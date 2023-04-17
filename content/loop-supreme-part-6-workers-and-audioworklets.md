@@ -1,6 +1,6 @@
 ---
 title: "Loop Supreme, part 6: Workers and AudioWorklets"
-date: Sun Nov 13 2022 19:18:16 GMT+0000 (Coordinated Universal Time)
+date: 2022-11-13T13:18:16Z
 cuid: clafqoy8p000408lg4d6pdq4c
 draft: false
 slug: loop-supreme-part-6-workers-and-audioworklets

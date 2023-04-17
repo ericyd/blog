@@ -1,6 +1,6 @@
 ---
 title: "The Quil tech stack"
-date: Fri Apr 23 2021 16:11:08 GMT+0000 (Coordinated Universal Time)
+date: 2021-04-23T11:11:08Z
 cuid: cknuiglh40d23ass14dh65tsd
 draft: false
 slug: the-quil-tech-stack

@@ -1,6 +1,6 @@
 ---
 title: "Loop Supreme, part 5: Record and loop a track"
-date: Sat Nov 12 2022 17:20:08 GMT+0000 (Coordinated Universal Time)
+date: 2022-11-12T11:20:08Z
 cuid: clae716s5000a08l321cp3oh3
 draft: false
 slug: loop-supreme-part-5-record-and-loop-a-track
