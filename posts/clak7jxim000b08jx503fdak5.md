@@ -1,6 +1,6 @@
 # Loop Supreme, part 7: Latency, and adding track functionality
 
-Wed Nov 16 2022 22:21:20 GMT+0000 (Coordinated Universal Time)
+2022-11-16T16:21:20Z
 cuid: clak7jxim000b08jx503fdak5
 slug: loop-supreme-part-7-latency-and-adding-track-functionality
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1668636505190/yX-bcYVeE.png

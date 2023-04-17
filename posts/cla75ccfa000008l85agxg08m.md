@@ -1,6 +1,6 @@
 # Loop Supreme, part 4: Adding a Scene
 
-Mon Nov 07 2022 18:58:26 GMT+0000 (Coordinated Universal Time)
+2022-11-07T12:58:26Z
 cuid: cla75ccfa000008l85agxg08m
 slug: loop-supreme-part-4-adding-a-scene
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667847381877/ipBP5WqdU.png

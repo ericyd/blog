@@ -1,6 +1,6 @@
 # If you can code, then make art. Else, return false
 
-Sat Jan 23 2021 20:28:38 GMT+0000 (Coordinated Universal Time)
+2021-01-23T14:28:38Z
 cuid: ckka613c102amu6s18qju61o7
 slug: if-you-can-code-then-make-art-else-return-false
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1611433683308/mALzBZCJT.jpeg

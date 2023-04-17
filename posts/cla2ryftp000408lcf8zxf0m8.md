@@ -1,6 +1,6 @@
 # Loop Supreme, part 2: Adding a Metronome
 
-Fri Nov 04 2022 17:32:38 GMT+0000 (Coordinated Universal Time)
+2022-11-04T12:32:38Z
 cuid: cla2ryftp000408lcf8zxf0m8
 slug: loop-supreme-part-2-adding-a-metronome
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667583111394/Ht1Ziz5_9.png

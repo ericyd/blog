@@ -1,6 +1,6 @@
 # Testing against a database: new approaches
 
-Tue Apr 11 2023 15:56:39 GMT+0000 (Coordinated Universal Time)
+2023-04-11T10:56:39Z
 cuid: clgcg3lpj000d0ak597fk5ghu
 slug: testing-against-a-database-new-approaches
 tags: postgresql, typescript, sequelize

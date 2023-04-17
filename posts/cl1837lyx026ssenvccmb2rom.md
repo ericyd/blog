@@ -1,6 +1,6 @@
 # Hello from the crypto future!
 
-Sat Mar 26 2022 16:49:11 GMT+0000 (Coordinated Universal Time)
+2022-03-26T11:49:11Z
 cuid: cl1837lyx026ssenvccmb2rom
 slug: hello-from-the-crypto-future
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1648313328346/otgDMJ1Ja.jpg

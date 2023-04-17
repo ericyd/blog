@@ -1,6 +1,6 @@
 # Conditionally define TypeScript types using data
 
-Thu Dec 16 2021 21:35:05 GMT+0000 (Coordinated Universal Time)
+2021-12-16T15:35:05Z
 cuid: ckx9he39h03q1hks1fscz5nv8
 slug: conditionally-define-typescript-types-using-data
 cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/oMpAz-DN-9I/upload/v1639626386171/lCRizmlFYN.jpeg

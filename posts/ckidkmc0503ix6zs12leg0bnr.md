@@ -1,6 +1,6 @@
 # How to call GitHub's GraphQL API in vanilla JS
 
-Sun Dec 06 2020 20:20:58 GMT+0000 (Coordinated Universal Time)
+2020-12-06T14:20:58Z
 cuid: ckidkmc0503ix6zs12leg0bnr
 slug: how-to-call-githubs-graphql-api-in-vanilla-js
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1607282756734/b9DLMsfIV.png

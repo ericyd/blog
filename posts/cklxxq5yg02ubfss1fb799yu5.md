@@ -1,6 +1,6 @@
 # Make clean PRs with git merge --squash
 
-Sat Mar 06 2021 16:22:22 GMT+0000 (Coordinated Universal Time)
+2021-03-06T10:22:22Z
 cuid: cklxxq5yg02ubfss1fb799yu5
 slug: make-clean-prs-with-git-merge-squash
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1615047682054/cou-yZHEt.png

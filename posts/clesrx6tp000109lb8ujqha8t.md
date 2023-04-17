@@ -1,6 +1,6 @@
 # Switching from coffee to tea has increased my sense of peace
 
-Fri Mar 03 2023 16:52:29 GMT+0000 (Coordinated Universal Time)
+2023-03-03T10:52:29Z
 cuid: clesrx6tp000109lb8ujqha8t
 slug: switching-from-coffee-to-tea-has-increased-my-sense-of-peace
 tags: coffee, tea

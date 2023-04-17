@@ -1,6 +1,6 @@
 # How to communicate as a software engineer
 
-Sat Jul 30 2022 21:15:31 GMT+0000 (Coordinated Universal Time)
+2022-07-30T16:15:31Z
 cuid: cl68e7g8o07dfy6nvgnqydm55
 slug: how-to-communicate-as-a-software-engineer
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1659215896565/mFycVV95V.jpg

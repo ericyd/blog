@@ -1,6 +1,6 @@
 # My creative process for my latest track, Long Heat
 
-Wed Aug 24 2022 16:50:10 GMT+0000 (Coordinated Universal Time)
+2022-08-24T11:50:10Z
 cuid: cl77uqhzo01rg0jnv89r57zq7
 slug: my-creative-process-for-my-latest-track
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661358419745/T3LX5cH-q.jpg

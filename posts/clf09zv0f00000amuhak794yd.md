@@ -1,6 +1,6 @@
 # The most challenging part of being an adult is finding balance
 
-Wed Mar 08 2023 22:52:50 GMT+0000 (Coordinated Universal Time)
+2023-03-08T16:52:50Z
 cuid: clf09zv0f00000amuhak794yd
 slug: the-most-challenging-part-of-being-an-adult-is-finding-balance
 tags: life
