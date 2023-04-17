@@ -1,6 +1,6 @@
 ---
 title: "My creative process for my latest track, Long Heat"
-datePublished: Wed Aug 24 2022 16:50:10 GMT+0000 (Coordinated Universal Time)
+date: Wed Aug 24 2022 16:50:10 GMT+0000 (Coordinated Universal Time)
 cuid: cl77uqhzo01rg0jnv89r57zq7
 draft: false
 slug: my-creative-process-for-my-latest-track

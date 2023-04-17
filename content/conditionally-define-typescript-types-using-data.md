@@ -1,7 +1,7 @@
 ---
 title: "Conditionally define TypeScript types using data"
 seoTitle: "Conditionally define TypeScript types using data"
-datePublished: Thu Dec 16 2021 21:35:05 GMT+0000 (Coordinated Universal Time)
+date: Thu Dec 16 2021 21:35:05 GMT+0000 (Coordinated Universal Time)
 cuid: ckx9he39h03q1hks1fscz5nv8
 draft: false
 slug: conditionally-define-typescript-types-using-data

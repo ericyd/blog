@@ -1,6 +1,6 @@
 ---
 title: "Write clean database tests with Jest"
-datePublished: Thu May 20 2021 00:44:43 GMT+0000 (Coordinated Universal Time)
+date: Thu May 20 2021 00:44:43 GMT+0000 (Coordinated Universal Time)
 cuid: ckow6987301kyl3s11r30b1up
 draft: false
 slug: write-clean-database-tests-with-jest

@@ -1,6 +1,6 @@
 ---
 title: "The Purge makes no sense"
-datePublished: Sun Aug 21 2022 16:19:07 GMT+0000 (Coordinated Universal Time)
+date: Sun Aug 21 2022 16:19:07 GMT+0000 (Coordinated Universal Time)
 cuid: cl73jb0rd00fg6rnv5hyf8fqa
 draft: false
 slug: the-purge-makes-no-sense

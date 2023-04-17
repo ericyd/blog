@@ -1,6 +1,6 @@
 ---
 title: "Loop Supreme, part 9: Visualizing the waveform"
-datePublished: Wed Nov 23 2022 20:34:05 GMT+0000 (Coordinated Universal Time)
+date: Wed Nov 23 2022 20:34:05 GMT+0000 (Coordinated Universal Time)
 cuid: clau3sz4j000908lbdbjja3qi
 draft: false
 slug: loop-supreme-part-9-visualizing-the-waveform

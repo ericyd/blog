@@ -1,6 +1,6 @@
 ---
 title: "Loop Supreme, part 12: v1.0 release and project retro"
-datePublished: Wed Dec 14 2022 19:49:51 GMT+0000 (Coordinated Universal Time)
+date: Wed Dec 14 2022 19:49:51 GMT+0000 (Coordinated Universal Time)
 cuid: clbo2gzr0000308l36bysf0l8
 draft: false
 slug: loop-supreme-part-12-v10-release-and-project-retro

@@ -1,6 +1,6 @@
 ---
 title: "New project: building a web-based audio looper!"
-datePublished: Fri Nov 04 2022 00:52:07 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 04 2022 00:52:07 GMT+0000 (Coordinated Universal Time)
 cuid: cla1s7s3n000508mm4uolg17k
 draft: false
 slug: new-project-building-a-web-based-audio-looper

@@ -1,6 +1,6 @@
 ---
 title: "The most challenging part of being an adult is finding balance"
-datePublished: Wed Mar 08 2023 22:52:50 GMT+0000 (Coordinated Universal Time)
+date: Wed Mar 08 2023 22:52:50 GMT+0000 (Coordinated Universal Time)
 cuid: clf09zv0f00000amuhak794yd
 draft: false
 slug: the-most-challenging-part-of-being-an-adult-is-finding-balance

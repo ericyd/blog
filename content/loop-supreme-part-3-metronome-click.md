@@ -1,6 +1,6 @@
 ---
 title: "Loop Supreme, part 3: Metronome click"
-datePublished: Sun Nov 06 2022 16:42:28 GMT+0000 (Coordinated Universal Time)
+date: Sun Nov 06 2022 16:42:28 GMT+0000 (Coordinated Universal Time)
 cuid: cla5l1mji000308ms1oal1i2e
 draft: false
 slug: loop-supreme-part-3-metronome-click

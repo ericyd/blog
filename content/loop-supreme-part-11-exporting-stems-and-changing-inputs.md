@@ -1,6 +1,6 @@
 ---
 title: "Loop Supreme, part 11: Exporting stems and changing inputs"
-datePublished: Thu Dec 08 2022 16:19:45 GMT+0000 (Coordinated Universal Time)
+date: Thu Dec 08 2022 16:19:45 GMT+0000 (Coordinated Universal Time)
 cuid: clbfaboqu000b08jngsh9c2wt
 draft: false
 slug: loop-supreme-part-11-exporting-stems-and-changing-inputs

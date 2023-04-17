@@ -1,6 +1,6 @@
 ---
 title: "A poor person's JS profiler"
-datePublished: Fri Dec 04 2020 19:59:55 GMT+0000 (Coordinated Universal Time)
+date: Fri Dec 04 2020 19:59:55 GMT+0000 (Coordinated Universal Time)
 cuid: ckiaozk4u02izqrs1e3wsdi0h
 draft: false
 slug: a-poor-persons-js-profiler

@@ -1,6 +1,6 @@
 ---
 title: "Loop Supreme, part 8: Building and hosting"
-datePublished: Fri Nov 18 2022 17:39:14 GMT+0000 (Coordinated Universal Time)
+date: Fri Nov 18 2022 17:39:14 GMT+0000 (Coordinated Universal Time)
 cuid: clamscuo2000208lk4f9hbkua
 draft: false
 slug: loop-supreme-part-8-building-and-hosting

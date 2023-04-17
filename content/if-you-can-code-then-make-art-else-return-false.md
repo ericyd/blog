@@ -1,6 +1,6 @@
 ---
 title: "If you can code, then make art. Else, return false"
-datePublished: Sat Jan 23 2021 20:28:38 GMT+0000 (Coordinated Universal Time)
+date: Sat Jan 23 2021 20:28:38 GMT+0000 (Coordinated Universal Time)
 cuid: ckka613c102amu6s18qju61o7
 draft: false
 slug: if-you-can-code-then-make-art-else-return-false

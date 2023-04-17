@@ -1,6 +1,6 @@
 ---
 title: "Switching from coffee to tea has increased my sense of peace"
-datePublished: Fri Mar 03 2023 16:52:29 GMT+0000 (Coordinated Universal Time)
+date: Fri Mar 03 2023 16:52:29 GMT+0000 (Coordinated Universal Time)
 cuid: clesrx6tp000109lb8ujqha8t
 draft: false
 slug: switching-from-coffee-to-tea-has-increased-my-sense-of-peace

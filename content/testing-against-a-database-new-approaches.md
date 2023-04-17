@@ -1,6 +1,6 @@
 ---
 title: "Testing against a database: new approaches"
-datePublished: Tue Apr 11 2023 15:56:39 GMT+0000 (Coordinated Universal Time)
+date: Tue Apr 11 2023 15:56:39 GMT+0000 (Coordinated Universal Time)
 cuid: clgcg3lpj000d0ak597fk5ghu
 draft: false
 slug: testing-against-a-database-new-approaches

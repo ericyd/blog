@@ -1,6 +1,6 @@
 ---
 title: "Loop Supreme, part 10: Keyboard bindings"
-datePublished: Mon Nov 28 2022 21:46:21 GMT+0000 (Coordinated Universal Time)
+date: Mon Nov 28 2022 21:46:21 GMT+0000 (Coordinated Universal Time)
 cuid: clb1bl6cn000408l80fuy5beo
 draft: false
 slug: loop-supreme-part-10-keyboard-bindings

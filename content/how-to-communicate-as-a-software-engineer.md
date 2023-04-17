@@ -1,6 +1,6 @@
 ---
 title: "How to communicate as a software engineer"
-datePublished: Sat Jul 30 2022 21:15:31 GMT+0000 (Coordinated Universal Time)
+date: Sat Jul 30 2022 21:15:31 GMT+0000 (Coordinated Universal Time)
 cuid: cl68e7g8o07dfy6nvgnqydm55
 draft: false
 slug: how-to-communicate-as-a-software-engineer

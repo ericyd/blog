@@ -1,6 +1,6 @@
 ---
 title: "Make clean PRs with git merge --squash"
-datePublished: Sat Mar 06 2021 16:22:22 GMT+0000 (Coordinated Universal Time)
+date: Sat Mar 06 2021 16:22:22 GMT+0000 (Coordinated Universal Time)
 cuid: cklxxq5yg02ubfss1fb799yu5
 draft: false
 slug: make-clean-prs-with-git-merge-squash

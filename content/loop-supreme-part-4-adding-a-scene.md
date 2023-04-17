@@ -1,6 +1,6 @@
 ---
 title: "Loop Supreme, part 4: Adding a Scene"
-datePublished: Mon Nov 07 2022 18:58:26 GMT+0000 (Coordinated Universal Time)
+date: Mon Nov 07 2022 18:58:26 GMT+0000 (Coordinated Universal Time)
 cuid: cla75ccfa000008l85agxg08m
 draft: false
 slug: loop-supreme-part-4-adding-a-scene
