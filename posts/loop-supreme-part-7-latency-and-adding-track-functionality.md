@@ -2,25 +2,26 @@
 title: "Loop Supreme, part 7: Latency, and adding track functionality"
 datePublished: Wed Nov 16 2022 22:21:20 GMT+0000 (Coordinated Universal Time)
 cuid: clak7jxim000b08jx503fdak5
+draft: false
 slug: loop-supreme-part-7-latency-and-adding-track-functionality
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1668636505190/yX-bcYVeE.png
 tags: music, audio, build-in-public
-
 ---
 
 _This is part 7 in a series about building a browser-based live looper_
-* [Part 12: v1.0 release, and project retro](https://ericyd.hashnode.dev/loop-supreme-part-12-v10-release-and-project-retro)
-* [Part 11: Exporting stems and changing inputs](https://ericyd.hashnode.dev/loop-supreme-part-11-exporting-stems-and-changing-inputs)
-* [Part 10: Keyboard bindings](https://ericyd.hashnode.dev/loop-supreme-part-10-keyboard-bindings)
-* [Part 9: Visualizing the waveform](https://ericyd.hashnode.dev/loop-supreme-part-9-visualizing-the-waveform)
-* [Part 8: Building and hosting](https://ericyd.hashnode.dev/loop-supreme-part-8-building-and-hosting)
-* Part 7: Latency and adding Track functionality
-* [Part 6: Workers and AudioWorklets](https://ericyd.hashnode.dev/loop-supreme-part-6-workers-and-audioworklets)
-* [Part 5: Record and loop a track](https://ericyd.hashnode.dev/loop-supreme-part-5-record-and-loop-a-track)
-* [Part 4: Adding a Scene](https://ericyd.hashnode.dev/loop-supreme-part-4-adding-a-scene)
-* [Part 3: Metronome click](https://ericyd.hashnode.dev/loop-supreme-part-3-metronome-click)
-* [Part 2: Adding a Metronome](https://ericyd.hashnode.dev/loop-supreme-part-2-adding-a-metronome)
-* [Part 1: New project: building a web-based audio looper!](https://ericyd.hashnode.dev/new-project-building-a-web-based-audio-looper)
+
+- [Part 12: v1.0 release, and project retro](https://ericyd.hashnode.dev/loop-supreme-part-12-v10-release-and-project-retro)
+- [Part 11: Exporting stems and changing inputs](https://ericyd.hashnode.dev/loop-supreme-part-11-exporting-stems-and-changing-inputs)
+- [Part 10: Keyboard bindings](https://ericyd.hashnode.dev/loop-supreme-part-10-keyboard-bindings)
+- [Part 9: Visualizing the waveform](https://ericyd.hashnode.dev/loop-supreme-part-9-visualizing-the-waveform)
+- [Part 8: Building and hosting](https://ericyd.hashnode.dev/loop-supreme-part-8-building-and-hosting)
+- Part 7: Latency and adding Track functionality
+- [Part 6: Workers and AudioWorklets](https://ericyd.hashnode.dev/loop-supreme-part-6-workers-and-audioworklets)
+- [Part 5: Record and loop a track](https://ericyd.hashnode.dev/loop-supreme-part-5-record-and-loop-a-track)
+- [Part 4: Adding a Scene](https://ericyd.hashnode.dev/loop-supreme-part-4-adding-a-scene)
+- [Part 3: Metronome click](https://ericyd.hashnode.dev/loop-supreme-part-3-metronome-click)
+- [Part 2: Adding a Metronome](https://ericyd.hashnode.dev/loop-supreme-part-2-adding-a-metronome)
+- [Part 1: New project: building a web-based audio looper!](https://ericyd.hashnode.dev/new-project-building-a-web-based-audio-looper)
 
 ## Goal
 
@@ -38,9 +39,9 @@ Indeed, `getCapabilities` was the only method I found that worked, and it only w
 
 Once I had the track latency, I was able to adjust for it by shifting the samples in the recording buffer by the amount of latency the track reported. This basically fixed the issue on playback, and now loops are well-synchronized (in the best-case scenario), which is very exciting!
 
-The other major work in this update was adding capabilities to the Tracks and Metronome. This included some general refactoring of the audio graph* which had the serendipitous side effect of fixing the issue I had with recording multiple tracks! Turns out, sound software design really is important 😏. In addition, I was able to add volume controls (including a mute option) to both Metronome and Tracks, and I added a monitor option to the Track if you want to monitor the input during recording. 
+The other major work in this update was adding capabilities to the Tracks and Metronome. This included some general refactoring of the audio graph\* which had the serendipitous side effect of fixing the issue I had with recording multiple tracks! Turns out, sound software design really is important 😏. In addition, I was able to add volume controls (including a mute option) to both Metronome and Tracks, and I added a monitor option to the Track if you want to monitor the input during recording.
 
-*Note: I'm not sure "audio graph" is an official term, but since the Web Audio API consists of various `AudioNodes` that get connected together to produce sound, I felt like "audio graph" was as good a term as any to describe the technical underpinnings of the app.
+\*Note: I'm not sure "audio graph" is an official term, but since the Web Audio API consists of various `AudioNodes` that get connected together to produce sound, I felt like "audio graph" was as good a term as any to describe the technical underpinnings of the app.
 
 ## Learnings
 
@@ -63,7 +64,7 @@ The other major work in this update was adding capabilities to the Tracks and Me
 
 1. Test with a real audio interface. So far my primary testing has been sitting at my computer snapping into a webcam mic. The app is semi-functional now and I need to see if it actually works in a real musical setup
 2. Prepare for an initial deployment (assuming no major bugs found in testing). The MVP I'm shooting for is
-    1. Builds and deploys automatically (probably using GitHub Actions; not sure about the host yet)
-    2. Has some basic OG tags so social sharing works
+   1. Builds and deploys automatically (probably using GitHub Actions; not sure about the host yet)
+   2. Has some basic OG tags so social sharing works
 
 Everything else in [the roadmap](https://github.com/ericyd/loop-supreme/blob/2c97a9510040e78ce08fca78d7b3c5157a7d0e48/roadmap.md) can probably be moved to post-deploy, although many of these are things I'd like to happen very soon (keyboard bindings, waveform visual display, general design cleanup).

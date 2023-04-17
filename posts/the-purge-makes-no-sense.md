@@ -2,10 +2,10 @@
 title: "The Purge makes no sense"
 datePublished: Sun Aug 21 2022 16:19:07 GMT+0000 (Coordinated Universal Time)
 cuid: cl73jb0rd00fg6rnv5hyf8fqa
+draft: false
 slug: the-purge-makes-no-sense
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661098020691/a1ZylkJoU.png
 tags: horror, film
-
 ---
 
 _The Purge_ rests on a simple premise: the American legal system is the only thing preventing Americans from murdering each other freely, on a whim, all of the time.
@@ -32,7 +32,7 @@ _The Purge_ is built on this exact premise. The filmmakers seem to believe that 
 
 Why exactly do I find the premise of _The Purge_ so absurd? I do not believe that most people have murderous instincts. Check out this list of [why NOT to murder people](https://www.theodysseyonline.com/top-ten-reasons-not-to-murder-people) - you'll see that only 2 of the 10 reasons are due to legality! Generally speaking, most people's beefs with other people do not cross the threshold of "must be resolved with murder". It simply isn't in your own best interest.
 
-If most normal people are not itching to murder their friends, family, neighbors, and colleagues on a regular basis, then what else could lead to the dystopian version of reality that _The Purge_ portrays? Well, probably nothing. 
+If most normal people are not itching to murder their friends, family, neighbors, and colleagues on a regular basis, then what else could lead to the dystopian version of reality that _The Purge_ portrays? Well, probably nothing.
 
 _The Purge_ does ask some interesting questions about society's hatred of poor people, but it fails to establish a believable connection between rich society's general distaste for poorness, and wanting to murder every poor person you've ever seen.
 
@@ -46,7 +46,7 @@ The premise upon which _The Purge_ rests is nothing but absurd. People are not w
 
 Horror movies frequently require the viewer to suspend disbelief. Why, you may ask, am I so unwilling to suspend disbelief for _The Purge_?
 
-I'm so happy you asked. 
+I'm so happy you asked.
 
 Most horror movies ask the viewer to suspend disbelief for one of two scenarios (or a combination of the two):
 
@@ -63,7 +63,7 @@ I do think _The Purge_ could have potentially succeeded, had it made some fundam
 
 ## Introduce a supernatural element that explains the pervasive violent psychopathy depicted in the movie
 
-Since _The Purge_ rests of the assumption that America is already consumed with widespread, violent psychopathy, the easiest way to make it scarier would be to explain the violent psychopathy. The easiest way to explain such a shocking and ubiquitous medical condition in the general population would be a supernatural element. 
+Since _The Purge_ rests of the assumption that America is already consumed with widespread, violent psychopathy, the easiest way to make it scarier would be to explain the violent psychopathy. The easiest way to explain such a shocking and ubiquitous medical condition in the general population would be a supernatural element.
 
 _28 Days Later_ provides an archetype, in the form of a super-contagious virus that causes people to run really fast in order to catch and devour non-infected people. Why not modify this premise to account for the behavior of Americans during the annual purge? There could even be an easy conspiracy angle: perhaps the government is responsible for distributing a drug once a year that causes this behavior. This would also add meat to the sequels: they could explore the origins of the virus, or the governmental conspiracy to drug their citizens into a violent frenzy.
 
@@ -73,7 +73,7 @@ _The Purge_ was released in 2013. Remarkably, the writers set the movie in 2021<
 
 Instead of setting it in the modern day (which falls prey to all the criticisms outlined in this post), why not set it more significantly in the future, or in an alternative dystopian past? _The Hunger Games_ provides an archetype, by setting the story in a substantially futuristic society. _The Hunger Games_ rests on a similarly absurd premise - that people are willing to accept ritualistic child sacrifice in the name of Law And Order - but it allows the viewer to suspend disbelief by setting the film in a substantially different/futuristic/dystopian society. Since we cannot possibly know all the history that led to the creation of this society, it allows the viewer to just "go with it" and enjoy the premise as its presented to us.
 
-_The Purge_ could easily have just added a century to their timestamps and instantly improved the believability<sup>[2]</sup> of the film. Who knows what will take place in the next century to increase the country's appetite for murder? 
+_The Purge_ could easily have just added a century to their timestamps and instantly improved the believability<sup>[2]</sup> of the film. Who knows what will take place in the next century to increase the country's appetite for murder?
 
 Alternatively, _The Purge_ could have placed the movie in some alternative past, where there is some believable basis for the behavior shown in the film. Either of these are easy choices that would have greatly improved the viewing experience.
 

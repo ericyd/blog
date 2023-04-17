@@ -3,10 +3,10 @@ title: "Conditionally define TypeScript types using data"
 seoTitle: "Conditionally define TypeScript types using data"
 datePublished: Thu Dec 16 2021 21:35:05 GMT+0000 (Coordinated Universal Time)
 cuid: ckx9he39h03q1hks1fscz5nv8
+draft: false
 slug: conditionally-define-typescript-types-using-data
 cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/oMpAz-DN-9I/upload/v1639626386171/lCRizmlFYN.jpeg
 tags: javascript, typescript
-
 ---
 
 # Premise
@@ -29,20 +29,20 @@ type C = a === b ? string : boolean
 The above example is trivial, but this pattern can be very useful when defining APIs for libraries. For example, the arguments for a method can be typed conditionally based on other argument values. As an example, let's consider a trivial method which concatenates strings to build a "meal":
 
 ```ts
-type Food = 'burger' | 'pasta'
-type Condiment = 'mayo' | 'mustard'
-type Sauce = 'marinara' | 'pesto'
+type Food = "burger" | "pasta";
+type Condiment = "mayo" | "mustard";
+type Sauce = "marinara" | "pesto";
 
 function buildMeal(food: Food, topping: Condiment | Sauce) {
-  return [food, topping].join(' with ')
+  return [food, topping].join(" with ");
 }
 ```
 
 This works just fine, but it accepts combinations that you may not want to allow, such as
 
 ```ts
-buildMeal('burger', 'marinara')
-buildMeal('pasta', 'mayo')
+buildMeal("burger", "marinara");
+buildMeal("pasta", "mayo");
 ```
 
 Wouldn't it be nice if we could constrain the `topping` argument to only allow a `Condiment` when `food === 'burger'` and only allow a `Sauce` when `food === 'pasta'`?
@@ -52,31 +52,31 @@ Turns out, we can! Here's a simple example of how to do it - if you want to know
 ```ts
 // define classes for the different types of food
 class Burger {
-  name = 'burger'             // `name` is data; note the `=`
-  topping: 'mayo' | 'mustard' // `topping` is a type; note the `:`
+  name = "burger"; // `name` is data; note the `=`
+  topping: "mayo" | "mustard"; // `topping` is a type; note the `:`
 }
 
 class Pasta {
-  name = 'pasta'
-  topping: 'marinara' | 'pesto'
+  name = "pasta";
+  topping: "marinara" | "pesto";
 }
 
 // Foods holds references to all our different types of food
 const Foods = {
   burger: new Burger(),
-  pasta: new Pasta()
-} as const
+  pasta: new Pasta(),
+} as const;
 
-type Food = keyof typeof Foods
+type Food = keyof typeof Foods;
 
 function buildMeal<T extends Food>(
   food: T,
-  topping: typeof Foods[T]['topping']
+  topping: typeof Foods[T]["topping"]
 ) {
   // You could use the `food` argument directly, or
   // you can reference data on the class like this.
-  const name = Foods[food].name
-  return [name, topping].join(' with ')
+  const name = Foods[food].name;
+  return [name, topping].join(" with ");
 }
 ```
 
@@ -93,6 +93,7 @@ Internal libraries are one of the most potent areas to impact the quality of you
 # The problem
 
 A struggle that we have run into a few times when working with third-party APIs is the combination of data and type definitions. For example, let's say you want to interact with AWS SQS by pushing messages to a queue. Typically you will want at least two things
+
 1. The `QueueUrl` of the SQS queue (data)
 2. A contract for the shape of the data you are sending, so that consumers may know what to expect (types)
 
@@ -120,27 +121,22 @@ Before you point out the obvious: yes, the AWS SQS SDK expects a `string` type f
 The simplest way to approach this problem is by putting the burden on the caller to know both the data and the type they need. A trivial example might look something like this (using the above defined `InternalSqsClient`)
 
 ```ts
-const client = new InternalSqsClient()
+const client = new InternalSqsClient();
 
-await client.sendMessage(
-  process.env.PAYMENT_QUEUE,
-  {
-    id: 'my id',
-    amount: 42.00
-  }
-)
+await client.sendMessage(process.env.PAYMENT_QUEUE, {
+  id: "my id",
+  amount: 42.0,
+});
 
 // somewhere else in the code
-await client.sendMessage(
-  process.env.EMAIL_QUEUE,
-  {
-    to: 'test@example.com',
-    body: 'welcome'
-  }
-)
+await client.sendMessage(process.env.EMAIL_QUEUE, {
+  to: "test@example.com",
+  body: "welcome",
+});
 ```
 
 This works but has the unfortunate effect of requiring the caller to know
+
 1. The data required to interact with SQS, and
 2. The expected data structure for the message they are sending
 
@@ -159,19 +155,20 @@ For example, if we have two queues as shown in the code above, we might define t
 // which we can reference in our method to constrain the type
 // definition, as well as access the data from the class
 class PaymentQueue {
-  url = process.env.PAYMENT_QUEUE // `url` is data; note the `=`
-  message: {                      // `message` is a type; note the `:`
-    id: string,
-    amount: number
-  }
+  url = process.env.PAYMENT_QUEUE; // `url` is data; note the `=`
+  message: {
+    // `message` is a type; note the `:`
+    id: string;
+    amount: number;
+  };
 }
 
 class EmailQueue {
-  url = process.env.EMAIL_QUEUE
+  url = process.env.EMAIL_QUEUE;
   message: {
-    to: string,
-    body: string
-  }
+    to: string;
+    body: string;
+  };
 }
 
 // `Queues` is just a map of queue names to the queue "definitions",
@@ -181,7 +178,7 @@ class EmailQueue {
 const Queues = {
   Email: new EmailQueue(),
   Payment: new PaymentQueue(),
-} as const
+} as const;
 ```
 
 We can then exploit some TypeScript cleverness to define our arguments for the `sendMessage` method
@@ -189,15 +186,15 @@ We can then exploit some TypeScript cleverness to define our arguments for the `
 ```ts
 // Queue is now a union of the keys of Queues; specifically
 // 'Email' | 'Payment'
-type Queue = keyof typeof Queues
+type Queue = keyof typeof Queues;
 
 // Define a config object
 type SendMessageConfig<T extends Queue> = {
-  queue: T
+  queue: T;
   // enhancement: you might want your classes to each
   // implement the same interface, to ensure this always works
-  message: typeof Queues[T]['message']
-}
+  message: typeof Queues[T]["message"];
+};
 
 export class InternalSqsClient {
   // the method must accept a generic which gets resolved when the
@@ -205,8 +202,8 @@ export class InternalSqsClient {
   async sendMessage<T extends Queue>(config: SendMessageConfig<T>) {
     // this property access works because
     // `url` is data defined on the class
-    const queueUrl = Queues[config.queue].url
-    const message = config.message
+    const queueUrl = Queues[config.queue].url;
+    const message = config.message;
 
     // call SQS SDK with our data
   }
@@ -214,29 +211,30 @@ export class InternalSqsClient {
 ```
 
 Benefits
+
 1. Callers never need to know anything about the API - any TS editor will auto-complete the available names for `queue`
 2. Callers will be forced to adhere to a specific structure for their `message` properties, and the enforced structure is dynamic based on their `queue`
 
 ## Example calling the new improved API
 
 ```ts
-const client = new InternalSqsClient()
+const client = new InternalSqsClient();
 
 await client.sendMessage({
-  queue: 'Payment',
+  queue: "Payment",
   message: {
-    id: 'my id',
-    amount: 42.00
-  }
-})
+    id: "my id",
+    amount: 42.0,
+  },
+});
 
 await client.sendMessage({
-  queue: 'Email',
+  queue: "Email",
   message: {
-    to: 'test@example.com',
-    body: 'welcome'
-  }
-})
+    to: "test@example.com",
+    body: "welcome",
+  },
+});
 ```
 
 Much nicer!
@@ -253,32 +251,32 @@ You're correct! Here's an example of doing the same thing using pure conditional
 
 ```ts
 type PaymentMessage = {
-  id: string,
-  amount: number
-}
+  id: string;
+  amount: number;
+};
 
 type EmailMessage = {
-  to: string,
-  body: string
-}
+  to: string;
+  body: string;
+};
 
-type Message<T extends Queue> = T extends 'Payment'
+type Message<T extends Queue> = T extends "Payment"
   ? PaymentMessage
-  : EmailMessage
+  : EmailMessage;
 ```
 
 Indeed, this works just fine. But what about for an arbitrary number of Queues? There are probably codegen tools that would make your life easier, but there is no general solution without manually adding a bunch of conditionals, e.g.
 
 ```ts
-type Message<T extends Queue> = T extends 'Payment'
+type Message<T extends Queue> = T extends "Payment"
   ? PaymentMessage
-  : T extends 'Email'
-    ? EmailMessage
-    : T extends 'AddressUpdate'
-      ? AddressUpdateMessage
-      : T extends 'LinkAccount'
-        ? LinkAccountMessage
-        : GenericMessage
+  : T extends "Email"
+  ? EmailMessage
+  : T extends "AddressUpdate"
+  ? AddressUpdateMessage
+  : T extends "LinkAccount"
+  ? LinkAccountMessage
+  : GenericMessage;
 ```
 
 This solution might be the right choice in certain cases but I don't think it is as scalable, or as easy to read. Disagree? Let me know if the comments!
@@ -288,19 +286,19 @@ Another alternative could be to define you data and types in two places. This wo
 ```ts
 const QueueUrls = {
   Payment: process.env.PAYMENT_QUEUE_URL,
-  Email: process.env.EMAIL_QUEUE_URL
-} as const
+  Email: process.env.EMAIL_QUEUE_URL,
+} as const;
 
 type QueueMessageTypes = {
   Payment: {
-    id: string
-    amount: number
-  }
+    id: string;
+    amount: number;
+  };
   Email: {
-    to: string
-    body: string
-  }
-}
+    to: string;
+    body: string;
+  };
+};
 ```
 
 You can use a very similar pattern as above to reference the correct types, but it is more brittle because the top-level properties of `QueueMessageTypes` must exactly equal the keys of `QueueUrls` or it won't work. Duplicating code leads to more possibilities of typos and bugs.
@@ -308,6 +306,7 @@ You can use a very similar pattern as above to reference the correct types, but 
 # Conclusion
 
 TypeScript Conditional Types are great for building types from existing type definitions. But they do not allow you to use data to make decisions. By using some TypeScript magic we can define conditional types using real data in our application. Some benefits:
+
 1. Declarative, encapsulated definitions for library values
 2. Hide implementation details from callers
 3. Expose useful, descriptive argument options to callers

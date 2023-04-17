@@ -2,29 +2,29 @@
 title: "How to call GitHub's GraphQL API in vanilla JS"
 datePublished: Sun Dec 06 2020 20:20:58 GMT+0000 (Coordinated Universal Time)
 cuid: ckidkmc0503ix6zs12leg0bnr
+draft: false
 slug: how-to-call-githubs-graphql-api-in-vanilla-js
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1607282756734/b9DLMsfIV.png
 tags: github, javascript, apis, graphql
-
 ---
 
 GraphQL is all the rage, but using GraphQL after years of REST API experience may feel a bit foreign. Let's dive into a practical example of how to call the GitHub GraphQL API using vanilla JS, and then explain some of the key concepts.
 
 **Table of contents**
 
-* [Getting started](#getting-started)
-* [A simple example](#a-simple-example)
-* [Query](#query)
-    * [Data types](#data-types)
-    * [Mutations](#mutations)
-    * [Queries with no parameters](#queries-with-no-parameters)
-    * [Whitespace](#whitespace)
-* [Return fields](#return-fields)
-    * [Paginating](#paginating)
-* [Creating your own requests](#creating-your-own-requests)
-* [Conclusion](#conclusion)
-* [HTML example](#html-example)
-* [References](#references)
+- [Getting started](#getting-started)
+- [A simple example](#a-simple-example)
+- [Query](#query)
+  - [Data types](#data-types)
+  - [Mutations](#mutations)
+  - [Queries with no parameters](#queries-with-no-parameters)
+  - [Whitespace](#whitespace)
+- [Return fields](#return-fields)
+  - [Paginating](#paginating)
+- [Creating your own requests](#creating-your-own-requests)
+- [Conclusion](#conclusion)
+- [HTML example](#html-example)
+- [References](#references)
 
 # Getting started
 
@@ -33,7 +33,7 @@ Before we can start, we must create a [personal access token](https://docs.githu
 Once you've created a token, you can define a constant for it so we can reference it in future snippets:
 
 ```js
-const TOKEN = "my secret token"
+const TOKEN = "my secret token";
 ```
 
 # A simple example
@@ -43,11 +43,11 @@ Using our access token, we can make a simple request to the API. Feel free to op
 If you'd like to experiment with a local HTML page example, you can skip to the [html example](#html-example) below.
 
 ```js
-const TOKEN = "my secret token" // omit if already entered into console
+const TOKEN = "my secret token"; // omit if already entered into console
 
 // if you're following along in the console, this will make it easier to try different queries
-let query = ""
-let variables = {}
+let query = "";
+let variables = {};
 
 // GraphQL queries are defined by a string.
 // Multi-line strings are OK
@@ -57,7 +57,7 @@ query = `query($name: String!, $owner: String!) {
   repository(name: $name, owner: $owner) {
     shortDescriptionHTML
   }
-}`
+}`;
 
 // `variables` is an Object defining values for your query or mutation.
 // The keys of the `variables` object must map to the
@@ -65,42 +65,41 @@ query = `query($name: String!, $owner: String!) {
 // minus any leading '$' characters
 variables = {
   name: "graphql-js",
-  owner: "graphql"
-}
+  owner: "graphql",
+};
 
 // GraphQL always has a single endpoint
 fetch("https://api.github.com/graphql", {
-
   // GraphQL always uses `POST` method
-  method: "POST", 
-      
+  method: "POST",
+
   // GraphQL always uses the same keys in the body:
   // - 'query': a string that defines the query/mutation you are executing
   // - 'variables': an Object defining the variables that are used by the query
   // There can be others but you typically won't need them
-  body: JSON.stringify({ 
-    query: query, 
-    variables: variables
+  body: JSON.stringify({
+    query: query,
+    variables: variables,
   }),
 
   headers: {
-    "Authorization": `bearer ${TOKEN}`,
-    "Content-type": "application/json"
-  }
+    Authorization: `bearer ${TOKEN}`,
+    "Content-type": "application/json",
+  },
 })
-  .then(response => response.json())
-  .then(response => {
+  .then((response) => response.json())
+  .then((response) => {
     // GraphQL always returns a 200 response, even if there were errors.
     // Rather than using HTTP statuses, errors are included in the payload.
     // Exception: server errors or parsing errors will return non-200 status
     if (response.errors && response.errors.length > 0) {
-      console.error("errors:", response.errors)
+      console.error("errors:", response.errors);
     }
 
     // response.data will contain the requested values
-    console.log(response.data)
+    console.log(response.data);
   })
-  .catch(console.error.bind(console))
+  .catch(console.error.bind(console));
 ```
 
 Now that we have a working example, let's break down the different components of this request
@@ -108,6 +107,7 @@ Now that we have a working example, let's break down the different components of
 # Query
 
 There are a few things to note:
+
 1. GraphQL queries are defined by a string
 2. Multi-line strings are OK (and encouraged for longer queries/mutations
 3. Parameters accepted by the query/mutation are defined after the top-level `query` or `mutation` statement. Parameters are optional
@@ -122,7 +122,7 @@ const query = `query($name: String!, $owner: String!) {
   repository(name: $name, owner: $owner) {
     shortDescriptionHTML
   }
-}`
+}`;
 ```
 
 The easiest way to think about this is that we are defining a function called `query` which accepts two parameters: `$name`, and `$owner`. Those parameters can then be passed to the fields called by the `query` function.
@@ -136,7 +136,7 @@ const query = `query($hot: String!, $potato: String!) {
   repository(name: $hot, owner: $potato) {
     shortDescriptionHTML
   }
-}`
+}`;
 ```
 
 Then, we could adjust our `variables` object to include the new parameter names
@@ -161,11 +161,11 @@ In this case, `String!` defined the type of the two arguments required by the `r
 
 For parameters, non-nullable types are required to be passed. For the signature `repository(name: String!, owner: String!)`, we can immediately tell that both `name` and `object` are required arguments to this query. If the signature were changed to `repository(name: String!, owner: String)` then we would know that `owner` is an optional argument.
 
-For fields defined in [response objects](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#repository), non-nullable simply means that the property will always return with a non-null value. In contrast, nullable fields may or may not be present. 
+For fields defined in [response objects](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#repository), non-nullable simply means that the property will always return with a non-null value. In contrast, nullable fields may or may not be present.
 
 ## Mutations
 
-Mutations are defined in the same way as queries, and the corresponding variables are used in the same way. In the example at the beginning of this section, the only change we need to make to use a mutation instead of a query is changing the `query()` function to a `mutation()` function, and making any necessary adjustments to `variables` that we need.  The `fetch` call remains identical! This is a really handy feature as it allows us to wrap our GraphQL API caller in a single method and simply pass different queries/variables to the caller.
+Mutations are defined in the same way as queries, and the corresponding variables are used in the same way. In the example at the beginning of this section, the only change we need to make to use a mutation instead of a query is changing the `query()` function to a `mutation()` function, and making any necessary adjustments to `variables` that we need. The `fetch` call remains identical! This is a really handy feature as it allows us to wrap our GraphQL API caller in a single method and simply pass different queries/variables to the caller.
 
 Here's an example of a mutation:
 
@@ -174,13 +174,13 @@ const query = `mutation($addStarInput: AddStarInput!) {
   addStar(input: $addStarInput) {
     starrableId
   }
-}`
+}`;
 
 const variables = {
   input: {
-    starrableId: "starrable ID"
-  }
-}
+    starrableId: "starrable ID",
+  },
+};
 ```
 
 And then use the same `fetch` function as above!
@@ -194,7 +194,7 @@ const query = `query {
   licenses {
     name
   }
-}`
+}`;
 ```
 
 ## Whitespace
@@ -202,13 +202,13 @@ const query = `query {
 Whitespace is recommended for readability, but GraphQL is not whitespace sensitive and you can omit if desired. This is equivalent to the above snippet:
 
 ```js
-const query = "query{licenses{name}}"
+const query = "query{licenses{name}}";
 ```
 
 Beware that if you are requesting multiple fields, they require a space so the parser knows where one starts and one ends
 
 ```js
-const query = "query{licenses{name body}}"
+const query = "query{licenses{name body}}";
 ```
 
 # Return fields
@@ -266,7 +266,6 @@ Note the `$after` parameter is _nullable_, which means we can safely omit it. Fo
 
 The `pageInfo` object has some useful helpers here too. We can use the `hasNextPage (Boolean!)` value to determine whether or not to continue paginating, and we can use the `endCursor` value to automatically grab the last cursor of the result set. A simple implementation might look like:
 
-
 ```js
 const query = `query($name: String!, $owner: String!, $after: String) {
   repository(name: $name, owner: $owner) {
@@ -283,20 +282,20 @@ const query = `query($name: String!, $owner: String!, $after: String) {
       }
     }
   }
-}`
+}`;
 
 let variables = {
   name: "graphql-js",
-  owner: "graphql"
-}
+  owner: "graphql",
+};
 
 // make `fetch` call, and set `hasNextPage` to a global variable
 // also set `endCursor` to global
-let hasNextPage = true // <-- override me
-let endCursor = ""
+let hasNextPage = true; // <-- override me
+let endCursor = "";
 
 while (hasNextPage) {
-  variables = Object.assign(variables, { after: endCursor })
+  variables = Object.assign(variables, { after: endCursor });
   // execute `fetch` call again,
   // and continue setting hasNextPage and endCursor values
 }
@@ -322,20 +321,20 @@ const query = `query($param1: type1, $param2: type2) {
     subField1
     subField2
   }
-}`
+}`;
 ```
 
 Using what we know about `repository`, we can simply substitute the fields!
 
-* `$param1` = `$name` (arbitrary name for our ad-hoc query)
-* `type1` = `String!`
-* `$param2` = `$owner` (arbitrary name)
-* `type2` = `String!`
-* `queryField` = `repository`
-* `arg1` = `name` (not arbitrary, defined by the API)
-* `arg2` = `owner` (not arbitrary, defined by the API)
-* `subField1` = `shortDescriptionHTML`
-* `subField2` = Any field exposed by the [Repository type](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#repository)!
+- `$param1` = `$name` (arbitrary name for our ad-hoc query)
+- `type1` = `String!`
+- `$param2` = `$owner` (arbitrary name)
+- `type2` = `String!`
+- `queryField` = `repository`
+- `arg1` = `name` (not arbitrary, defined by the API)
+- `arg2` = `owner` (not arbitrary, defined by the API)
+- `subField1` = `shortDescriptionHTML`
+- `subField2` = Any field exposed by the [Repository type](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects#repository)!
 
 # Conclusion
 
@@ -367,10 +366,10 @@ You can copy/paste this file to your machine, change the TOKEN value, and open i
     }
 
     fetch("https://api.github.com/graphql", {
-      method: "POST", 
+      method: "POST",
 
-      body: JSON.stringify({ 
-        query: query, 
+      body: JSON.stringify({
+        query: query,
         variables: variables
       }),
 
@@ -399,8 +398,8 @@ You can copy/paste this file to your machine, change the TOKEN value, and open i
 
 # References
 
-* [GitHub GraphQL docs](https://docs.github.com/en/free-pro-team@latest/graphql)
-* [GitHub Queries reference](https://docs.github.com/en/free-pro-team@latest/graphql/reference/queries)
-* [GitHub Objects reference](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects)
-* [GitHub Mutations reference](https://docs.github.com/en/free-pro-team@latest/graphql/reference/mutations)
-* [GitHub GraphQL Authentication reference](https://docs.github.com/en/free-pro-team@latest/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql)
+- [GitHub GraphQL docs](https://docs.github.com/en/free-pro-team@latest/graphql)
+- [GitHub Queries reference](https://docs.github.com/en/free-pro-team@latest/graphql/reference/queries)
+- [GitHub Objects reference](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects)
+- [GitHub Mutations reference](https://docs.github.com/en/free-pro-team@latest/graphql/reference/mutations)
+- [GitHub GraphQL Authentication reference](https://docs.github.com/en/free-pro-team@latest/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql)

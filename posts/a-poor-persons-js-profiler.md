@@ -2,9 +2,9 @@
 title: "A poor person's JS profiler"
 datePublished: Fri Dec 04 2020 19:59:55 GMT+0000 (Coordinated Universal Time)
 cuid: ckiaozk4u02izqrs1e3wsdi0h
+draft: false
 slug: a-poor-persons-js-profiler
 tags: js, javascript, performance
-
 ---
 
 For those of us who didn't suffer through a formal computer science education, we often find ourselves second-guessing our programming choices due to concerns that our implementation isn't the "right way" to do something (imposter syndrome, anyone? 🙋🏻‍♂️🙋🏾‍♀️). Never having taken a Data Structures and Algorithms course [[1]](#notes), we often find ourselves asking: "Is this how a _real_ software engineer would write this?"
@@ -30,16 +30,16 @@ Example problem: Determine if a given `char` is included in a given set of `char
 
 ```js
 // option 1
-const allowed = ['1', '2', '3', '4', '5']
-const isAllowed = char => allowed.includes(char)
+const allowed = ["1", "2", "3", "4", "5"];
+const isAllowed = (char) => allowed.includes(char);
 
 // option 2
-const allowed = '12345'
-const isAllowed = char => allowed.includes(char)
+const allowed = "12345";
+const isAllowed = (char) => allowed.includes(char);
 
 // option 3
-const allowed = {'1':true, '2':true, '3':true, '4':true, '5':true}
-const isAllowed = char => allowed[char] !== undefined
+const allowed = { 1: true, 2: true, 3: true, 4: true, 5: true };
+const isAllowed = (char) => allowed[char] !== undefined;
 ```
 
 Spoiler alert: It really doesn't matter!
@@ -59,13 +59,11 @@ time node -e "const allowed = ['1', '2', '3', '4', '5']; const isAllowed = char 
 Here's the expanded version of the string we're passing to the Node interpretter.
 
 ```js
-const allowed = ['1', '2', '3', '4', '5']
-const isAllowed = char => allowed.includes(char)
+const allowed = ["1", "2", "3", "4", "5"];
+const isAllowed = (char) => allowed.includes(char);
 
-for (let i = 0; i < 100000000 ; i++) {
-  isAllowed(
-    Math.floor(Math.random() * 10).toString()
-  )
+for (let i = 0; i < 100000000; i++) {
+  isAllowed(Math.floor(Math.random() * 10).toString());
 }
 ```
 
@@ -91,9 +89,9 @@ time node -e "const allowed = {'1':true, '2':true, '3':true, '4':true, '5':true}
 
 ## Analyzing results
 
-* **Option 1, Array lookup**: `4.64s` [[2]](#notes)
-* **Option 2, String lookup**: `3.70s` (<-- this legitimately surprised me)
-* **Option 2, Hashmap lookup**: `2.97s`
+- **Option 1, Array lookup**: `4.64s` [[2]](#notes)
+- **Option 2, String lookup**: `3.70s` (<-- this legitimately surprised me)
+- **Option 2, Hashmap lookup**: `2.97s`
 
 Wow! It turns out classical computer science is correct: hashmap lookup is truly faster than array or string lookup, _even in a high level language like JavaScript!_
 

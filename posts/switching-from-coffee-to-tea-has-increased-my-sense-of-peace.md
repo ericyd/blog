@@ -2,9 +2,9 @@
 title: "Switching from coffee to tea has increased my sense of peace"
 datePublished: Fri Mar 03 2023 16:52:29 GMT+0000 (Coordinated Universal Time)
 cuid: clesrx6tp000109lb8ujqha8t
+draft: false
 slug: switching-from-coffee-to-tea-has-increased-my-sense-of-peace
 tags: coffee, tea
-
 ---
 
 When I'm scrolling through blogs, one of my least favorite experiences is being unable to quickly determine the point of a post, to decide if I want to keep reading. I'm happy to invest the time in a post that I find interesting, but I want to be able to make that decision up front without having to read the entire post.
@@ -35,7 +35,7 @@ Drinking coffee makes me substantially less patient with the world around me. I 
 
 Drinking coffee makes me feel a manic desire to create things immediately and abundantly. This is actually part of what I used to enjoy about coffee - after drinking my morning cup, I would feel intensely energized to build things, and I associated this with productivity and mental acuity. With tea, I feel much more inclined to work within my natural human boundaries. I still feel productive and satisfied with what I create, but I no longer feel the manic desire to build for the sake of building. For example, after drinking coffee, I often feel a strong desire to build complicated software for which I'm deeply inexperienced, such as a compiler. My mind will often start racing with possible ideas and solutions and I can't wait to get to my computer and start banging out code.
 
-The problem with this approach for me is that I am never able to follow through with these manic impulses. Perhaps some people are able to code nonstop for a whole weekend, but my moral compass leans towards balance: I want to nurture my romantic relationship, my friendships, and my mental health by getting outside or playing with my dog or making music. This led to a recurring cycle where I would actually be *wasting* energy thinking about what I could build... *if only those pesky requirements of adult life could get out of my way*. In a sense, this circles back to the impatience that coffee makes me feel: I was impatient with normal life because I felt like it was getting in the way of my "true potential". When I drink tea, I have none of these delusions of grandeur, and none of the associated mania. Not only am I more patient, but I also feel none of the conflict between "must build things fast" and "need to live life". My sense of what is possible and desirable and good is much more tightly bound to the reality of my available time.
+The problem with this approach for me is that I am never able to follow through with these manic impulses. Perhaps some people are able to code nonstop for a whole weekend, but my moral compass leans towards balance: I want to nurture my romantic relationship, my friendships, and my mental health by getting outside or playing with my dog or making music. This led to a recurring cycle where I would actually be _wasting_ energy thinking about what I could build... _if only those pesky requirements of adult life could get out of my way_. In a sense, this circles back to the impatience that coffee makes me feel: I was impatient with normal life because I felt like it was getting in the way of my "true potential". When I drink tea, I have none of these delusions of grandeur, and none of the associated mania. Not only am I more patient, but I also feel none of the conflict between "must build things fast" and "need to live life". My sense of what is possible and desirable and good is much more tightly bound to the reality of my available time.
 
 A related positive effect: I'm more mentally willing to take breaks from work to focus on life. I work from home so I have a huge advantage in this regard, but whereas previously I would be unwilling to take a break to do laundry (for example), I'm now much more willing to take computer breaks to focus on non-work life tasks.
 

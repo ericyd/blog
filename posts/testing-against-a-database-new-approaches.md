@@ -2,9 +2,9 @@
 title: "Testing against a database: new approaches"
 datePublished: Tue Apr 11 2023 15:56:39 GMT+0000 (Coordinated Universal Time)
 cuid: clgcg3lpj000d0ak597fk5ghu
+draft: false
 slug: testing-against-a-database-new-approaches
 tags: postgresql, typescript, sequelize
-
 ---
 
 At [Quil](https://getquil.com), we write [substantially more integration tests](https://ericyd.hashnode.dev/the-quil-tech-stack#testing) for our API than any other type of test. Previously we've written about our strategy to [write tests against a database without polluting the database](https://ericyd.hashnode.dev/write-clean-database-tests-with-jest) between test runs.
@@ -15,19 +15,15 @@ That was nearly 2 years ago (!!!) and we decided it was time for an update. Our 
 
 By far the biggest limitation of our [previous test methodology](https://ericyd.hashnode.dev/write-clean-database-tests-with-jest) is when the code under test utilizes its own database transactions. Transactions created two separate-but-related problems for us
 
-1. Code that was wrapped in a transaction could not be automatically rolled back with our monkey-patched Sequelize transaction. It was never clear to us *why* this didn't work, but suffice to say we didn't want to make our monkey-patch even deeper!
-    
+1. Code that was wrapped in a transaction could not be automatically rolled back with our monkey-patched Sequelize transaction. It was never clear to us _why_ this didn't work, but suffice to say we didn't want to make our monkey-patch even deeper!
 2. Code that was created or updated in a transaction would have a different lifecycle than the data created in the test (a side-effect of #1), for example if the transaction in the code under test rolled back due to an error.
-    
 
 The implication of problem #1 is that we had to write manual cleanup statements in our tests anyway, hence removing the primary benefit of our transaction wrapper. The whole point of automatically wrapping tests in a transaction is that they do not need to worry about "cleaning up" after themselves, which simplifies the test code. However, since data that was created inside a transaction outlived the test transaction, we found that we had to manually clean up data anyway. This was a problem because our tests assumed that the database would be clean for each test. Since data created in a transaction left the database dirty, some of our tests became flaky.
 
 The implication of problem #2 is that some code paths became impossible to test accurately. For example, we might want to assert that the data on a test user was **not** updated if a transaction failed. In testing this, we discovered that the "inner" transaction (i.e. the transaction written into our code) conflicted with the "outer" transaction (i.e. the transaction that was wrapping our test). This type of scenario became impossible to test, so we had to introduce yet another abstraction which we called `noTransaction`. This exposed the default `jest.test()` behavior which was not wrapped in a transaction. While this allowed the "inner" transaction to work correctly in all test contexts, it introduced 2 major problems:
 
 1. We now had 2 test paradigms to keep track of: the default "transaction" tests, and the new `noTransaction` tests
-    
-2. In our `noTransaction` tests, we had to manually clean up *everything*, which was again a different paradigm than was assumed in our "default" test setup
-    
+2. In our `noTransaction` tests, we had to manually clean up _everything_, which was again a different paradigm than was assumed in our "default" test setup
 
 The combination of flakiness, multiple testing paradigms, and inconsistent use of cleanup code led us to seek a better solution
 
@@ -38,53 +34,58 @@ One strategy that we implemented to mitigate flakiness during our CI runs was to
 This strategy worked really well for fixing flakiness in our CI test runs, and the code was relatively simple. In our [Jest `globalSetup` file,](https://jestjs.io/docs/configuration#globalsetup-string) we added some commands to get the name of the current test suite, and copy the `public` schema to a new schema for the application under test.
 
 ```typescript
-import { exec } from 'child_process'
-import { URL } from 'url'
-import { promisify } from 'util'
+import { exec } from "child_process";
+import { URL } from "url";
+import { promisify } from "util";
 
-const execAsync = promisify(exec)
+const execAsync = promisify(exec);
 
 // could also come from e.g. ramda
-const last = (a) => a[a.length - 1]
+const last = (a) => a[a.length - 1];
 
 export default async (globalConfig, _projectConfig) => {
   const baseUrl =
-    process.env.DATABASE_URL_TEST ?? process.env.DATABASE_URL ?? ''
-  process.env.ORIGINAL_DATABASE_URL = baseUrl
-  const jestSuiteName =
-    last(globalConfig.rootDir?.split('/') ?? [])?.replace(/-/g, '_')
-  const newSchema = jestSuiteName ??
-    `schema${Math.random().toString().replace(/[^0-9]/g, '')}`
-  process.env.TEST_SCHEMA = newSchema
-  const newDbUrl = `${baseUrl}?schema=${newSchema}`
-  await copyPublicSchema(baseUrl, newSchema)
-  process.env.DATABASE_URL = newDbUrl
-  process.env.DATABASE_URL_TEST = newDbUrl
-}
+    process.env.DATABASE_URL_TEST ?? process.env.DATABASE_URL ?? "";
+  process.env.ORIGINAL_DATABASE_URL = baseUrl;
+  const jestSuiteName = last(globalConfig.rootDir?.split("/") ?? [])?.replace(
+    /-/g,
+    "_"
+  );
+  const newSchema =
+    jestSuiteName ??
+    `schema${Math.random()
+      .toString()
+      .replace(/[^0-9]/g, "")}`;
+  process.env.TEST_SCHEMA = newSchema;
+  const newDbUrl = `${baseUrl}?schema=${newSchema}`;
+  await copyPublicSchema(baseUrl, newSchema);
+  process.env.DATABASE_URL = newDbUrl;
+  process.env.DATABASE_URL_TEST = newDbUrl;
+};
 
 async function copyPublicSchema(baseUrl: string, newSchema: string) {
-  const url = new URL(baseUrl)
-  const database = url.pathname.replace('/', '')
+  const url = new URL(baseUrl);
+  const database = url.pathname.replace("/", "");
 
   const dropSchemaCommand = [
     `echo "drop schema if exists ${newSchema} cascade;"`,
     `psql -h ${url.hostname} -U ${url.username} -d ${database}`,
-  ].join(' | ')
+  ].join(" | ");
   // no need to log errors - we assume this means the schema did not
   // exist yet, which is expected behavior.
-  await runCommand(dropSchemaCommand, false)
+  await runCommand(dropSchemaCommand, false);
 
   const copySchemaCommand = [
     `pg_dump ${baseUrl} --schema public --schema-only`,
     `sed 's/public/${newSchema}/g'`,
     // postgres only allows extensions to exist in 1 schema.
     // We install the pgcrypto extension in our DB; therefore,
-    // references to functions created from the pgcrypto extension 
+    // references to functions created from the pgcrypto extension
     // must reference the public schema, not the generated schema
     `sed 's/${newSchema}.gen_random_uuid/public.gen_random_uuid/g'`,
     `psql -h ${url.hostname} -U ${url.username} -d ${database}`,
-  ].join(' | ')
-  await runCommand(copySchemaCommand)
+  ].join(" | ");
+  await runCommand(copySchemaCommand);
 
   // this table is seeded with test data before each run;
   // this command copies it over to the new schema
@@ -92,20 +93,20 @@ async function copyPublicSchema(baseUrl: string, newSchema: string) {
     `pg_dump ${baseUrl} --schema public --table=disclosures --data-only`,
     `sed 's/public/${newSchema}/g'`,
     `psql -h ${url.hostname} -U ${url.username} -d ${database}`,
-  ].join(' | ')
-  await runCommand(copyDisclosuresTableCommand)
+  ].join(" | ");
+  await runCommand(copyDisclosuresTableCommand);
 
-  console.log(`Copied public schema to ${newSchema}`)
+  console.log(`Copied public schema to ${newSchema}`);
 }
 
 async function runCommand(command: string, logError = true) {
-  const { stderr, stdout } = await execAsync(command)
+  const { stderr, stdout } = await execAsync(command);
   if (logError && stderr) {
-    console.log('Schema copy error:', stderr)
+    console.log("Schema copy error:", stderr);
   } else {
     if (stdout.match(/ERROR:/)) {
-      process.stdout.write(stdout)
-      throw new Error(stdout)
+      process.stdout.write(stdout);
+      throw new Error(stdout);
     }
   }
 }
@@ -116,16 +117,16 @@ This worked for a while, but over time we still found tests being introduced tha
 If you use this method, [don't forget a `globalTeardown`](https://jestjs.io/docs/configuration#globalteardown-string) to clean up your schemas!
 
 ```typescript
-import { dropSchema } from './jest.global-setup'
+import { dropSchema } from "./jest.global-setup";
 
 export default async () => {
-  const url = new URL(process.env.ORIGINAL_DATABASE_URL)
-  const database = url.pathname.replace('/', '')
+  const url = new URL(process.env.ORIGINAL_DATABASE_URL);
+  const database = url.pathname.replace("/", "");
 
   if (process.env.TEST_SCHEMA) {
-    await dropSchema(url, process.env.TEST_SCHEMA, database)
+    await dropSchema(url, process.env.TEST_SCHEMA, database);
   }
-}
+};
 ```
 
 ## Second step: no secret transactions
@@ -137,13 +138,10 @@ The biggest change here was that we had to ensure none of our tests failed when 
 In addition, there were a few tests that assumed the database would be clean when they ran. For example, for a query that filters by status, our test originally looked like this
 
 1. Arrange: create records with various statuses
-    
 2. Act: execute the query and gather results
-    
-3. Assert: expect that the results *exactly match* the created records in the specified status
-    
+3. Assert: expect that the results _exactly match_ the created records in the specified status
 
-Depending on run order, this test would occasionally fail if other records were previously inserted in that table. To remedy, we simply adjusted our expectation to verify that every record in the returned list matched the status that we queried for. Updates like this felt like a win because the assertion was actually more descriptive of the *behavior* we were looking for.
+Depending on run order, this test would occasionally fail if other records were previously inserted in that table. To remedy, we simply adjusted our expectation to verify that every record in the returned list matched the status that we queried for. Updates like this felt like a win because the assertion was actually more descriptive of the _behavior_ we were looking for.
 
 ## Conclusion
 

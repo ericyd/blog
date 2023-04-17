@@ -2,17 +2,17 @@
 title: "Hello from the crypto future!"
 datePublished: Sat Mar 26 2022 16:49:11 GMT+0000 (Coordinated Universal Time)
 cuid: cl1837lyx026ssenvccmb2rom
+draft: false
 slug: hello-from-the-crypto-future
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1648313328346/otgDMJ1Ja.jpg
 tags: blockchain, cryptocurrency
-
 ---
 
 Hello! 👋🏻
 
 I am writing to you from the future 🚀, where crypto reins supreme 🤑. I wanted to share how its going (_spoiler alert: it's absolutely **revolutionary!!!**_)
 
-I bought my groceries today with crypto. How amazing is that? Never before have I had an all-digital way to purchase physical goods. I mean there was credit cards, and digital wallets. But those were all closed-source and commercial and backed by federally-regulated fiat currency 🤮. Now my grocery transaction lives in a public ledger for all eternity - how cool is that!? No middleman, no intermediary - complete financial independence. 
+I bought my groceries today with crypto. How amazing is that? Never before have I had an all-digital way to purchase physical goods. I mean there was credit cards, and digital wallets. But those were all closed-source and commercial and backed by federally-regulated fiat currency 🤮. Now my grocery transaction lives in a public ledger for all eternity - how cool is that!? No middleman, no intermediary - complete financial independence.
 
 Well, I mean, we still use a crypto exchange. You see, my grocery store and I use different coins, so we have to go through an exchange to make my money mesh with the store's money. But that is a small price to pay for truly decentralized finance. The exchange only takes 1 or 2 percent of the transaction! Nothing like those greedy credit card companies.
 
