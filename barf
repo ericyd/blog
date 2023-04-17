@@ -119,8 +119,9 @@ while read -r f title created; do
 	write_page "$f" "$title" "$created"
 done < build/posts.tsv
 
-# Pages
-index_tsv pages > build/pages.tsv
-while read -r f title created; do
-	write_page "$f" "$title" "$created"
-done < build/pages.tsv
+# Commenting out until I need "pages"
+## Pages
+# index_tsv pages > build/pages.tsv
+# while read -r f title created; do
+# 	write_page "$f" "$title" "$created"
+# done < build/pages.tsv
