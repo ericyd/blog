@@ -6,10 +6,10 @@
   "type": "module",
   "scripts": {
     "login": "npx wrangler login",
-    "clean": "echo 'no clean script yet'",
-    "build": "echo 'no build script yet'",
+    "clean": "rm -rf public",
+    "build": "hugo",
     "prepublish": "npm run clean && npm run build",
-    "publish": "export $(cat .env) && CLOUDFLARE_ACCOUNT_ID=$CLOUDFLARE_ACCOUNT_ID npx wrangler pages publish build --project-name blog --env production --branch main"
+    "publish": "export $(cat .env) && CLOUDFLARE_ACCOUNT_ID=$CLOUDFLARE_ACCOUNT_ID npx wrangler pages publish public --project-name blog --env production --branch main"
   },
   "repository": {
     "type": "git",

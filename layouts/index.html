@@ -38,17 +38,19 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
   </head>
 
   <body>
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Site.Title }}</h1>
 
-    <article>{{ .Content }}</article>
+    <article>
+      {{ .Content }}
 
-    <ul>
-      {{ range .Pages.ByDate.Reverse }}
-      <li>
-        {{ .Page.Date | time.Format "Jan 2, 2006" }}
-        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-      </li>
-      {{ end }}
-    </ul>
+      <ul>
+        {{ range .Pages.ByDate.Reverse }}
+        <li>
+          {{ .Page.Date | time.Format "Jan 2, 2006" }}
+          <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </article>
   </body>
 </html>
