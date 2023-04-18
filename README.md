@@ -6,7 +6,20 @@ Web log --> weblog --> blog
 
 ```shell
 cp .env.sample .env # and then populate
-npm i
+npm i # for publishing to cloudflare pages
+brew install hugo # for building site
+```
+
+## Building
+
+```shell
+hugo
+```
+
+or for development
+
+```shell
+hugo server
 ```
 
 ## Publishing
