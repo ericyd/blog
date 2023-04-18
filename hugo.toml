@@ -1,0 +1,10 @@
+baseURL = 'https://blog.ericyd.com/'
+languageCode = 'en-us'
+# TODO: need a real title
+title = "Eric's blog"
+enableGitInfo = true
+
+# Disabling taxonomies for now because I don't want/need the complexity.
+# Can deal with this later if desired
+# https://gohugo.io/content-management/taxonomies/#configure-taxonomies
+[taxonomies]
