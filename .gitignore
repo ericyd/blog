@@ -1,7 +1,6 @@
-_site/
-.sass-cache/
-.jekyll-metadata
 .vscode
 node_modules
 .env
 build
+.hugo_build.lock
+public

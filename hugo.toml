@@ -1,0 +1,26 @@
+baseURL = 'https://blog.ericyd.com/'
+languageCode = 'en-us'
+# TODO: need a real title
+title = "Musings from my desk"
+enableGitInfo = true
+
+# Used in opengraph template
+[params]
+  description = 'Miscellaneous writings from the premier blogger in the entire world'
+  title = 'Musings from my desk'
+
+
+# Disabling taxonomies for now because I don't want/need the complexity.
+# Can deal with this later if desired
+# https://gohugo.io/content-management/taxonomies/#configure-taxonomies
+[taxonomies]
+#  tags = "tags"
+
+
+[markup]
+  [markup.highlight]
+    # other options here https://xyproto.github.io/splash/docs/all.html
+    # style = 'gruvbox'
+    # style = 'catppuccin-macchiato'
+    # style = 'solarized-dark'
+    style = 'nord'
