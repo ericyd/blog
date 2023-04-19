@@ -22,11 +22,11 @@ hr {
 nav {
   margin: 2rem 0 0;
 }
-main {
+main, article {
   hyphens: auto;
 }
-main p {
-  margin: 1rem;
+p {
+  margin: 1rem 0;
 }
 h1,h2,h3,h4 {
   margin: 2rem 0 0;
