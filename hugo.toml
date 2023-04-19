@@ -15,3 +15,12 @@ enableGitInfo = true
 # https://gohugo.io/content-management/taxonomies/#configure-taxonomies
 [taxonomies]
 #  tags = "tags"
+
+
+[markup]
+  [markup.highlight]
+    # other options here https://xyproto.github.io/splash/docs/all.html
+    # style = 'gruvbox'
+    # style = 'catppuccin-macchiato'
+    # style = 'solarized-dark'
+    style = 'nord'
