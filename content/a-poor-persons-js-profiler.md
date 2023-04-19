@@ -4,7 +4,7 @@ date: 2020-12-04T13:59:55Z
 cuid: ckiaozk4u02izqrs1e3wsdi0h
 draft: false
 slug: a-poor-persons-js-profiler
-tags: js, javascript, performance
+tags: [js, javascript, performance]
 ---
 
 For those of us who didn't suffer through a formal computer science education, we often find ourselves second-guessing our programming choices due to concerns that our implementation isn't the "right way" to do something (imposter syndrome, anyone? 🙋🏻‍♂️🙋🏾‍♀️). Never having taken a Data Structures and Algorithms course [[1]](#notes), we often find ourselves asking: "Is this how a _real_ software engineer would write this?"

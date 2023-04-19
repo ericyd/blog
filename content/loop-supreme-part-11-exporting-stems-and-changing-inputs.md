@@ -5,7 +5,7 @@ cuid: clbfaboqu000b08jngsh9c2wt
 draft: false
 slug: loop-supreme-part-11-exporting-stems-and-changing-inputs
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670515492618/DDi_1Dag0.png
-tags: music, audio, build-in-public
+tags: [music, audio, build-in-public]
 ---
 
 _This is part 11 in a series about building a browser-based audio live looper_

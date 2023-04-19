@@ -5,7 +5,7 @@ cuid: ckow6987301kyl3s11r30b1up
 draft: false
 slug: write-clean-database-tests-with-jest
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1620677051313/T3Y5CzfRQ.png
-tags: javascript, databases, testing, typescript, jest
+tags: [javascript, databases, testing, typescript, jest]
 ---
 
 _Update, 2023-04-11: We've_ [_published a new post_](/testing-against-a-database-new-approaches) _about our new testing methodology! Feel free to reach this, but keep in mind we don't use this strategy any longer_

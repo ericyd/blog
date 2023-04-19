@@ -4,7 +4,7 @@ date: 2022-11-12T11:20:08Z
 cuid: clae716s5000a08l321cp3oh3
 draft: false
 slug: loop-supreme-part-5-record-and-loop-a-track
-tags: music, audio, build-in-public
+tags: [music, audio, build-in-public]
 ---
 
 _This is part 5 in a series about building a browser-based live looper_

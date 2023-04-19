@@ -5,7 +5,7 @@ cuid: clafqoy8p000408lg4d6pdq4c
 draft: false
 slug: loop-supreme-part-6-workers-and-audioworklets
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1668365705293/zGziCX3j9.png
-tags: music, audio, build-in-public
+tags: [music, audio, build-in-public]
 ---
 
 _This is part 6 in a series about building a browser-based live looper_

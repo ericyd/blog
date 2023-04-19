@@ -5,7 +5,7 @@ cuid: cl7gjovhi0f1b1unv6oachwa0
 draft: false
 slug: risotto-is-good-risotto-is-great
 cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/qrleIV6KkfI/upload/v1661883916329/16lAXoDGC.jpeg
-tags: cooking, risotto, rice
+tags: [cooking, risotto, rice]
 ---
 
 I love risotto, more than most people.

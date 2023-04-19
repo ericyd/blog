@@ -5,7 +5,7 @@ cuid: ckidkmc0503ix6zs12leg0bnr
 draft: false
 slug: how-to-call-githubs-graphql-api-in-vanilla-js
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1607282756734/b9DLMsfIV.png
-tags: github, javascript, apis, graphql
+tags: [github, javascript, apis, graphql]
 ---
 
 GraphQL is all the rage, but using GraphQL after years of REST API experience may feel a bit foreign. Let's dive into a practical example of how to call the GitHub GraphQL API using vanilla JS, and then explain some of the key concepts.

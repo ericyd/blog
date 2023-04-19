@@ -4,7 +4,7 @@ date: 2022-11-18T11:39:14Z
 cuid: clamscuo2000208lk4f9hbkua
 draft: false
 slug: loop-supreme-part-8-building-and-hosting
-tags: music, audio, build-in-public
+tags: [music, audio, build-in-public]
 ---
 
 _This is part 8 in a series about building a browser-based audio live looper_

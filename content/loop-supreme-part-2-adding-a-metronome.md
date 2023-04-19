@@ -5,7 +5,7 @@ cuid: cla2ryftp000408lcf8zxf0m8
 draft: false
 slug: loop-supreme-part-2-adding-a-metronome
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667583111394/Ht1Ziz5_9.png
-tags: music, build-in-public
+tags: [music, build-in-public]
 ---
 
 _This is part 2 in a series about building a browser-based live looper_

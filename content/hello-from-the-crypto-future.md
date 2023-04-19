@@ -5,7 +5,7 @@ cuid: cl1837lyx026ssenvccmb2rom
 draft: false
 slug: hello-from-the-crypto-future
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1648313328346/otgDMJ1Ja.jpg
-tags: blockchain, cryptocurrency
+tags: [blockchain, cryptocurrency]
 ---
 
 Hello! 👋🏻

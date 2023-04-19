@@ -5,7 +5,7 @@ cuid: cl77uqhzo01rg0jnv89r57zq7
 draft: false
 slug: my-creative-process-for-my-latest-track
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661358419745/T3LX5cH-q.jpg
-tags: music
+tags: [music]
 ---
 
 I recently released [my latest track, _Long Heat_](https://youtu.be/49ZHMyRZEd0), on YouTube. It is a solo keyboard performance over sequenced drums.

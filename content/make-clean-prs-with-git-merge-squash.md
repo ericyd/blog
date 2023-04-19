@@ -5,7 +5,7 @@ cuid: cklxxq5yg02ubfss1fb799yu5
 draft: false
 slug: make-clean-prs-with-git-merge-squash
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1615047682054/cou-yZHEt.png
-tags: github, programming, git
+tags: [github, programming, git]
 ---
 
 In an ideal world, every commit you make would be intentional, clean, and precise.

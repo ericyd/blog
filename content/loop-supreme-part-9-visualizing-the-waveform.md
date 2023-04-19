@@ -5,7 +5,7 @@ cuid: clau3sz4j000908lbdbjja3qi
 draft: false
 slug: loop-supreme-part-9-visualizing-the-waveform
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1669235605219/QNWmnTgUF.png
-tags: music, audio, build-in-public
+tags: [music, audio, build-in-public]
 ---
 
 _This is part 9 in a series about building a browser-based audio live looper_

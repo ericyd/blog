@@ -5,7 +5,7 @@ cuid: clbo2gzr0000308l36bysf0l8
 draft: false
 slug: loop-supreme-part-12-v10-release-and-project-retro
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671046934439/MwC9pyOAe.png
-tags: music, audio, build-in-public
+tags: [music, audio, build-in-public]
 ---
 
 _This is the final installation in a series about building a browser-based live looper:_

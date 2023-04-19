@@ -4,7 +4,7 @@ date: 2023-03-08T16:52:50Z
 cuid: clf09zv0f00000amuhak794yd
 draft: false
 slug: the-most-challenging-part-of-being-an-adult-is-finding-balance
-tags: life
+tags: [life]
 ---
 
 Until I was an adult, I never knew that I could have multiple desires that conflict with each other. Learning to balance them is a never-ending challenge.

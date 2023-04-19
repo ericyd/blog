@@ -4,7 +4,7 @@ date: 2023-04-11T10:56:39Z
 cuid: clgcg3lpj000d0ak597fk5ghu
 draft: false
 slug: testing-against-a-database-new-approaches
-tags: postgresql, typescript, sequelize
+tags: [postgresql, typescript, sequelize]
 ---
 
 At [Quil](https://getquil.com), we write [substantially more integration tests](/the-quil-tech-stack#testing) for our API than any other type of test. Previously we've written about our strategy to [write tests against a database without polluting the database](/write-clean-database-tests-with-jest) between test runs.

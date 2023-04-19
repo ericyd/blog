@@ -5,7 +5,7 @@ cuid: clb1bl6cn000408l80fuy5beo
 draft: false
 slug: loop-supreme-part-10-keyboard-bindings
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1669671833527/rJpDEGXgN.png
-tags: music, audio, build-in-public
+tags: [music, audio, build-in-public]
 ---
 
 _This is part 10 in a series about building a browser-based audio live looper_

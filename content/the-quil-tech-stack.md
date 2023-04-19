@@ -4,7 +4,7 @@ date: 2021-04-23T11:11:08Z
 cuid: cknuiglh40d23ass14dh65tsd
 draft: false
 slug: the-quil-tech-stack
-tags: aws, technology, typescript, terraform
+tags: [aws, technology, typescript, terraform]
 ---
 
 Here at [Quil](https://getquil.com/)\[1\], we are working on a financial safety net for everybody. Earlier this year, the development team broke ground on our application that will bring this vision to life. We wanted to share some details with the world about how we are building Quil.

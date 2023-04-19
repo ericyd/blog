@@ -5,7 +5,7 @@ cuid: ckka613c102amu6s18qju61o7
 draft: false
 slug: if-you-can-code-then-make-art-else-return-false
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1611433683308/mALzBZCJT.jpeg
-tags: art
+tags: [art]
 ---
 
 Generative art is an amazing way for programmers to play with code, explore new concepts, and add beauty to the world.

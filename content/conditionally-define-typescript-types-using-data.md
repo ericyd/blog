@@ -6,7 +6,7 @@ cuid: ckx9he39h03q1hks1fscz5nv8
 draft: false
 slug: conditionally-define-typescript-types-using-data
 cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/oMpAz-DN-9I/upload/v1639626386171/lCRizmlFYN.jpeg
-tags: javascript, typescript
+tags: [javascript, typescript]
 ---
 
 # Premise

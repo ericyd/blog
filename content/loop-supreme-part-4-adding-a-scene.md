@@ -5,7 +5,7 @@ cuid: cla75ccfa000008l85agxg08m
 draft: false
 slug: loop-supreme-part-4-adding-a-scene
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667847381877/ipBP5WqdU.png
-tags: music, audio, build-in-public
+tags: [music, audio, build-in-public]
 ---
 
 _This is part 4 in a series:_

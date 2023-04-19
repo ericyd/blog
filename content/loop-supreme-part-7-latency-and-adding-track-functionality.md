@@ -5,7 +5,7 @@ cuid: clak7jxim000b08jx503fdak5
 draft: false
 slug: loop-supreme-part-7-latency-and-adding-track-functionality
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1668636505190/yX-bcYVeE.png
-tags: music, audio, build-in-public
+tags: [music, audio, build-in-public]
 ---
 
 _This is part 7 in a series about building a browser-based live looper_

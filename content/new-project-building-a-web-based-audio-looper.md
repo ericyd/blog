@@ -4,7 +4,7 @@ date: 2022-11-03T19:52:07Z
 cuid: cla1s7s3n000508mm4uolg17k
 draft: false
 slug: new-project-building-a-web-based-audio-looper
-tags: music, apis
+tags: [music, apis]
 ---
 
 _This is part 1 in a series about building a browser-based live looper_

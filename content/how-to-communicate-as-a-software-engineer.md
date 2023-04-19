@@ -5,7 +5,7 @@ cuid: cl68e7g8o07dfy6nvgnqydm55
 draft: false
 slug: how-to-communicate-as-a-software-engineer
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1659215896565/mFycVV95V.jpg
-tags: programming, general-advice, communication
+tags: [programming, general-advice, communication]
 ---
 
 Communication is, in my humble opinion, the hardest part of any job. Sometimes the actual engineering work is hard, but typically the hardest part is getting the right requirements, communicating project status up to the leadership team, forming consensus with your colleagues about the complex ideas of your application, or something else altogether!

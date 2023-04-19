@@ -5,7 +5,7 @@ cuid: cl73jb0rd00fg6rnv5hyf8fqa
 draft: false
 slug: the-purge-makes-no-sense
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661098020691/a1ZylkJoU.png
-tags: horror, film
+tags: [horror, film]
 ---
 
 _The Purge_ rests on a simple premise: the American legal system is the only thing preventing Americans from murdering each other freely, on a whim, all of the time.

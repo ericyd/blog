@@ -4,7 +4,7 @@ date: 2023-03-03T10:52:29Z
 cuid: clesrx6tp000109lb8ujqha8t
 draft: false
 slug: switching-from-coffee-to-tea-has-increased-my-sense-of-peace
-tags: coffee, tea
+tags: [coffee, tea]
 ---
 
 When I'm scrolling through blogs, one of my least favorite experiences is being unable to quickly determine the point of a post, to decide if I want to keep reading. I'm happy to invest the time in a post that I find interesting, but I want to be able to make that decision up front without having to read the entire post.

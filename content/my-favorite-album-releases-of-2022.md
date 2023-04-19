@@ -5,7 +5,7 @@ cuid: clbgr4wo9000308l35n4y5kg2
 draft: false
 slug: my-favorite-album-releases-of-2022
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670605060368/XB5FeQ0DO.png
-tags: music
+tags: [music]
 ---
 
 I am not a music connoisseur, but I do love music. I wanted to share some of my favorite albums that were released this year. I don't expect to blow anybody's mind with these picks, I was just having fun with it. I'm not strictly "ranking" these, although obviously, they have to be presented in a list format.
