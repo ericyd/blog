@@ -19,6 +19,13 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
     />
     {{ hugo.Generator }}
     <meta name="robots" content="index, follow" />
+    {{/* NOTE: These Hugo Internal Templates can be found starting at
+    https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates
+    */}}
+    <!-- comment for the sake of prettier ¯\_(ツ)_/¯ -->
+    {{- template "_internal/opengraph.html" . -}}
+    <!-- comment for the sake of prettier ¯\_(ツ)_/¯ -->
+    {{- template "_internal/schema.html" . -}}
     <link rel="stylesheet" href="style.css" />
     {{/* fancier option demonstrated here
     https://github.com/theNewDynamic/gohugo-theme-ananke/blob/a1a99cf12681ad95b006e648a28139e6b9b75f09/layouts/_default/baseof.html#L27-L32

@@ -1,10 +1,17 @@
 baseURL = 'https://blog.ericyd.com/'
 languageCode = 'en-us'
 # TODO: need a real title
-title = "Eric's blog"
+title = "Musings from my desk"
 enableGitInfo = true
+
+# Used in opengraph template
+[params]
+  description = 'Miscellaneous writings from the premier blogger in the entire world'
+  title = 'Musings from my desk'
+
 
 # Disabling taxonomies for now because I don't want/need the complexity.
 # Can deal with this later if desired
 # https://gohugo.io/content-management/taxonomies/#configure-taxonomies
 [taxonomies]
+#  tags = "tags"
