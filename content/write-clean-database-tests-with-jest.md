@@ -8,9 +8,9 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1620677051313/T3Y5Czf
 tags: javascript, databases, testing, typescript, jest
 ---
 
-_Update, 2023-04-11: We've_ [_published a new post_](https://ericyd.hashnode.dev/testing-against-a-database-new-approaches) _about our new testing methodology! Feel free to reach this, but keep in mind we don't use this strategy any longer_
+_Update, 2023-04-11: We've_ [_published a new post_](/testing-against-a-database-new-approaches) _about our new testing methodology! Feel free to reach this, but keep in mind we don't use this strategy any longer_
 
-Here at [Quil](https://getquil.com)\[1\], we focus our energy on integration tests because they provide the highest ROI for our development team. We also have pure unit tests, and a healthy set of end-to-end tests, but the majority of our backend tests are integration tests. (You can [read more about our test setup and infrastructure here!](https://ericyd.hashnode.dev/the-quin-tech-stack))
+Here at [Quil](https://getquil.com)\[1\], we focus our energy on integration tests because they provide the highest ROI for our development team. We also have pure unit tests, and a healthy set of end-to-end tests, but the majority of our backend tests are integration tests. (You can [read more about our test setup and infrastructure here!](/the-quin-tech-stack))
 
 We choose to execute our backend integration tests directly against a real, local database. There are three dominant strategies you can use if you're writing tests against a real database:
 

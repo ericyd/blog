@@ -7,13 +7,13 @@ slug: testing-against-a-database-new-approaches
 tags: postgresql, typescript, sequelize
 ---
 
-At [Quil](https://getquil.com), we write [substantially more integration tests](https://ericyd.hashnode.dev/the-quil-tech-stack#testing) for our API than any other type of test. Previously we've written about our strategy to [write tests against a database without polluting the database](https://ericyd.hashnode.dev/write-clean-database-tests-with-jest) between test runs.
+At [Quil](https://getquil.com), we write [substantially more integration tests](/the-quil-tech-stack#testing) for our API than any other type of test. Previously we've written about our strategy to [write tests against a database without polluting the database](/write-clean-database-tests-with-jest) between test runs.
 
 That was nearly 2 years ago (!!!) and we decided it was time for an update. Our test suite has grown substantially, as have our range of test cases. We now have about 400 integration tests that run against our API on every check-in, in addition to numerous other test suites for serverless functions and internal libraries that run against the same database. While our original approach was reasonably robust for a smaller test run, it has started to show its cracks as we've grown.
 
 ## Challenges with our existing test suite
 
-By far the biggest limitation of our [previous test methodology](https://ericyd.hashnode.dev/write-clean-database-tests-with-jest) is when the code under test utilizes its own database transactions. Transactions created two separate-but-related problems for us
+By far the biggest limitation of our [previous test methodology](/write-clean-database-tests-with-jest) is when the code under test utilizes its own database transactions. Transactions created two separate-but-related problems for us
 
 1. Code that was wrapped in a transaction could not be automatically rolled back with our monkey-patched Sequelize transaction. It was never clear to us _why_ this didn't work, but suffice to say we didn't want to make our monkey-patch even deeper!
 2. Code that was created or updated in a transaction would have a different lifecycle than the data created in the test (a side-effect of #1), for example if the transaction in the code under test rolled back due to an error.
