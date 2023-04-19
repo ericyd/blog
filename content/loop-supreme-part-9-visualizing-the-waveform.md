@@ -80,15 +80,15 @@ Here was the impact of the redesign
 
 #### Before
 
-![loop-supreme-9-redesign-before.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669225143718/mS7xfFlrs.png align="left")
+![loop-supreme-9-redesign-before.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669225143718/mS7xfFlrs.png)
 
 #### After
 
-![loop-supreme-9-redesign-after.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669225150316/5vhbWy2DG.png align="left")
+![loop-supreme-9-redesign-after.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669225150316/5vhbWy2DG.png)
 
 #### Mockup
 
-![loop-supreme-9-redesign-source.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669225157078/U8G0WmksZ.png align="left")
+![loop-supreme-9-redesign-source.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669225157078/U8G0WmksZ.png)
 
 ## Learnings
 

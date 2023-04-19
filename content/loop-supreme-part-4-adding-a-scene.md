@@ -39,7 +39,7 @@ The only thing that held me up on this task was forgetting to put the `key` prop
 - Refactored some styling into a wrapper component
 - The app now has a `Scene` which can hold one or more `Track`s!
 
-![Loop Supreme Scene](https://cdn.hashnode.com/res/hashnode/image/upload/v1667846863020/PtbGE_zof.png align="left")
+![Loop Supreme Scene](https://cdn.hashnode.com/res/hashnode/image/upload/v1667846863020/PtbGE_zof.png)
 
 ## Next time
 

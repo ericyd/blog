@@ -42,7 +42,7 @@ We'll talk a bit more about the benefits gained from TypeScript in both the [Arc
 
 # Architecture and infrastructure
 
-![What if I told you the cloud is just someone else's computer](https://www.techrepublic.com/a/hub/i/2017/03/23/e9249908-d3e2-4ae0-bda8-40f2f11bc692/c6gpmznwmaqhwi.jpg align="left")
+![What if I told you the cloud is just someone else's computer](https://www.techrepublic.com/a/hub/i/2017/03/23/e9249908-d3e2-4ae0-bda8-40f2f11bc692/c6gpmznwmaqhwi.jpg)
 
 Our MVP architecture, in a nutshell, is:
 
@@ -59,7 +59,7 @@ TypeScript was a natural fit for every layer of our stack. Other than the obviou
 
 ## Infrastructure
 
-![On my way to update the servers config](https://cdn.hashnode.com/res/hashnode/image/upload/v1619125938151/s9CFF5lm0.jpeg align="left")
+![On my way to update the servers config](https://cdn.hashnode.com/res/hashnode/image/upload/v1619125938151/s9CFF5lm0.jpeg)
 
 We are using AWS for our infrastructure, and Terraform to implement our infrastructure-as-code. Our team had previous experience with Terraform so it was a natural fit, and we knew that infrastructure-as-code would be important as we scaled up to manage additional environments. One of the best features of Terraform is its ability to modularize infrastructure. Two modules we created that have been extremely useful for us are an SQS-driven lambda, and an EventBridge-driven lambda. Having modules for this infrastructure makes it extremely easy to create a new lambdas in no time, while adhering to our own established patterns.
 
@@ -69,7 +69,7 @@ We chose Amazon Aurora as our primary database because relational databases make
 
 # Code organization
 
-![The cookies are inside the computer? So simple!](https://memegenerator.net/img/instances/65524002/the-cookies-are-inside-the-computer-its-so-simple.jpg align="left")
+![The cookies are inside the computer? So simple!](https://memegenerator.net/img/instances/65524002/the-cookies-are-inside-the-computer-its-so-simple.jpg)
 
 Even in the planning phase, we had already identified several distinct pieces of our application that we needed: Web app, API, lambdas, infrastructure, and shared libraries. We knew the simplest solution would be discrete repositories for each piece of the app, but we were also interested in maximizing some of the benefits of TypeScript that we identified previously, such as sharing code, increasing collaboration, and reducing cognitive load for the development team.
 
@@ -83,7 +83,7 @@ We decided to use a monorepo configuration with [Nx](https://nx.dev/) as a manag
 
 # Testing
 
-![I don't always use Internet Explorer, but when I do it's usually to download a better browser](https://cdn.hashnode.com/res/hashnode/image/upload/v1619125952400/RtkloYEbN.webp align="left")
+![I don't always use Internet Explorer, but when I do it's usually to download a better browser](https://cdn.hashnode.com/res/hashnode/image/upload/v1619125952400/RtkloYEbN.webp)
 
 Unsurprisingly, we are using Jest as our primary test runner, which comes configured out of the box with TypeScript and React thanks to Nx.
 
@@ -101,7 +101,7 @@ Our API E2E tests live in the same monorepo as our API but are kept in a separat
 
 # CI
 
-![When your alphabet soup is password protected](https://www.terminalbytes.com/wp-content/uploads/2021/03/dckee6z4xpp61.png align="left")
+![When your alphabet soup is password protected](https://www.terminalbytes.com/wp-content/uploads/2021/03/dckee6z4xpp61.png)
 
 We use GitHub Actions for all our CI needs. GitHub Actions is a great combination of powerful and flexible, and the strong community of actions makes it easy to plug in any behavior we need.
 
@@ -111,7 +111,7 @@ However, our API E2E tests require us to have a static IP address for integratio
 
 # Learning experiences
 
-![Is there documentation?](https://www.terminalbytes.com/wp-content/uploads/2021/04/4nub7lygkyr61.png align="left")
+![Is there documentation?](https://www.terminalbytes.com/wp-content/uploads/2021/04/4nub7lygkyr61.png)
 
 As with any project, there are always opportunities for improvement.
 

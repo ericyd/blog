@@ -57,7 +57,7 @@ The purpose of this app of course is to loop the audio indefinitely. For that I 
   - All tracks must be synchronized to a single clock
   - this becomes more complex as many elements of the audio API are nullable, and explicitly require user permission/behavior before they can be instantiated.
 
-![Recording a Track](https://cdn.hashnode.com/res/hashnode/image/upload/v1668015143447/jKCRmvIqH.png align="left")
+![Recording a Track](https://cdn.hashnode.com/res/hashnode/image/upload/v1668015143447/jKCRmvIqH.png)
 
 ## Next steps
 

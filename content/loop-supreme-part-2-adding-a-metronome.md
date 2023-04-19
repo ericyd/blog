@@ -52,7 +52,7 @@ I also learned that for Tailwind to work properly, you need to point it at all t
 4. `Metronome` component displays current metronome settings and updates them
 5. [There is a bug](https://github.com/ericyd/loop-supreme/blob/db7e2d5df90199530195f27587a626d870a18270/src/MetronomeContext/index.tsx#L48-L50) where the `MetronomeContext` is creating two intervals, as demonstrated by a simple console log. This is probably due to double-mounting done by React in development mode. Need to test in production mode to see if this will be an issue long term.
 
-![loop-supreme-1-metronome.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1667583055159/1SkzXCrLR.png align="left")
+![loop-supreme-1-metronome.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1667583055159/1SkzXCrLR.png)
 
 ## Time logging
 
