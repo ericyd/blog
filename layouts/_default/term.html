@@ -1,0 +1,15 @@
+{{/* This is currently not used, but including it in case I want to publish tag
+taxonomies in the future. The only required change would be modifying hugo.toml
+to include the tags taxonomy */}}
+
+<div>{{ .Content }}</div>
+
+<section>
+  {{ range $term := .Data.Pages }}
+  <h2>
+    <a href="{{ $term.RelPermalink }}">
+      {{ $.Data.Singular | humanize }}: {{ $term.LinkTitle }}
+    </a>
+  </h2>
+  {{ range $term.Pages }} {{ .Render "summary" }} {{ end }} {{ end }}
+</section>

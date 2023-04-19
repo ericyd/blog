@@ -1,0 +1,10 @@
+{{/* This is currently not used, but including it in case I want to publish tag
+taxonomies in the future. The only required change would be modifying hugo.toml
+to include the tags taxonomy */}}
+
+<p>{{ i18n "taxonomyPageList" . }}</p>
+<section>
+  {{ range .Pages }}
+  <div>{{ .Render "summary" }}</div>
+  {{ end }}
+</section>
