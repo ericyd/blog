@@ -46,8 +46,13 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
   </head>
 
   <body>
-    <!-- TODO: style this better -->
-    <a href="/">Blog home</a><br />
+    <div class="center-column">
+      <a href="/" class="center-column site-title">{{ .Site.Title }}</a>
+      <div>
+        <a href="/">Blog</a> | <a href="https://ericyd.com">Homepage</a>
+      </div>
+    </div>
+
     <h1>{{ .Title }}</h1>
 
     {{/* Available because of enableGitInfo=true in hugo.toml */}} {{/*

@@ -3,18 +3,32 @@ initial styles taken from barf
 https://git.sr.ht/~bt/barf/tree/8bdd163d69369316be145ac9a2e1d45b633d5d43/item/header.html#L10-111
 */
 
+:root {
+  --black: #18181b;
+  --gray: #4b5563;
+  --white: #f9fafb;
+}
+
 * {
   box-sizing: border-box;
+}
+html {
+  /* this makes 1rem = 10px; I don't have a handy link for reference 😢 */
+  font-size: 62.5%;
 }
 body {
   font-family: sans-serif;
   line-height: 1.45;
   margin: 0 auto;
-  max-width: 45rem;
+  max-width: 60rem;
   padding: 0 15px;
+  background: var(--white);
+  color: var(--black);
+  font-size: 1.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 hr {
-  background-color: grey;
+  background-color: var(--gray);
   border: 0;
   height: 1px;
   margin: 2rem 0;
@@ -39,14 +53,14 @@ span.created {
   margin: 4px 15px;
 }
 img {
-  border: 1px solid lightgrey;
+  border: 1px solid var(--gray);
   height: auto;
   max-width: 100%;
   width: auto;
 }
 blockquote {
   border: 1px solid;
-  border-left: 6px solid;
+  border-left: 0.6rem solid;
   margin: 2rem 0;
   padding: 10px;
 }
@@ -86,17 +100,60 @@ tr:nth-of-type(odd) td {
   background-color: #f8f8f8;
 }
 th,td {
-  padding: 6px;
+  padding: 0.6rem;
 }
 footer {
   border-top: 1px dashed grey;
   margin: 2rem 0;
   padding: 1rem 15px;
 }
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--gray);
+}
+
+/* colors taken from ... myself!
+https://github.com/ericyd/generative-art/blob/94394078574a83f7842ca38543a528ef95e34099/openrndr/src/main/kotlin/sketch/flow/F7_Orbit2.kt#L137-L143 */
+.site-title {
+  --dark-purple: hsl(261.0, 45%, 43%);
+  --light-purple: hsl(255.0, 46%, 86%);
+  --salmon: hsl(29.0, 93%, 83%);
+  --light-blue: hsl(194.0, 70%, 85%);
+  --dark-blue: hsl(212.0, 67%, 30%);
+
+  background-color: var(--light-purple);
+  border: 0.6rem solid var(--dark-purple);
+  box-shadow: 0.6rem 0.6rem 0px var(--salmon), 1.2rem 1.2rem 0px var(--dark-blue);
+  padding: 0em 2rem;
+  height: 10rem;
+  margin: 2rem 4rem;
+  width: auto;
+  font-size: 2.4rem;
+  /* To keep thing lean-n-mean, none of these fonts are shipped with the site. They are just included in case the user has interesting monospace fonts available */
+  font-family: "Inconsolata", "Source Code Pro", "IBM Plex Mono", "Andale Mono", "DejaVu Sans Mono", "Consolas", "Roboto Mono", "Hack", monospace;
+  /* hardcoded for proper dark mode contrast */
+  color: #18181b !important;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 @supports (color-scheme: dark light) {
   @media screen and (prefers-color-scheme: dark) {
     a:link {color: #9e9eff;}
     a:visited {color: #d0adf0;}
     a:active {color: red;}
+
+    :root {
+      /* https://github.com/ericyd/loop-supreme/blob/bd22ed519dbf633d8ba67792f2fd6aa704d92f87/tailwind.config.js#L29-L31 */
+      --black: #f9fafb;
+      --white: #18181b;
+      --gray: #a1a1aa;
+    }
   }
 }

@@ -45,7 +45,12 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
   </head>
 
   <body>
-    <h1>{{ .Site.Title }}</h1>
+    <div class="center-column" href="/">
+      <h1 class="center-column site-title">{{ .Site.Title }}</h1>
+      <div>
+        <a href="/">Blog</a> | <a href="https://ericyd.com">Homepage</a>
+      </div>
+    </div>
 
     <article>
       {{ .Content }}
