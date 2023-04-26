@@ -7,6 +7,7 @@ https://git.sr.ht/~bt/barf/tree/8bdd163d69369316be145ac9a2e1d45b633d5d43/item/he
   --black: #18181b;
   --gray: #4b5563;
   --white: #f9fafb;
+  --off-white: #e9eaeb;
 }
 
 * {
@@ -58,15 +59,28 @@ img {
   max-width: 100%;
   width: auto;
 }
+
+/* from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
 blockquote {
-  border: 1px solid;
-  border-left: 0.6rem solid;
-  margin: 2rem 0;
-  padding: 10px;
+  background: var(--off-white);
+  border-left: 1rem solid var(--gray);
+  margin: 1.5rem 1rem;
+  padding: 0.5rem 1rem;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: var(--gray);
+  content: open-quote;
+  font-size: 6rem;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.4em;
+  font-family: sans-serif;
 }
 blockquote p {
-  margin: 0;
+  display: inline;
 }
+
 figure {
   margin: 2rem 0;
 }
