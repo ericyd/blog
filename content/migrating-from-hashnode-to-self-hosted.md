@@ -1,8 +1,12 @@
 ---
-title: "Migrating From Hashnode to Self Hosted"
+title: "Migrating From Hashnode to Self-Managed"
 date: 2023-04-19T10:02:54-05:00
 draft: false
 slug: migrating-from-hashnode-to-self-hosted
+---
+
+_edit 2023-04-26: This post previously referred to my hosting as "self-hosted". I realized that this is inaccurate: self-hosting refers specifically to running the server yourself, whereas I'm using a service (Cloudflare Pages) to host my blog. I've updated the terminology in the post to refer to "self-managed" which I use to describe the combination of a static site generator + manual hosting configuration with a custom domain._
+
 ---
 
 I started this blog [on Hashnode](https://ericyd.hashnode.dev/), a free blogging platform which caters to the software community.
@@ -43,16 +47,16 @@ What I have noticed over the past few months is that I've had ideas for blog pos
 
 In addition to a mis-match of content, I felt myself pulling back from publishing on Hashnode because I felt that it required a higher degree of polish than I always wanted to commit to. I found myself wishing I had a place to post my "unfinished" thoughts where I wouldn't have to worry about how the "community" felt about them.
 
-I realized that self-hosting my blog was my best option. My rationale was basically:
+I realized that self-managing my blog was my best option. My rationale was basically:
 
-1. Self-hosting will re-center myself as the primary beneficiary of my writing
+1. Self-managing will re-center myself as the primary beneficiary of my writing
 2. Writing for "me" rather than "the audience" will open me up to exploring more unusual, niche, or unfinished ideas
 3. Opening myself to more styles of writing will increase my total writing output
 4. Increasing my total writing output will naturally improve my writing, because practice is the key to everything in life
 
-The risk of self-hosting is also quite low for me. I don't have a lot of followers to worry about losing, and the technical lift is low (and also fun to me because I'm a nerd 🤓).
+The risk of using a static generator and a custom host is also quite low for me. I don't have a lot of followers to worry about losing, and the technical lift is low (and also fun to me because I'm a nerd 🤓).
 
-## How I migrated to self-hosting
+## How I migrated to self-managed
 
 I knew that I wanted to reuse my [ericyd.com](https://ericyd.com) domain for my blog, since I already owned it and it made sense to consolidate my content in one place. However, my homepage hosted at [ericyd.com](https://ericyd.com) was hosted on GitHub Pages, and I wanted to manage my blog separately from my homepage. I knew that GitHub Pages automatically nested other repos under the root domain (e.g. [ericyd.github.io/generative-art](https://ericyd.github.io/generative-art) is the GitHub Pages site for [my generative-art repo](https://github.com/ericyd/generative-art)), so hosting at ericyd.com/blog would be a pretty easy option.
 
