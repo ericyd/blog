@@ -5,6 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "hugo server",
+    "dev": "hugo server --buildDrafts",
     "login": "npx wrangler login",
     "clean": "rm -rf public",
     "build": "hugo",
