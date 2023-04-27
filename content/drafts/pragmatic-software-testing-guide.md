@@ -1,6 +1,7 @@
 ---
 title: "Pragmatic software testing guide"
-date: 2023-04-27T12:20:34-05:00
+created: 2023-04-27T12:20:34-05:00
+date:
 draft: true
 slug: pragmatic-software-testing-guide
 ---

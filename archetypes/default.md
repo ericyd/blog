@@ -1,7 +1,8 @@
 ---
 {{/* https://gohugo.io/functions/humanize/, https://gohugo.io/functions/title/ */}}
 title: "{{ replace .Name "-" " " | humanize }}"
-date: {{ .Date }}
+created: {{ .Date }}
+date: 
 draft: true
 slug: {{ .Name }}
 ---

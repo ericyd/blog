@@ -1,6 +1,7 @@
 ---
 title: "French protests retirement age"
-date: 2023-04-22T15:53:44-05:00
+created: 2023-04-22T15:53:44-05:00
+date:
 draft: true
 slug: french-protests-retirement-age
 ---

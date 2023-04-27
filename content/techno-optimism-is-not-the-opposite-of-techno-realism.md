@@ -1,6 +1,7 @@
 ---
 title: "Techno Optimism Is Not the Opposite of Techno Realism"
-date: 2023-04-19T19:46:26-05:00
+created: 2023-04-19T19:46:26-05:00
+date: 2023-04-27T12:45:35-0500
 draft: false
 slug: techno-optimism-is-not-the-opposite-of-techno-realism
 ---

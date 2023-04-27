@@ -1,6 +1,7 @@
 ---
 title: "Quil performance metrics"
-date: 2023-04-21T14:58:45-05:00
+created: 2023-04-21T14:58:45-05:00
+date:
 draft: true
 slug: quil-performance-metrics
 ---

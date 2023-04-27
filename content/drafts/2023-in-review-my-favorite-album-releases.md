@@ -1,6 +1,7 @@
 ---
 title: "2023 in review: My favorite album releases"
-date: 2023-04-19T19:58:04-05:00
+created: 2023-04-19T19:58:04-05:00
+date:
 draft: true
 slug: 2023-is-a-place-that-i-wanna-be4
 ---

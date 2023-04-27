@@ -1,6 +1,7 @@
 ---
 title: "Ideas"
-date: 2023-04-22T15:51:22-05:00
+created: 2023-04-22T15:51:22-05:00
+date:
 draft: true
 slug: ideas
 ---
