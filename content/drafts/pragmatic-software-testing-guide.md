@@ -51,3 +51,21 @@ For the purposes of this article, let us agree that a "bug" is a synonym for a d
 In an ideal world, we can rightly observe that software is capable of working correctly. Barring solar flares or other non-ideal physical conditions, computers product predictable, deterministic outputs for a given input. Since software runs on computers, the software is theoretically capable of perfectly deterministic behavior. Therefore, deviation from that deterministic behavior is a defect. Since software is capable of behaving in a deterministic way, we can rightly expect that bugs are fixable. If something can work in an optimal way but is instead working in a non-optimal way, it makes sense that we should expect it to work in the optimal way.
 
 Once humans get involved in using software, things get a lot more complicated. Deterministic software turns out to be relatively straight forward in most cases. On the other hand, accurately predicting all the possible ways that a user might interact with your software is extremely difficult, and maybe impossible. Even if you can accurately map every possible user interaction with your software, the chance that you can add elegant handling for every permutation of user input is unlikely. With very few exceptions, software developers will need to make compromises, and often lump some behaviors together into common patterns of handling input. Why do they do this? Because developers are also humans (at least, for the time being 🤣...😳), and therefore they are bound by human limitations: time, energy, and motivation are primary limiting factors that cause humans to develop software that cannot elegantly handle every permutation of user input.
+
+## The human cost of bug reports
+
+Some teams are structured in such a way that one person on the team is primarily responsible for managing the tickets in the backlog, and prioritizing work for the engineering team. In this type of structure, engineers rarely if ever look at the backlog. Its easy to forget that humans are doing labor every time tickets are prioritized. There is cognitive overhead to maintaining more tickets in the backlog. Decisions about what to prioritize become harder because its impossible to accurately represent the relative priority of 1000 or even 100 tickets. The result is that some tickets naturally rise to the top because they are clear and achieve a specific objective. The rest fall to the bottom and feed a latent background anxiety of everyone who looks at the backlog. It is truly hopeless to go through a list of 100+ tickets that are all approximately the same in terms of severity and assign a priority to them. When I say "approximately the same in terms of severity", I mean that in terms of real, practical value, no ticket is different from another.
+
+## Real, practical value
+
+What makes work worth doing? When is a feature worth developing? When is a bug worth fixing?
+
+Of course these are difficult questions to answer, but any good product focuses on helping the user achieve a specific goal. Some example goals might be
+
+- getting through onboarding faster / reducing friction to create an account
+- finding relevant products in an e-commerce search
+- engage with content via comments or likes
+
+If something doesn't contribute to a defined goal, then its unclear why one should spend time and energy on it.
+
+Certainly, "polished UI" can be a goal, but ultimately it is a self-serving goal. Unless the polished UI directly helps your user achieve a goal, then it is wasted energy. Of course, the goal might be "give the user a sense of pride in using this brand", or "impress the user to increase the odds of referral". In this case a polished UI is clearly in service of the stated goal. But it is nebulous to define exactly how a specific feature might contribute or take away from that goal
