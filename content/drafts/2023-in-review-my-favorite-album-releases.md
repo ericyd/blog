@@ -77,18 +77,21 @@ Candidates
 - title track is fabulous, amazing bass lines and really beautiful organic growth to the climax
 - damn "Parasite" is great too!!!
 
-# Albums to check out
-
-- A Good Woman - Izo FitzRoy
-  - Comes out April 28 [https://tidal.com/browse/album/269842734](https://tidal.com/browse/album/269842734)
-
 # Other albums I listened to
+
+## A Good Woman - Izo FitzRoy
+
+[https://tidal.com/browse/album/269842734](https://tidal.com/browse/album/269842734)
+
+- bluesy, folksy, a little pop-y
+- I think I like it, after the first few songs I'm very interested to hear the rest of it
 
 ## Riot Jazz Makes People Happy - Riot Jazz Brass Band
 
 [https://tidal.com/browse/album/269857854](https://tidal.com/browse/album/269857854)
 
 - High energy brassy funky groovy!
+- overall the album is only ok actually :\ I was hoping for more but it didn't really do it for me. Couple great tracks but not mind blowing
 
 ## Brand New Life - Brandee Younger
 
