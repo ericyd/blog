@@ -56,6 +56,10 @@ Once humans get involved in using software, things get a lot more complicated. D
 
 Some teams are structured in such a way that one person on the team is primarily responsible for managing the tickets in the backlog, and prioritizing work for the engineering team. In this type of structure, engineers rarely if ever look at the backlog. Its easy to forget that humans are doing labor every time tickets are prioritized. There is cognitive overhead to maintaining more tickets in the backlog. Decisions about what to prioritize become harder because its impossible to accurately represent the relative priority of 1000 or even 100 tickets. The result is that some tickets naturally rise to the top because they are clear and achieve a specific objective. The rest fall to the bottom and feed a latent background anxiety of everyone who looks at the backlog. It is truly hopeless to go through a list of 100+ tickets that are all approximately the same in terms of severity and assign a priority to them. When I say "approximately the same in terms of severity", I mean that in terms of real, practical value, no ticket is different from another.
 
+Having more tickets in the backlog than a team can reasonably complete means that some tickets will stay in the backlog forever. Who does this impact? Everyone! Digital clutter is still clutter, and having innumerable tickets in the backlog means cognitive overhead for everyone who looks at the backlog. It is difficult to quantify the cost of ticket-induced cognitive load (TICL), but it is certainly above zero for the majority of people.
+
+The situation is even worse for product managers that need to read through the backlog on a regular basis to prioritize tickets relative to each other. In this case, the time required to correctly prioritize a bug scales linearly with the number of bugs that are sitting in the backlog. More bugs means more time necessary to prioritize bugs. This means less time is available for product development, which means less value delivered to the client.
+
 ## Real, practical value
 
 What makes work worth doing? When is a feature worth developing? When is a bug worth fixing?
@@ -69,3 +73,36 @@ Of course these are difficult questions to answer, but any good product focuses 
 If something doesn't contribute to a defined goal, then its unclear why one should spend time and energy on it.
 
 Certainly, "polished UI" can be a goal, but ultimately it is a self-serving goal. Unless the polished UI directly helps your user achieve a goal, then it is wasted energy. Of course, the goal might be "give the user a sense of pride in using this brand", or "impress the user to increase the odds of referral". In this case a polished UI is clearly in service of the stated goal. But it is nebulous to define exactly how a specific feature might contribute or take away from that goal
+
+If a unit of work (a "ticket") doesn't serve a goal for the product, then it probably isn't worth spending time on.
+
+## Possible benefits of reporting bugs that will not be fixed
+
+There are some possible reasons for which it might be justified to file low-severity bugs.
+
+One situation is for the purpose of documentation. In an ideal scenario, team members or bug reporters will search for existing bug reports before filing a new bug. In this ideal scenario, having a bug documented in the backlog could save people from filing a duplicate instance of the bug. If this worked as expected, it would save labor for everyone because the bug would not need to be reassessed and reprioritized.
+
+In reality, duplicate bugs are extremely common for one of two reasons
+
+1. The original bug report is phrased in a different way than expected, so searching for the bug doesn't come up because the reporter is searching for the wrong term(s)
+2. The reporter is pressed for time and doesn't search for existing bugs before filing the bug.
+
+Bug-reports-as-documentation is a failed strategy because nobody reads bug tickets to understand a product, and they don't serve their intended effect of preventing duplicate bug reports.
+
+Another situation in which reporting low-severity bugs could be hypothetically beneficial is if the product team has unlimited time and can review all bug reports adequately. In reality, product teams are made up of humans, and the one thing that every working human has in common is being perpetually overworked. Product teams don't have time to review your bugs as assign appropriate priority.
+
+## Perspective of a software tester
+
+I started my tech career in QA - first as a manual tester, and later as a QA engineer writing automated test cases. When my job was to verify correct behavior of software, it became extremely easy to find issues with the software I was testing. My perspective was often along the lines of: "it is possible for this software to work correctly, therefore it **should** work correctly". When I started my career, I would report all sorts of bugs, even if they were out of scope for the specific feature/ticket I was testing. As I progressed in my career and got more perspective on the real flow of development teams, I realized that many of my bugs were causing toil for the development team. Reporting low-severity bugs resulted in discussions with the developers about whether or not it was in scope for the feature, and eventually discussions with the product team about whether or not the behavior was worth fixing. In an abstract way, these types of bug reports resulted in a "better" product, in that things were working "correctly" from the arbitrary perspective of me, the QA engineer. What I consistently failed to consider, though, was whether or not my bug reports provided real value to the users of the software.
+
+As a developer, my job is to build features. Of course, building features has the parallel goal of building features **correctly**. Building features that are riddled with bugs is not really meeting the goal of the feature in the first place.
+
+When my primary perspective is that of building value, it is easier to see when bugs provide value or not.
+
+## Things don't matter as much as you think they do in the moment
+
+It is really easy to have strong feelings about things in the moment. Software developers are famously opinionated people; even though product owners don't have the same public perception (wc?) about being hyper-opinionated, they will always have a stake in their products.
+
+But, it is almost a universal rule that the level of caring drops off exponentially over time. So unless a bug report can be addressed in a very short amount of time, the chance that someone will care about it in a month is extremely small. If bug fixes have diminishing returns for the people that filed them, then we can reasonably deduce that the bug fix does not provide a lot of value to users.
+
+Unless bugs provide real value to the user, we should no be spending time on them!
