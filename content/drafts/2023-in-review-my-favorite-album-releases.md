@@ -79,6 +79,15 @@ Candidates
 
 # Other albums I listened to
 
+## That! Feels Good! - Jessie Ware
+
+https://tidal.com/browse/album/290581948
+
+- dancey, poppy, feels good. It will make you move. It will make you funk. It will make your head bop.
+- _Free Yourself_ feels kind of like a disco-era club hit
+- Title track has some ridiculously funky instrumentation and riffs
+- _Shake The Bottle_ has one of those dead-simple-meets-ultra-funky bass lines that is reminiscent of her earlier _What's Your Pleasure_ album. It sounds like something that Bootsy Collins would write back in the day.
+
 ## A Good Woman - Izo FitzRoy
 
 [https://tidal.com/browse/album/269842734](https://tidal.com/browse/album/269842734)
