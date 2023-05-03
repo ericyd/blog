@@ -137,20 +137,36 @@ Let's back up a little bit and talk about what might motivate a tester to report
 
 I started my tech career in QA - first as a manual tester, and later as a QA engineer writing automated test cases. When my job was to verify correct behavior of software, it became extremely easy to find issues with the software I was testing. My perspective was often along the lines of: "it is possible for this software to work correctly, therefore it **should** work correctly". When I started my career, I would report all sorts of bugs, even if they were out of scope for the specific feature/ticket I was testing. As I progressed in my career and got more perspective on the real flow of development teams, I realized that many of my bugs were causing toil for the development team. Reporting low-severity bugs resulted in discussions with the developers about whether or not it was in scope for the feature, and eventually discussions with the product team about whether or not the behavior was worth fixing. In an abstract way, these types of bug reports resulted in a "better" product, in that things were working "correctly" from the arbitrary perspective of me, the QA engineer. What I consistently failed to consider, though, was whether or not my bug reports provided real value to the users of the software.
 
-<!-- left off here in editing, 2023-05-02 -->
+After I started working primarily as a developer, my view changed. As a developer, my job is to build features. Of course, building features has the parallel goal of building features **correctly**. Building features that are riddled with bugs is not really meeting the goal of the feature in the first place.
 
-As a developer, my job is to build features. Of course, building features has the parallel goal of building features **correctly**. Building features that are riddled with bugs is not really meeting the goal of the feature in the first place.
-
-When my primary perspective is that of building value, it is easier to see when bugs provide value or not.
+When my primary perspective is that of building value, it is easier to see when bugs provide value or not. But when my primary perspective was to ensure correctness, I found a lot more of my attention going towards finding things that were incorrect, even if they were low value. This is all to say, I think that it is a natural consequence of telling people to find bugs that we end up getting extraneous bug reports that provide very little value. Certainly if someone is paid to find things that are wrong, they will be able to find them! Is that really the right goal though?
 
 ## Things don't matter as much as you think they do in the moment
 
-It is really easy to have strong feelings about things in the moment. Software developers are famously opinionated people; even though product owners don't have the same public perception (wc?) about being hyper-opinionated, they will always have a stake in their products.
+It is really easy to have strong feelings about things in the moment. Software developers are famously opinionated people; even though product owners are not always perceived as being hyper-opinionated, they will always have a stake in their products.
 
 But, it is almost a universal rule that the level of caring drops off exponentially over time. So unless a bug report can be addressed in a very short amount of time, the chance that someone will care about it in a month is extremely small. If bug fixes have diminishing returns for the people that filed them, then we can reasonably deduce that the bug fix does not provide a lot of value to users.
 
 Unless bugs provide real value to the user, we should no be spending time on them!
 
+## A better way: filing Bugs That Matter™️
+
+Bug reports obviously serve an important role in software development. A thorough and well-written bug report can be a gift from the heavens for a developer. However, even a perfectly written bug report can still cause toil if it doesn't represent value, in the form of working towards a goal. Fewer bugs for the sake of fewer bugs does not help anyone achieve their goals.
+
+<!-- TODO: should I just use ™️ instead of having low-value footnotes? -->
+
+Conscientious Bug Reports (CBR{{< sup 2 >}}) is a framework for filing Bugs That Matter™️. Importantly, it has nothing to do with actually writing a bug! Instead, it has everything to do with whether or not the bug report is even filed. This is conscientious for your team, your project's future maintainers, and yourself.
+
+To make it as simple as possible, we've derived a single question that can help you determine if a bug is a CBR
+
+1. Does the bug need to get fixed in the next month?
+   - Yes: file the bug report 🐛
+   - No: do not file the bug report 🎉 Bugs that are so low priority that they don't need to get fixed within a month are not CBRs
+
+If you made it through and the bug got filed, good for you! You just filed a Conscientious Bug Report. If you stopped along the way, good for you! You just saved time and toil for yourself and others, go treat yourself to some ice cream 🙂
+
 ---
 
-{{< sup 1 >}}TICL, or "ticket-induced cognitive load", is a registered trademark of {{ .Site.Title }}
+{{< sup 1 >}}TICL, or "ticket-induced cognitive load", is a made-up term, and therefore considered to be coined by {{ .Site.Title }}
+
+{{< sup 2 >}}CBR, or "conscientious bug reports", is also a made-up term, and therefore considered to be coined by {{ .Site.Title }}
