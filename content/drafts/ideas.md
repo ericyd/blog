@@ -20,3 +20,5 @@ slug: ideas
 - French protests - what does it mean to be owed something by society or government? How does one quantify what is deserved? How does one quantify an equitable exchange of one's time and energy for money and social services? Why is it challenging to care for workers? What does the distribution of wealth tell us about this moment in history?
 - Is there a moral imperative to give away your money? At what threshold? Is there a moral imperative to give away generational inheritance? What portion? For whom? Where is the boundary between passively accepting money (e.g. inheritance) and actively working against systemic inequality (e.g. hoarding money that historically was extracted from exploited labor)?
 - https://www.linkedin.com/posts/y-combinator_the-pocket-guide-of-essential-yc-advice-activity-7052016208442769408-D802
+
+- "Should": the most dangerous word
