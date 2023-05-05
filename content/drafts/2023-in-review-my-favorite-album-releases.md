@@ -79,6 +79,14 @@ Candidates
 
 # Other albums I listened to
 
+## Krasno/Moore Project: Book of Queens - Eric Krasno, Stanton Moore
+
+https://tidal.com/browse/album/281058057
+
+- very bluesy! Some covers, but mostly originals (as far as I can tell)
+- strong pocket grooves
+- great easy listening jams
+
 ## That! Feels Good! - Jessie Ware
 
 https://tidal.com/browse/album/290581948
