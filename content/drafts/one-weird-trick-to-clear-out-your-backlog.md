@@ -1,20 +1,22 @@
 ---
-title: "Pragmatic software testing guide"
+title: "One weird trick to clear out your backlog"
 created: 2023-04-27T12:20:34-05:00
 date:
 draft: true
-slug: pragmatic-software-testing-guide
+slug: one-weird-trick-to-clear-out-your-backlog
 ---
 
-- when to file a bug?
-- comparison to policing: if your job is to find "bad behavior", then you will over-prioritize bad behavior
-- when to discard bugs
-- backlog: serves as a repo for what has been reported previously or not
-- people don't search the backlog
-- lets stop reporting useless/low value bugs
-- when I was QA, I was very dedicated to the idea that "this is not right, and it is possible for it to be right, so it should be right". As a developer, I'm much more dedicated to the idea of pragmatism: if the enhancement doesn't provide value, or if it isn't causing issues in its current state, skip it.
+- [Setting the stage](#setting-the-stage)
+- [Doubling down, because I don't learn](#doubling-down-because-i-don-t-learn)
+- [Real, practical value](#real-practical-value)
+- [A golden rule for filing Bugs That Matter™️](#a-golden-rule-for-filing-bugs-that-matter™️)
+  - [Exceptions](#exceptions)
+- [Automatic prioritization](#automatic-prioritization)
+- [Less cognitive overhead](#less-cognitive-overhead)
+- [Deliver value _now_](#deliver-value-now)
+- [Things don't matter as much as you think they do in the moment](#things-dont-matter-as-much-as-you-think-they-do-in-the-moment)
 
----
+## Setting the stage
 
 A couple years ago, I [replied to a post](https://www.reddit.com/r/ProgrammerHumor/comments/nj82rf/life_of_a_qa_engineer/) on the [/r/ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor) subreddit. The title of the post was "Life of a QA engineer". The post was a link to an image of a GitHub issue with the title "Cat broke UI by holding down space".
 
@@ -138,6 +140,10 @@ The chance that software testers can use the backlog as a source of truth for al
 If your list of bugs has grown larger than can fit in a single person's working memory, then chances are your bug list is no longer providing value to your product.
 
 ## Deliver value _now_
+
+I propose that the ultimate goal of a software development team should be to deliver value. Delivering value makes most people feel good. So why do we often find ourselves toiling on work that doesn't matter?
+
+One issue is:... <!-- HELP! -->
 
 <!-- This section needs help, its not really clear what I'm trying to say -->
 
