@@ -34,7 +34,7 @@ The original post got +21,000 reputation, and my post got -30 🤣
 
 Recently I was discussing a tangentially-related issue with my boss and was reminded of this post from years ago. I realized how, if anything, I feel even more strongly about my original stance than I did at the time.
 
-It is possible (likely?) that the main reason my reply on Reddit got downvoted so strongly was because I was replying in a non-humorous way to a humor thread. Valid point. But based on the replies that people posted to me, I got a distinct sense that most people just plain disagreed with my perspective. [One popular reply to my post wrote](https://www.reddit.com/r/ProgrammerHumor/comments/nj82rf/comment/gz6qd4j/?utm_source=reddit&utm_medium=web2x&context=3):
+It is possible (likely?) that the main reason my reply on Reddit got downvoted so strongly was because I was replying in a non-humorous way to a humor thread - fair point. But based on the replies that people posted to me, I got a distinct sense that most people just plain disagreed with my perspective. [One popular reply to my post wrote](https://www.reddit.com/r/ProgrammerHumor/comments/nj82rf/comment/gz6qd4j/?utm_source=reddit&utm_medium=web2x&context=3):
 
 > Bugs should always be noted (assuming they're in scope, not part of a deprecated/unsupported module, etc), that doesn't mean they need to be fixed (or be fixed quickly)
 > ...
@@ -42,52 +42,7 @@ It is possible (likely?) that the main reason my reply on Reddit got downvoted s
 
 This perspective makes my blood start to boil, until I remember to take a breath and repeat my internet mantra a few times (_we're all just humans, doing our best in this difficult world. we're all just humans..._). As someone who proudly embraces "pragmatism" as my driving professional force, it breaks my brain to engage in practices that waste energy and provide no value.
 
-I categorically disagree with the statement that "bugs should always be noted", regardless of the caveat about being in scope. To explain why, let us consider what is the purpose of reporting a bug in software, and whose labor is expended to process bug reports?
-
-## What purpose is served by a reporting a bug?
-
-For the purposes of this article, let us agree that a "bug" is a synonym for a defect in software; that is, something that is not working as expected or designed. Given this definition, we can agree that a bug report is a (sometimes standardized) way to notify the software development team of a defect in their software.
-
-We can safely say that the literal purpose of a bug report is to document a defect in a piece of software. But what are the practical purposes of a bug report? Ideally, there are 2 major goals of a bug report:
-
-1. Bug reports serve as a starting point to fixing the bug - without documenting the bug, it will likely never be fixed
-2. Bug reports serve as an identifier to prevent future testers from submitting duplicate bug reports
-
-Both of these are noble goals, and justify reporting all bugs in a theoretical development framework. In reality, both of these processes often break down, thereby reducing the usefulnes of the bug report. More on this later.
-
-## The human cost of bug reports
-
-Some teams are structured in such a way that one person on the team is primarily responsible for managing the tickets in the backlog, and prioritizing work for the engineering team. In this type of structure, engineers rarely if ever look at the backlog. Its easy to forget that humans are doing labor every time tickets are prioritized. There is cognitive overhead to maintaining more tickets in the backlog. Decisions about what to prioritize become harder because its impossible to accurately represent the relative priority of 1000 or even 100 tickets. The result is that some tickets naturally rise to the top because they are clear and achieve a specific objective. The rest fall to the bottom and feed a latent background anxiety of everyone who looks at the backlog. It is truly hopeless to go through a list of 100+ tickets that are all approximately the same in terms of severity and assign a priority to them. When I say "approximately the same in terms of severity", I mean that in terms of real, practical value, no ticket is different from another.
-
-Having more tickets in the backlog than a team can reasonably complete means that some tickets will stay in the backlog forever. Who does this impact? Everyone! Digital clutter is still clutter, and having innumerable tickets in the backlog means cognitive overhead for everyone who looks at the backlog. It is difficult to quantify the cost of ticket-induced cognitive load (TICL{{< sup 1 >}}), but it is certainly above zero for the majority of people.
-
-The situation is even worse for product managers that need to read through the backlog on a regular basis to prioritize tickets relative to each other. In this case, the time required to correctly prioritize a bug scales linearly with the number of bugs that are sitting in the backlog. More bugs means more time necessary to prioritize bugs. This means less time is available for product development, which means less value delivered to the client.
-
-Software testers are also impacted by an overflowing backlog because, in reality, duplicate bugs are extremely common for one of two reasons:
-
-1. The original bug report is phrased in a different way than expected, so searching for the bug doesn't come up because the reporter is searching for the wrong term(s)
-2. The reporter is pressed for time and doesn't search for existing bugs before filing the bug.
-
-Bug-reports-as-documentation is a failed strategy because nobody reads bug tickets to understand a product, and they don't serve their intended effect of preventing duplicate bug reports.
-
-The chance that software testers can use the backlog as a source of truth for all documented bugs approaches zero as the list grows larger. Bugs are often complex, which means that describing them in words is difficult and prone to variance. If a bug is phrased in a slightly different way than one might expect when filing the bug report, it is unlikely that the reporter will find the bug report in the first place. This means that the second primary goal of bug reports - to "serve as an identifier to prevent future testers from submitting duplicate bug reports" - is nullified. If we only have 1 primary goal of bug reports (to "serve as a starting point to fixing the bug") then we'd better hope that goal is reasonable!
-
-## Should software work correctly?
-
-The answer to the question "should software work correctly" is often an unequivocal "yes" from most people working in software.
-
-In an ideal world, we can rightly observe that software is capable of working correctly. Barring solar flares or other non-ideal physical conditions, computers produce predictable, deterministic outputs for a given input. Since software runs on computers, the software is theoretically capable of perfectly deterministic behavior. Since software is capable of behaving in a deterministic way, we can rightly expect that bugs are fixable. If something can work in an optimal way but is instead working in a non-optimal way, it makes sense that we should expect it to work in the optimal way.
-
-Once humans get involved in using software, things get a lot more complicated. Deterministic software turns out to be relatively straight forward in some cases. On the other hand, accurately predicting all the possible ways that a user might interact with your software is extremely difficult, and maybe impossible when considering all possible combinations of hardware, supporting software (OS, drivers), and user input. Even if you can accurately map every possible user interaction with your software, the chance that you can add elegant handling for every permutation of user input is unlikely. With very few exceptions, software developers will need to make compromises, and often lump some behaviors together into common patterns of handling input. Why do they do this? Because developers are also humans (at least, for the time being 🤣...😳), and therefore they are bound by human limitations: time, energy, and motivation are primary limiting factors that cause humans to develop software that cannot elegantly handle every permutation of user input.
-
-It is patently unreasonable to expect that humans have unlimited energy. If there are multiple competing demands on a developer's time and energy (e.g. fixing bugs **and** producing useful product features), then it is unreasonable to assume that the developers can fix every single bug report in a reasonably complex piece of software. While a bug report can certainly provide a roadmap to fixing the bug, the usefulness of this roadmap greatly diminishes if the bug is unlikely to ever be addressed in the first place.
-
-Thus far, we have established that:
-
-1. In a reasonably complex piece of software, not every bug can be fixed due to limitations of human output. Therefore, not every bug report will be addressed.
-2. Excessive bugs in a backlog contribute to ticket-induced cognitive load (TICL{{< sup 1 >}}) for everyone involved: the product manager, the software developers, and the software testers themselves
-
-This leads me to the conclusion that the most compassionate solution is to be conservative about filing bugs. 🙂
+I categorically disagree with the statement that "bugs should always be noted", regardless of the caveat about being in scope. To explain why, let us consider what is the purpose of reporting a bug in software, and whose labor is expended to process bug reports.
 
 ## Real, practical value
 
@@ -106,67 +61,106 @@ It is also possible for the "user" to be the business, in which case some reason
 - Increase active user count
 - Increase referral rate
 
-<!--
-Not clear this serves my point
+If a unit of work (a "ticket") doesn't serve a goal for the product, then it probably isn't worth spending time on. If a bug report doesn't advance the value of the product, then it should not be filed in the first place! Does fixing a broken UI add value to your product? Maybe, depending on what goal you are trying to achieve.
 
-Certainly, "polished UI" can be a goal, but ultimately it is a self-serving goal. Unless the polished UI directly helps your user achieve a goal, then it is wasted energy. Of course, the goal might be "give the user a sense of pride in using this brand", or "impress the user to increase the odds of referral". In this case a polished UI is clearly in service of the stated goal. But it is nebulous to define exactly how a specific feature might contribute or take away from that goal -->
+In my experience, too few bugs (and even sometimes feature work) provide real value for the product. It is easy to get bogged down in the nuance of your day-to-day work and rarely "come up for air" to think about the product holistically. Some examples:
 
-If a unit of work (a "ticket") doesn't serve a goal for the product, then it probably isn't worth spending time on.
+- QA testers are going to be deeply focused on identifying defects in software; it is natural that a QA tester might get tunnel vision about bug reports and assume that just because something is wrong means it must be fixed. (I've done this myself)
+- Product managers might get deeply focused on a feature they are developing and add a bunch of details that seem important in the planning phase but realistically add very little value to a product.
+- Developers will commonly add technical complexity that does not add real value, simply because it adheres to a notion of a "best practice" or the way it "should" be written. (I've also done this 😆)
 
-<!--
-Pretty sure I can cut this whole paragraph
+It is clearly easy to lose sight of adding value to a product. Since bugs are inevitable in all software, it is common that complex software will have unresolved bug reports. Ensuring that bug reports add value to the product will pay massive dividends for your team over the long term.
 
-## Possible benefits of reporting bugs that will not be fixed
+## A golden rule for filing Bugs That Matter™️
 
-There are some possible reasons for which it might be justified to file low-severity bugs.
+What if I told you there was a single rule you could follow that would make you more productive, less stressed, and more motivated to do your work? Here it is:
 
-One situation is for the purpose of documentation. In an ideal scenario, team members or bug reporters will search for existing bug reports before filing a new bug. In this ideal scenario, having a bug documented in the backlog could save people from filing a duplicate instance of the bug. If this worked as expected, it would save labor for everyone because the bug would not need to be reassessed and reprioritized.
+**If a bug cannot be fixed within a month, it should be closed. If a bug has been open longer than a month, it should be closed.**
 
-In reality, duplicate bugs are extremely common for one of two reasons
+Why?
+
+1. If a bug has been sitting around for longer than a month, then it is - by definition - _not_ a high priority bug. We can safely continue to ignore it
+2. Every human has a limited amount of working memory. If a bug has been around longer than a month, then new work and new bugs have come in, and the bug is not in anybody's working memory. If it isn't in anybody's working memory, then other work has taken priority, and we can safely ignore the bug.
+3. If your team is in the extremely rare situation where you have no active work, then I guarantee nobody is going to feel motivated to spend their time squashing low-severity, low-priority bugs from more than a month ago
+
+There are several benefits to following a one-month bug expiration, such as:
+
+1. Automatic prioritization: if a bug is closed and it later gets re-reported, that is a hint that it is more important than originally thought. Maybe this time you will have capacity to fix it within a month
+2. Less cognitive overhead for _everybody_ on the team
+3. Keeps you and your team laser-focused on delivering value _now_
+
+### Exceptions
+
+I hear the chorus shouting "But what about...!". Of course this "golden rule" is not truly golden - there are exceptions in real life, such as:
+
+1. Feature work is not included in the one-month expiration; it can reasonably take more than a month to develop technical plans for a feature.
+2. Very large companies that do not move quickly. Perhaps they need more than a month to plan work for their development teams
+3. Early release software in alpha or beta stages. If you release software to beta testers, you are probably asking for a flood of bug reports that you cannot reasonably address within a month.
+   - _However!_ If you find yourself releasing a general availability product, the month-old rule should immediately kick in!
+4. Open source projects that are run by volunteers or part-time workers. While it is _extremely_ important to be highly conscientious about filing bug reports for open source projects, it isn't reasonable to expect that the same prioritization rules apply.
+   - It is worth noting that _a lot_ of the opinions and advice offered in this post do not apply very well to open source projects. If you are volunteering your time to build software for the world, please ignore me and do what works for you! 🙇🏻
+
+Bug reports obviously serve an important role in software development. A thorough and well-written bug report can be a gift from the heavens for a developer. However, even a perfectly written bug report can still cause toil if fixing it does not add value to your product. Fewer bugs for the sake of fewer bugs does not help anyone achieve their goals.
+
+Let's explore some the benefits of a one-month bug expiration in depth
+
+## Automatic prioritization
+
+One of the biggest challenges with delivering value to your users is knowing what to work on, and when. Prioritizing work can be remarkably difficult, and it takes a lot of energy. Feature work will always be challenging in this regard because the product team has to make trade-offs between what they want (probably everything) and what the engineering team can realistically deliver.
+
+Fixing bugs is always a difficult addition to the prioritization process. How does the bug's priority compare to a feature's priority? Is there a static percentage for how many bugs you take on vs. how many feature tickets you commit to? Do you try to fix every bug that is over a given severity?
+
+If you follow a system where bugs automatically expire after a month, much of this work is done for you. This system forces a team to focus on only high severity bugs that deliver high value. If they don't meet this criteria, they will likely expire after a month and nobody will notice or care. In my experience, it isn't difficult to get people on board with spending time fixing high-severity bugs; where it gets murky is fixing medium-to-low-severity bugs, particularly if its unclear how many people the bug is affecting. (Ideally we all have perfect metrics on user patterns and can quickly and accurately identify how many users are affected by any particular bug. In reality, this process is often fraught for a variety of reasons, the most common of which is that people are generally overworked and unable to perform due dilligence on every reported bug.)
+
+Less time prioritizing tickets means less effort spent on tedious work. This reduces cognitive overhead during the planning process, which as we will see, can pay massive dividends for the team.
+
+## Less cognitive overhead
+
+Some teams are structured in such a way that one person on the team is primarily responsible for managing the tickets in the backlog, and prioritizing work for the engineering team. In this type of structure, engineers rarely if ever look at the backlog. Its easy to forget that humans are doing labor every time tickets are prioritized. There is cognitive overhead to maintaining more tickets in the backlog. Decisions about what to prioritize become harder because its impossible to accurately represent the relative priority of 1000 or even 100 tickets.
+
+Have you ever read one of those internet lists that tries to rank the "top 100" of something - movies, albums, whatever? The bottom 90 entries all blur into one big glob because most people's brain's don't have enough working memory to accurately keep track of that many entries. The top 10 are significantly more interesting, not just because they are the "best", but because we as humans can actually process 10 items at a time. The mere existence of the ordered list does not indicate proper prioritization - e.g. the relative difference in priority between number 77 and 78 on the list would be nearly impossible for most people to determine.
+
+Back to bug reports: the result of a massive backlog is that some tickets naturally rise to the top because they are clear and achieve a specific objective. The rest fall to the bottom and feed the latent background anxiety of everyone who looks at the backlog. It is truly hopeless to go through a list of 100+ tickets that are all approximately the same in terms of severity and assign a priority to them. When I say "approximately the same in terms of severity", I mean that in terms of real, practical value, no ticket is different from another.
+
+Having more tickets in the backlog than a team can reasonably complete means that some tickets will stay in the backlog forever. Who does this impact? Everyone! Digital clutter is still clutter, and having innumerable tickets in the backlog means cognitive overhead for everyone who looks at the backlog. It is difficult to quantify the cost of ticket-induced cognitive load ("TICL™️"), but it is certainly greater than zero for most people.
+
+The situation is even worse for product managers that need to read through the backlog on a regular basis to prioritize tickets relative to each other. In this case, the time required to correctly prioritize a bug scales linearly with the number of bugs that are sitting in the backlog. More bugs means more time required to prioritize bugs. This means less time is available for product development, which means less value delivered to the user/client/customer.
+
+One common justification for unlimited bug reports is that bugs serve as documentation for known issues in the software. This is great in theory but in reality breaks down very quickly. Duplicate bug reports are extremely common for one of two reasons:
 
 1. The original bug report is phrased in a different way than expected, so searching for the bug doesn't come up because the reporter is searching for the wrong term(s)
-2. The reporter is pressed for time and doesn't search for existing bugs before filing the bug.
+2. The reporter is pressed for time (or lazy or overworked) and doesn't search for existing bugs before filing the bug
 
-Bug-reports-as-documentation is a failed strategy because nobody reads bug tickets to understand a product, and they don't serve their intended effect of preventing duplicate bug reports.
+"Bug reports as documentation" is a failed strategy because nobody reads bug tickets to understand a product, and they don't serve their intended effect of preventing duplicate bug reports.
 
-Another situation in which reporting low-severity bugs could be hypothetically beneficial is if the product team has unlimited time and can review all bug reports adequately. In reality, product teams are made up of humans, and the one thing that every working human has in common is being perpetually overworked. Product teams don't have time to review your bugs as assign appropriate priority. -->
+The chance that software testers can use the backlog as a source of truth for all documented bugs approaches zero as the list grows larger. Bugs are often complex, which means that describing them in words is difficult and prone to variance. If a bug is phrased in a slightly different way than one might expect when filing the bug report, it is unlikely that the reporter will find the bug report in the first place.
 
-## Perspective of a software tester
+If your list of bugs has grown larger than can fit in a single person's working memory, then chances are your bug list is no longer providing value to your product.
 
-Let's back up a little bit and talk about what might motivate a tester to report bugs in the first place.
+## Deliver value _now_
 
-I started my tech career in QA - first as a manual tester, and later as a QA engineer writing automated test cases. When my job was to verify correct behavior of software, it became extremely easy to find issues with the software I was testing. My perspective was often along the lines of: "it is possible for this software to work correctly, therefore it **should** work correctly". When I started my career, I would report all sorts of bugs, even if they were out of scope for the specific feature/ticket I was testing. As I progressed in my career and got more perspective on the real flow of development teams, I realized that many of my bugs were causing toil for the development team. Reporting low-severity bugs resulted in discussions with the developers about whether or not it was in scope for the feature, and eventually discussions with the product team about whether or not the behavior was worth fixing. In an abstract way, these types of bug reports resulted in a "better" product, in that things were working "correctly" from the arbitrary perspective of me, the QA engineer. What I consistently failed to consider, though, was whether or not my bug reports provided real value to the users of the software.
+<!-- This section needs help, its not really clear what I'm trying to say -->
 
-After I started working primarily as a developer, my view changed. As a developer, my job is to build features. Of course, building features has the parallel goal of building features **correctly**. Building features that are riddled with bugs is not really meeting the goal of the feature in the first place.
+Too often, teams get bogged down trying to make their software "correct" and forget that their primary perogative is to deliver value. It is worth asking: does it even matter if your software works correctly? In an ideal world, software is always capable of working correctly. Since software _can_ work correctly, we expect that all bugs are fixable.
 
-When my primary perspective is that of building value, it is easier to see when bugs provide value or not. But when my primary perspective was to ensure correctness, I found a lot more of my attention going towards finding things that were incorrect, even if they were low value. This is all to say, I think that it is a natural consequence of telling people to find bugs that we end up getting extraneous bug reports that provide very little value. Certainly if someone is paid to find things that are wrong, they will be able to find them! Is that really the right goal though?
+Once humans get involved in using software, things get a lot more complicated. With very few exceptions, software developers will need to make compromises on the software they deliver. Why do they do this? Because developers are also humans (at least, for the time being 🤣...😳), and therefore they are bound by human limitations: time, energy, and motivation are primary limiting factors that cause humans to develop software that might occassionally break.
+
+It is patently unreasonable to expect that humans have unlimited energy. If there are multiple competing demands on a developer's time and energy (e.g. fixing bugs **and** producing useful product features), then it is unreasonable to assume that the developers can fix every single bug report in a complex piece of software. While a bug report can certainly provide a roadmap to fixing the bug, the usefulness of this roadmap greatly diminishes if the bug is unlikely to ever be addressed in the first place.
+
+In a reasonably complex piece of software, not every bug can be fixed due to limitations of human output. Therefore, not every bug report will be addressed. The presence of bugs in software is inevitable.
+
+By removing the cognitive burden of a never-ending list of bugs that "should" to be fixed, teams can regain their time, energy, and motivation to deliver value on things that matter.
 
 ## Things don't matter as much as you think they do in the moment
 
-It is really easy to have strong feelings about things in the moment. Software developers are famously opinionated people; even though product owners are not always perceived as being hyper-opinionated, they will always have a stake in their products.
+It is really easy to have strong feelings about things in the moment. Software developers are famously opinionated people. Product owners are not always perceived as being hyper-opinionated, they will always have a stake in their products. Similarly, QA tester/engineers have a tendency to prioritize a bug they reported over other work, because of a natural bias towards one's own work.
 
-But, it is almost a universal rule that the level of caring drops off exponentially over time. So unless a bug report can be addressed in a very short amount of time, the chance that someone will care about it in a month is extremely small. If bug fixes have diminishing returns for the people that filed them, then we can reasonably deduce that the bug fix does not provide a lot of value to users.
+However, it is almost a universal rule that the level of investment in a specific bug drops off exponentially over time. Unless a bug report can be addressed in a very short amount of time, the chance that someone will care about it in a month is extremely small. If bug fixes have diminishing returns for the people that filed them, then the bug fix may not provide a lot of value to users either.
 
 Unless bugs provide real value to the user, we should no be spending time on them!
 
-## A better way: filing Bugs That Matter™️
+In summary:
 
-Bug reports obviously serve an important role in software development. A thorough and well-written bug report can be a gift from the heavens for a developer. However, even a perfectly written bug report can still cause toil if it doesn't represent value, in the form of working towards a goal. Fewer bugs for the sake of fewer bugs does not help anyone achieve their goals.
-
-<!-- TODO: should I just use ™️ instead of having low-value footnotes? -->
-
-Conscientious Bug Reports (CBR{{< sup 2 >}}) is a framework for filing Bugs That Matter™️. Importantly, it has nothing to do with actually writing a bug! Instead, it has everything to do with whether or not the bug report is even filed. This is conscientious for your team, your project's future maintainers, and yourself.
-
-To make it as simple as possible, we've derived a single question that can help you determine if a bug is a CBR
-
-1. Does the bug need to get fixed in the next month?
-   - Yes: file the bug report 🐛
-   - No: do not file the bug report 🎉 Bugs that are so low priority that they don't need to get fixed within a month are not CBRs
-
-If you made it through and the bug got filed, good for you! You just filed a Conscientious Bug Report. If you stopped along the way, good for you! You just saved time and toil for yourself and others, go treat yourself to some ice cream 🙂
-
----
-
-{{< sup 1 >}}TICL, or "ticket-induced cognitive load", is a made-up term, and therefore considered to be coined by {{ .Site.Title }}
-
-{{< sup 2 >}}CBR, or "conscientious bug reports", is also a made-up term, and therefore considered to be coined by {{ .Site.Title }}
+1. Try your best to file meaningful bug reports. Does fixing your bug add value to the product? Does your team have time in the next month to address the bug? If the answer to either of these questions is "no", consider not filing it
+2. Always be conscientious when filing bugs on open source projects. In all liklihood, the maintainer(s) do(es) not have enough time or energy to care about your bug report.
+3. If you're responsible for maintaining a backlog for your team, consider auto-closing all bugs that have been open longer than a month. Make this a part of your work routine! See if there is any measurable negative outcomes, or any measurable positive outcomes.
