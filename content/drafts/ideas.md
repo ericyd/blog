@@ -22,3 +22,4 @@ slug: ideas
 - https://www.linkedin.com/posts/y-combinator_the-pocket-guide-of-essential-yc-advice-activity-7052016208442769408-D802
 
 - "Should": the most dangerous word
+- Massage chairs at malls are never used because public pleasure is not comfortable. Why is pleasure attached to shame?
