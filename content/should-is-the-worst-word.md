@@ -1,8 +1,8 @@
 ---
-title: "'Should' is the worst word"
+title: '"Should" is the worst word'
 created: 2023-05-10T19:00:30-05:00
-date:
-draft: true
+date: 2023-05-10T20:59:06-0500
+draft: false
 slug: should-is-the-worst-word
 ---
 
