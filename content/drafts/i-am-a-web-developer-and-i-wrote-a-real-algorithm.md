@@ -63,7 +63,8 @@ But...was it fun? Ok, fine, yes it was 😏
 Here's my full solution (in TypeScript). I don't share this to brag about my programming prowess, but rather to share what I consider to be a "real algorithm":
 
 ```typescript
-// type is more useful than `typeof` because it differentiates Objects from Arrays
+// type is more useful than `typeof`
+// because it differentiates Objects from Arrays
 // this could be implemented manually if you don't want dependencies
 import { type } from "ramda";
 
@@ -76,13 +77,7 @@ export function findEmail(obj = {}): string | null {
   function search(stack: ReturnType<typeof Object.entries>): string | null {
     const children = [];
     while (stack.length) {
-      const current = stack.pop();
-      // "current" could be an Object if one of the child values is an array of objects, which would then be pushed to the queue
-      if (type(current) === "Object") {
-        children.push(...Object.entries(current));
-        continue;
-      }
-      const [key, value] = current;
+      const [key, value] = stack.pop();
       if (key.includes("email") && isNonEmptyString(value)) {
         return value;
       }
