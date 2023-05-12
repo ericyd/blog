@@ -4,11 +4,9 @@ created: 2023-05-12T09:10:15-05:00
 date:
 draft: true
 slug: i-am-a-web-developer-and-i-wrote-a-real-algorithm
+description: >
+  I've worked in tech for about 7 years - about 4 as QA and about 3 as a developer. Algorithms are a part of any software engineer's daily life, but the algorithms I wrote always seemed trivial and mundane compared to Real Algorithms™️ that I would see on LeetCode et. al. Today I wrote an actual breadth-first search algorithm that moved beyond the basic examples that are shown in most problem sets! Proof that even web developers sometimes need to know Real Computer Science™️.
 ---
-
-## TLDR
-
-I've worked in tech for about 7 years - about 4 as QA and about 3 as a developer. Algorithms are a part of any software engineer's daily life, but the algorithms I wrote always seemed trivial and mundane compared to Real Algorithms™️ that I would see on LeetCode et. al. Today I wrote an actual breadth-first search algorithm that moved beyond the basic examples that are shown in most problem sets! Proof that even web developers sometimes need to know Real Computer Science™️.
 
 ## The problem
 
