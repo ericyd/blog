@@ -33,3 +33,11 @@ This will
 
 1. "build" (i.e. copy public files into /build directory)
 2. publish to Cloudflare pages
+
+## New post
+
+```
+hugo new drafts/my-new-post.md
+```
+
+Interestingly, the `.md` is _critical_ in this command. Without it, Hugo won't know which archetype to use.
