@@ -79,6 +79,14 @@ Candidates
 
 # Other albums I listened to
 
+## Ubuntu - Jonathan Butler
+
+https://tidal.com/browse/album/280816123
+
+- Lots of interesting influences here! Good album overall
+- Some groovy, but mostly I'd say its a pretty album. Very melodic, very peaceful
+- Would definitely like to listen to this again
+
 ## Krasno/Moore Project: Book of Queens - Eric Krasno, Stanton Moore
 
 https://tidal.com/browse/album/281058057
