@@ -66,11 +66,6 @@ But...was it fun? Ok, fine, yes it was 😏
 Here's my full solution (in TypeScript). I don't share this to brag about my programming prowess, but rather to share what I consider to be a "real algorithm":
 
 ```typescript
-// type is more useful than `typeof`
-// because it differentiates Objects from Arrays
-// this could be implemented manually if you don't want dependencies
-import { type } from "ramda";
-
 /**
  * A (surely suboptimal) breadth-first search.
  * Goal is to find a key that contains "email"
@@ -79,8 +74,7 @@ import { type } from "ramda";
 export function findEmail(obj = {}): string | null {
   function search(stack: ReturnType<typeof Object.entries>): string | null {
     const children = [];
-    while (stack.length) {
-      const [key, value] = stack.pop();
+    for (const [key, value] of stack) {
       if (key.includes("email") && isNonEmptyString(value)) {
         return value;
       }
@@ -106,6 +100,28 @@ export function findEmail(obj = {}): string | null {
 function isNonEmptyString(value: unknown): value is string {
   return typeof value === "string" && value.trim() !== "";
 }
+
+// We need a function that can differentiate Objects from Arrays (unlike `typeof`).
+// If you can tolerate adding a dependency, just use `type` from ramda
+// https://github.com/ramda/ramda/blob/241f81126cefe87147120b09ab4090c0ca89b244/source/type.js
+function type(value) {
+  return value === null
+    ? "Null"
+    : value === undefined
+    ? "Undefined"
+    : Object.prototype.toString.call(value).slice(8, -1);
+}
+```
+
+To test that it is performing breadth-first search, you can call it with an object that has nested "email" keys on either side (alphabetically) of a top-level "email" key.
+
+```javascript
+const obj = {
+  a: [{ email: "test@example.com" }],
+  customer_email: "customer@example.com",
+  z: [{ email: "test@example.com" }],
+};
+findEmail(obj); // => 'customer@example.com'
 ```
 
 ## Why was this a notable experience for me?
