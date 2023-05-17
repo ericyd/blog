@@ -5,6 +5,7 @@ date: 2023-05-10T20:59:06-0500
 draft: false
 slug: should-is-the-worst-word
 description: Should is the worst word. When used without context or qualification, it implies the existence of a universal value system to which everyone is beholden. The word "should" instigates feelings of inferiority and inadequacy while providing no concrete value in conversation.
+tags: [language, life]
 ---
 
 ## TLDR

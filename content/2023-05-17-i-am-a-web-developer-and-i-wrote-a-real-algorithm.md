@@ -5,6 +5,7 @@ date: 2023-05-17T10:31:59-0500
 draft: false
 slug: i-am-a-web-developer-and-i-wrote-a-real-algorithm
 description: Algorithms are a part of any software engineer's daily life, but the algorithms I wrote always seemed trivial and mundane compared to Real Algorithms™️ that I would see on LeetCode et. al. Today I wrote an actual breadth-first search algorithm that moved beyond the basic examples that are shown in most problem sets! Proof that even web developers sometimes need to know Real Computer Science™️
+tags: [algorithms, data-structures, DSA]
 ---
 
 ## TLDR

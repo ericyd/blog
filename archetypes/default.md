@@ -6,4 +6,5 @@ date:
 draft: true
 slug: {{ .Name }}
 description: 
+tags: []
 ---
