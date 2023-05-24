@@ -57,7 +57,7 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
         {{ range .Pages.ByDate.Reverse }}
         <li>
           {{ .Page.Date | time.Format "Jan 2, 2006" }}
-          <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+          <a href="{{ .Page.Permalink }}">{{ .Page.Title | markdownify }}</a>
         </li>
         {{ end }}
       </ul>

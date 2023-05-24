@@ -1,16 +1,16 @@
 ---
-title: "Indispensable VSCcode extensions Part 1: `cmd+k+w`"
+title: "Indispensable VS Code extensions Part 1: `cmd+k+w`"
 created: 2023-05-24T17:51:36-05:00
 date:
 draft: true
-slug: indispensable-vscode-extensions-pt-1-cmd-k-w
+slug: indispensable-vs-code-extensions-pt-1-cmd-k-w
 description: Open your editor right now and press `cmd+k+w` (Mac) or `ctrl+k+w` (Windows). Thank me later
 tags: [vscode]
 ---
 
 ## TLDR
 
-Open your editor right now and press `cmd+k+w` (Mac) or `ctrl+k+w` (Windows). Thank me later
+Open VS Code right now and press `cmd+k+w` (Mac) or `ctrl+k+w` (Windows). Thank me later
 
 ## What does it do?
 
