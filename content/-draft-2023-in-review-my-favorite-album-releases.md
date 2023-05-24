@@ -79,6 +79,12 @@ Candidates
 
 # Other albums I listened to
 
+## Lean In - Gretchen Parlato, Lionel Loueke
+
+https://tidal.com/browse/album/272608863
+
+- I find this album pretty interesting, very mellow, lilting, melodic, happy, peaceful, rhymically interesting
+
 ## Ubuntu - Jonathan Butler
 
 https://tidal.com/browse/album/280816123
