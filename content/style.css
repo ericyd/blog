@@ -52,6 +52,29 @@ li {
   line-height: 1.6em;
 }
 
+.homepage-article-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.homepage-article-list li {
+  padding: 1.6rem 0 0;
+}
+/* "border" between list elements */
+.homepage-article-list li:after {
+  content: '';
+  border-bottom: 1px solid var(--gray);
+  width: 50%;
+  display: block;
+  /* 2.6rem = 1rem + 1.6rem to "center" between list elements
+     1rem comes from li margin-top
+     1.6rem comes from .homepage-article-list li padding-top */
+  margin: 2.6rem auto 0;
+}
+.homepage-article-list li a {
+  display: block;
+}
+
 h1,h2,h3,h4 {
   margin: 2rem 0 0;
 }
