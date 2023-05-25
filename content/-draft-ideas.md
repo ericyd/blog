@@ -24,3 +24,4 @@ slug: ideas
 - Massage chairs at malls are never used because public pleasure is not comfortable. Why is pleasure attached to shame?
 - sound mixers need to [understand their audience and mix properly for home audio systems](https://www.indiewire.com/features/general/why-tv-dialogue-hard-hear-users-viewers-1234832289/)
 - tips for context switching (ala content/-draft-indispensible-vscode-extensions-pt-1-cmd-k-w.md)
+- plastic-wrapped cans are the apocalypse incarnate
