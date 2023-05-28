@@ -25,3 +25,7 @@ slug: ideas
 - sound mixers need to [understand their audience and mix properly for home audio systems](https://www.indiewire.com/features/general/why-tv-dialogue-hard-hear-users-viewers-1234832289/)
 - tips for context switching (ala content/-draft-indispensible-vscode-extensions-pt-1-cmd-k-w.md)
 - plastic-wrapped cans are the apocalypse incarnate
+- The benefits/usefulness of overshooting. E.g. Piano practice, playing too loudly then dial it back. Abolishing police or jail, let's overshoot and come back to a more just solution
+- "Texas is the best, Texas is the worst". Religious freedoms, voting rights, local self-governing, housing, drugs, abortion, health care, taxation. But god damn its nice to be outside every day of the year
+- List of "advive", or "things that have worked for me" a la Freakonomics episode 507
+- Signs of aging: parties that start at 10 or 11...
