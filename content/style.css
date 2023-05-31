@@ -94,25 +94,26 @@ img {
 
 /* from https://cdn.infoq.com/statics_s1_20230530072659/styles/style.css */
 blockquote {
- display: block;
- position: relative;
- padding: 0.8rem 1.6rem;
- font-size: 1rem;
- line-height: 1.5rem;
- border-left: 0.4rem solid var(--gray);
- margin:20px 0;
- font-style:normal;
- background: var(--off-white);
- border-radius: 0.2rem;
+  display: block;
+  position: relative;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin:20px 0;
+  font-style:normal;
+  border-radius: 0.2rem;
+  border-left: 0.4rem solid var(--gray);
+  background: var(--off-white);
+  color: var(--black);
 }
-blockquote:before {
- background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='14' viewBox='0 0 20 14'%3e %3cpath fill='black' fill-rule='evenodd' d='M0.107526882%2c9.3415 C0.107526882%2c11.867625 2.12064516%2c13.9153437 4.60408602%2c13.9153437 C7.08752688%2c13.9153437 9.10064516%2c11.867625 9.10064516%2c9.3415 C9.10064516%2c6.8464375 7.13569892%2c4.81928125 4.6944086%2c4.7700625 C5.82967742%2c3.63759375 7.38451613%2c2.93803125 9.10064516%2c2.93803125 L9.10064516%2c0.1938125 C4.13397849%2c0.1938125 0.107526882%2c4.28946875 0.107526882%2c9.3415 L0.107526882%2c9.3415 Z M19.8924731%2c0.1938125 C14.9258065%2c0.1938125 10.8993548%2c4.28946875 10.8993548%2c9.3415 C10.8993548%2c11.867625 12.9126882%2c13.9153437 15.395914%2c13.9153437 C17.8793548%2c13.9153437 19.8924731%2c11.867625 19.8924731%2c9.3415 C19.8924731%2c6.8464375 17.9275269%2c4.81928125 15.4862366%2c4.7700625 C16.6215054%2c3.63759375 18.1765591%2c2.93803125 19.8924731%2c2.93803125 L19.8924731%2c0.1938125 L19.8924731%2c0.1938125 Z'/%3e %3c/svg%3e");
- background-repeat: no-repeat;
- background-position: center;
- content: '';
- width: 2rem;
- height: 2rem;
- display: block;
+blockquote::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='14' viewBox='0 0 20 14'%3e %3cpath fill='currentColor' fill-rule='evenodd' d='M0.107526882%2c9.3415 C0.107526882%2c11.867625 2.12064516%2c13.9153437 4.60408602%2c13.9153437 C7.08752688%2c13.9153437 9.10064516%2c11.867625 9.10064516%2c9.3415 C9.10064516%2c6.8464375 7.13569892%2c4.81928125 4.6944086%2c4.7700625 C5.82967742%2c3.63759375 7.38451613%2c2.93803125 9.10064516%2c2.93803125 L9.10064516%2c0.1938125 C4.13397849%2c0.1938125 0.107526882%2c4.28946875 0.107526882%2c9.3415 L0.107526882%2c9.3415 Z M19.8924731%2c0.1938125 C14.9258065%2c0.1938125 10.8993548%2c4.28946875 10.8993548%2c9.3415 C10.8993548%2c11.867625 12.9126882%2c13.9153437 15.395914%2c13.9153437 C17.8793548%2c13.9153437 19.8924731%2c11.867625 19.8924731%2c9.3415 C19.8924731%2c6.8464375 17.9275269%2c4.81928125 15.4862366%2c4.7700625 C16.6215054%2c3.63759375 18.1765591%2c2.93803125 19.8924731%2c2.93803125 L19.8924731%2c0.1938125 L19.8924731%2c0.1938125 Z'/%3e %3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: '';
+  width: 2rem;
+  height: 2rem;
+  display: block;
 }
 blockquote p {
   display: inline;
@@ -205,6 +206,7 @@ https://github.com/ericyd/generative-art/blob/94394078574a83f7842ca38543a528ef95
       --black: #f9fafb;
       --white: #18181b;
       --gray: #a1a1aa;
+      --off-white: #48484b;
     }
   }
 }
