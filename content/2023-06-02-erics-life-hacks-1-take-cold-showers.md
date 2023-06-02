@@ -10,13 +10,13 @@ tags: [showers, life]
 
 ## TLDR
 
-Don't wait for your water to heat up before you hop into your shower. Step in, stare directly into your shower head, and turn on the water full blast. Cold showers are more invigorating, they conserve water and energy, and they will make you feel alive again.
+Don't wait for your water to heat up before you hop into your shower. Step in, stare directly into your showerhead, and turn on the water full blast. Cold showers are invigorating, conserve water and energy, and make you feel alive again.
 
 ## The life hack in a nutshell
 
-About 3-4 months ago I started taking cold showers after my morning workouts. I've since transitioned to _always_ taking cold showers, regardless of time of day or workout status. For me, a "cold shower" means getting into the shower with no water running, staring straight into the shower head, and turning on the water full blast before any hot water can come out. I have a shower with two handles - one for cold and one for hot - and my current preference is to turn on the cold handle 100% and the hot handle about 25%. That way the shower slowly becomes more "room temperature" as the hot water starts to flow.
+About 3-4 months ago, I started taking cold showers after my morning workouts. Now, I take cold showers all the time, regardless of the time of day or my workout status. For me, a "cold shower" means getting into the shower with no water running, staring straight into the showerhead, and turning on the water full blast before any hot water can come out. I have a shower with two handles - one for cold and one for hot - and my current preference is to turn on the cold handle 100% and the hot handle about 25%. This way, the shower gradually becomes more "room temperature" as the hot water starts to flow.
 
-One major caveat I'll note is that I live in Texas, so it is reasonably warm most of the year. I acknowledge that this practice will take substantially more willpower if you live in a colder climate.
+One major caveat: I live in Texas, where it's reasonably warm most of the year. This practice may require more willpower if you live in a colder climate.
 
 ## Why?
 
@@ -28,12 +28,12 @@ I've noticed several benefits to taking cold showers:
 
 ## How?
 
-I found that creating a ritual around the initial discomfort of a cold shower was helpful for me to start this practice. My ritual looked like this.
+I found that creating a ritual around the initial discomfort of a cold shower was helpful for me to start this practice. Here's my ritual:
 
-1. When I step into the bathroom, mentally remind myself that I'm going to take a cold shower
-2. Repeat a phrase to myself to justify the cold shower. For me, a short phrase is a great way to remind myself that the discomfort is temporary and the benefits are much more persistent.
-3. No hesitation: Figure out a way to reduce as much friction as possible to starting the shower. You can't spend a lot of time thinking about it, you must set up a system in which you can act without much thought. This might mean setting things up the night before so you can hop in without thinking about any details like soap, towels, lights, bathroom fan, etc.
+1. Mental preparation: When I step into the bathroom, I remind myself that I'm going to take a cold shower.
+2. Repeat a phrase: This helps me justify the cold shower to myself. It reminds me that the discomfort is temporary and the benefits are more persistent.
+3. No hesitation: Minimize friction to starting the shower. Set up a system in which you can act without much thought. This might involve preparing things the night before, so you can hop in without worrying about details like soap, towels, lights, or the bathroom fan.
 
 ## Conclusion
 
-Cold showers have been a great change for me. Try it out for a week and if you aren't convinced, you can go back to your warm spa showers.
+Cold showers have been a great change for me. Try it out for a week and if you aren't convinced, you can always go back to your warm spa showers.
