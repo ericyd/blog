@@ -79,6 +79,14 @@ Candidates
 
 # Other albums I listened to
 
+## Off-Piste - Greg Foat, Art Themen
+
+https://tidal.com/browse/album/288489375
+
+- kind of atmospheric jazz in general. Not to say it's formless, but leans more towards "spacey" than "funky".
+- very interesting textures, and some good grooves. Well made music
+- I'd like to give this another listen if I have time
+
 ## Lean In - Gretchen Parlato, Lionel Loueke
 
 https://tidal.com/browse/album/272608863
