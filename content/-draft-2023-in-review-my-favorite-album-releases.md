@@ -79,6 +79,14 @@ Candidates
 
 # Other albums I listened to
 
+## Salt - Half Moon Run
+
+https://tidal.com/browse/album/287079711
+
+- kind of like crooning, acousting guitar pop?
+- not something I see myself returning to very much
+- not "bad" or anything, just not quite my style
+
 ## Off-Piste - Greg Foat, Art Themen
 
 https://tidal.com/browse/album/288489375
