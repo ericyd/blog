@@ -79,6 +79,14 @@ Candidates
 
 # Other albums I listened to
 
+## Friendship EP - Surprise Chef
+
+https://tidal.com/browse/album/278822105
+
+- pensive, groovy, spacey
+- really good! Deserves another listen!
+- interesting album, but a fun one
+
 ## Salt - Half Moon Run
 
 https://tidal.com/browse/album/287079711
