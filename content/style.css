@@ -60,11 +60,13 @@ li {
 .homepage-article-list li {
   padding: 1.6rem 0 0;
 }
-/* "border" between list elements */
+/* "border" between list elements.
+this would be simpler as an actual 'border' property, but leaving this as-is in case
+I want to reduce the width in the future */
 .homepage-article-list li:after {
   content: '';
   border-bottom: 1px solid var(--gray);
-  width: 50%;
+  width: 100%;
   display: block;
   /* 2.6rem = 1rem + 1.6rem to "center" between list elements
      1rem comes from li margin-top
@@ -116,7 +118,8 @@ blockquote::before {
   display: block;
 }
 blockquote p {
-  display: inline;
+  display: block;
+  margin: 0;
 }
 
 figure {
@@ -127,6 +130,7 @@ figcaption {
 }
 code {
   border: 1px solid;
+  border-radius: 2px;
   padding: 0.1rem 0.3rem;
   tab-size: 4;
 }
