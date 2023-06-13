@@ -79,6 +79,12 @@ Candidates
 
 # Other albums I listened to
 
+## Cloud Lifter - Sam Barsh
+
+https://tidal.com/browse/album/291340976
+
+- kind of unfocused? Some tracks are kind of trip-hop/instrumental hip-hop vibes, then _Duff and a Shot_ is like a retro blues/funk organ trio jam. I kind of like the vibes, it is all pretty groovy morning time music, I'm just not sure how cohesive it is as an album. (Granted, this is my "halfway through" reaction.)
+
 ## Friendship EP - Surprise Chef
 
 https://tidal.com/browse/album/278822105
