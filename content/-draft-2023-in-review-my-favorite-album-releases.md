@@ -79,6 +79,19 @@ Candidates
 
 # Other albums I listened to
 
+## In Times New Roman... - Queens of the Stone Age
+
+https://tidal.com/browse/album/296746207
+
+- Honestly a more solid album than I expected. Some really great grooves. Doesn't feel like it's pushing the envelope too much but it's classic QOTSA doing what they do best. Great riff-based rock music. Deserves another listen, I had a lot of fun on my first listen of this
+
+## 1-800-SUC-CESS - Redinho
+
+https://tidal.com/browse/album/295015169
+
+- Whoa! Such a fun album! Great electro-funk vibes.
+- Good for background or foreground listening, really enjoying this of my first listen
+
 ## Cloud Lifter - Sam Barsh
 
 https://tidal.com/browse/album/291340976
