@@ -8,6 +8,8 @@ https://git.sr.ht/~bt/barf/tree/8bdd163d69369316be145ac9a2e1d45b633d5d43/item/he
   --gray: #4b5563;
   --white: #f9fafb;
   --off-white: #e9eaeb;
+  --link: royalblue;
+  --link-visited: hsl(261.0, 45%, 43%);
 }
 
 * {
@@ -199,18 +201,18 @@ https://github.com/ericyd/generative-art/blob/94394078574a83f7842ca38543a528ef95
   text-decoration: none;
 }
 
+a:link {color: var(--link);}
+a:visited {color: var(--link-visited);}
 @supports (color-scheme: dark light) {
   @media screen and (prefers-color-scheme: dark) {
-    a:link {color: #9e9eff;}
-    a:visited {color: #d0adf0;}
-    a:active {color: red;}
-
     :root {
       /* https://github.com/ericyd/loop-supreme/blob/bd22ed519dbf633d8ba67792f2fd6aa704d92f87/tailwind.config.js#L29-L31 */
       --black: #f9fafb;
       --white: #18181b;
       --gray: #a1a1aa;
       --off-white: #48484b;
+      --link: #9e9eff;
+      --link-visited: #d0adf0;
     }
   }
 }
