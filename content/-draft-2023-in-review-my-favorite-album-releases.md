@@ -3,7 +3,7 @@ title: "2023 in review: My favorite album releases"
 created: 2023-04-19T19:58:04-05:00
 date:
 draft: true
-slug: 2023-is-a-place-that-i-wanna-be4
+slug: 2023-in-review-my-favorite-album-releases
 ---
 
 Candidates
@@ -78,6 +78,27 @@ Candidates
 - damn "Parasite" is great too!!!
 
 # Other albums I listened to
+
+## Slugs of Love - Little Dragon
+
+https://tidal.com/browse/album/292747938
+
+- Groovy, electronic, fun, bop, light hearted, catchy, lush.
+- First impression is VERY good! Feels like a contender
+
+## Sunblind - Jacana People
+
+https://tidal.com/browse/album/294977629
+
+- Really nice electronica album!
+
+## PetroDragonic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation - King Gizzard & The Lizard Wizard
+
+https://tidal.com/browse/album/299065996
+
+- Metal (?). Heavy grooves throughout! Pretty in your face
+- well made for sure, I'm not convinced it speaks to me more than being a fun change of pace, but then again I'm not sure!
+- I guess I'm not sure when I would ever be craving to listen to it again
 
 ## In Times New Roman... - Queens of the Stone Age
 
