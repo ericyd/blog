@@ -10,7 +10,7 @@ tags: [typescript, rust, wasm, webassembly]
 
 ## TLDR
 
-I was inspired [by a blog post I read](https://rybicki.io/blog/2023/06/27/rust-crate-into-typescript-library.html) to try making a Rust-to-WASM-powered TypeScript lib. I wanted a tangible and low-hanging goal, so I set out to make the fastest case-changing library for Node.js. I tried, and failed hard.
+I was inspired [by a blog post I read](https://rybicki.io/blog/2023/06/27/rust-crate-into-typescript-library.html) to try making a Rust-to-WebAssembly-powered TypeScript lib. I wanted a tangible and low-hanging goal, so I set out to make the fastest case-changing library for Node.js. I tried, and failed hard.
 
 ## What is case-changing?
 
@@ -21,14 +21,14 @@ I'm using "casing" in the nerd sense, so think things like `camelCase`, `snake_c
 I won't really go too much into the details of the build process because [this other post](https://rybicki.io/blog/2023/06/27/rust-crate-into-typescript-library.html) already covers it quite well. But suffice to say the general flow goes like this:
 
 1. Create a Rust lib that exposes some public functions. These will be called by TypeScript.
-2. Use [`wasm-pack`](https://www.npmjs.com/package/wasm-pack) to compile the Rust lib to WASM and generate the JS bindings.
-3. Compile the TypeScript wrapper and point to the pre-build WASM bindings.
+2. Use [`wasm-pack`](https://www.npmjs.com/package/wasm-pack) to compile the Rust lib to WebAssembly and generate the JS bindings.
+3. Compile the TypeScript wrapper and point to the pre-build WebAssembly bindings.
 
 Everthing is built on the shoulders of giants; this ended up being a pretty simple thing to set up thanks to all the amazing work of the community! You can [check out my "finished" version here](https://github.com/ericyd/fast-case).
 
 ## Building a fast library
 
-I knew that, to make my library as fast as possible, I'd have to do as little work as possible in JS land and do as much work as possible in Rust land. One consistent feature I've kept throughout my library iterations is that the TS index file is extremely minimal - the functions it exposes merely delegate to the compiled WASM functions. The main purpose here is that the function names are `camelCase` (per JS conventions) whereas the compiled WASM functions are `snake_case` (per Rust conventions).
+I knew that, to make my library as fast as possible, I'd have to do as little work as possible in JS land and do as much work as possible in Rust land. One consistent feature I've kept throughout my library iterations is that the TS index file is extremely minimal - the functions it exposes merely delegate to the compiled WebAssembly functions. The main purpose here is that the function names are `camelCase` (per JS conventions) whereas the compiled WebAssembly functions are `snake_case` (per Rust conventions).
 
 My first algorithm went like this:
 
@@ -57,7 +57,7 @@ Iterating through the raw byte array was extremely fast, but after I added some 
 
 ## Trying to reduce memory copying
 
-One thing I knew was probably slowing me down was copying the string from the Node.js runtime to the WASM runtime. As described in the [Rust WASM docs on the `str` type](https://rustwasm.github.io/wasm-bindgen/reference/types/str.html):
+One thing I knew was probably slowing me down was copying the string from the Node.js runtime to the WebAssembly runtime. As described in the [Rust Wasm docs on the `str` type](https://rustwasm.github.io/wasm-bindgen/reference/types/str.html):
 
 > Copies the string's contents back and forth between the JavaScript garbage-collected heap and the Wasm linear memory with TextDecoder and TextEncoder. If you don't want to perform this copy, and would rather work with handles to JavaScript string values, use the js_sys::JsString type.
 
@@ -83,11 +83,11 @@ I added a [bunch of tests](https://github.com/ericyd/fast-case/blob/c69d16d60f4f
 
 ## Final JS benchmarking
 
-One thing I knew was that the overhead of copying the string to WASM was slowing me down substantially. This meant that longer strings would probably perform better in my lib than in `change-case`, because the core functionality of converting the string would be faster and therefore offset the cost of copying the string in memory. I tested this hypothesis and I was correct. `fast-case` was comparable to `change-case` when using a [reasonably long string input](https://github.com/ericyd/fast-case/blob/c69d16d60f4f1b4ae7738c15e356ded946a3e0fc/benches/index.js#L27).
+One thing I knew was that the overhead of copying the string to WebAssembly was slowing me down substantially. This meant that longer strings would probably perform better in my lib than in `change-case`, because the core functionality of converting the string would be faster and therefore offset the cost of copying the string in memory. I tested this hypothesis and I was correct. `fast-case` was comparable to `change-case` when using a [reasonably long string input](https://github.com/ericyd/fast-case/blob/c69d16d60f4f1b4ae7738c15e356ded946a3e0fc/benches/index.js#L27).
 
 However, I knew that a common use case for converting string casing is for smaller strings, e.g. the keys of a JSON object going between two APIs that use different casing conventions. So I added a benchmark with a [reasonably short string](https://github.com/ericyd/fast-case/blob/c69d16d60f4f1b4ae7738c15e356ded946a3e0fc/benches/index.js#L28) and found that it was wildly worse performance. You can see the full results [on the fast-case README](https://github.com/ericyd/fast-case/blob/008f17de53bfe6d9cc0e5331634da4a3ce208991/README.md?plain=1#L53-L187), but it turns out `fast-case` is anywhere from 2% to 40% slower than `change-case` 😬.
 
-I was ready to throw in the towel, but I realized there was another benchmark I could perform to determine if I was just a terrible software engineer, or if the WASM boundary was actually the problem here: benchmarking my Rust algorithm.
+I was ready to throw in the towel, but I realized there was another benchmark I could perform to determine if I was just a terrible software engineer, or if the WebAssembly boundary was actually the problem here: benchmarking my Rust algorithm.
 
 ## Rust benchmarking
 
@@ -103,6 +103,6 @@ I am choosing (at the moment) not to publish `fast-case` as a Rust library becau
 
 ## Learnings & take-aways
 
-1. Do not use WASM for small functions! Copying the values between the JS runtime and the WASM runtime will eat away any performance improvements you might achieve from the speed increase of the WASM code.
+1. Do not use WebAssembly for small functions! Copying the values between the JS runtime and the WebAssembly runtime will eat away any performance improvements you might achieve from the speed increase of the WebAssembly code.
 2. Benchmark early, benchmark often! You can't know if you're getting better or worse without benchmarks.
 3. Test everything! Grabbing test cases from "inspiration" libraries is a great way to build a test suite fast without having to think _too_ hard about edge cases right away.
