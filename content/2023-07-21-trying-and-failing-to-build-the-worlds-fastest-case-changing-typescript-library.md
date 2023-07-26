@@ -24,7 +24,7 @@ I won't really go too much into the details of the build process because [this o
 2. Use [`wasm-pack`](https://www.npmjs.com/package/wasm-pack) to compile the Rust lib to WebAssembly and generate the JS bindings.
 3. Compile the TypeScript wrapper and point to the pre-build WebAssembly bindings.
 
-Everthing is built on the shoulders of giants; this ended up being a pretty simple thing to set up thanks to all the amazing work of the community! You can [check out my "finished" version here](https://github.com/ericyd/fast-case).
+Everthing is built on the shoulders of giants; this ended up being a pretty simple thing to set up thanks to all the amazing work of the community! You can [check out my "finished" version here](https://github.com/ericyd/fast-case). (The working library title is `fast-case`.)
 
 ## Building a fast library
 
