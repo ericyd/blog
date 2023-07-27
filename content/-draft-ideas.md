@@ -28,3 +28,4 @@ slug: ideas
 - "Texas is the best, Texas is the worst". Religious freedoms, voting rights, local self-governing, housing, drugs, abortion, health care, taxation. But god damn its nice to be outside every day of the year
 - List of "advive", or "things that have worked for me" a la Freakonomics episode 507
 - Signs of aging: parties that start at 10 or 11...
+- life hack 2: get enough sleep
