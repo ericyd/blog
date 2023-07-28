@@ -46,14 +46,6 @@ Candidates
 
 - Really interesting album. Pretty short, just over 20mins total runtime. I need to give this another listen
 
-## Legacy - Emile Londonien
-
-[https://tidal.com/browse/album/258057189](https://tidal.com/browse/album/258057189)
-
-- Jazz
-- horns, rhodes, electric bass, grooving pocket drumming, hand percussion (congas?), synths. Opening track is jamming!
-- the first three tracks are excellent. Grooves are a little "trippy" (need to look up what this is called when its laying back behind the beat), really great bass playing and cool instrumentation. Great atmosphere and interesting compositions
-
 ## Lotus Glow - Adi Oasis
 
 [https://tidal.com/browse/album/266900810](https://tidal.com/browse/album/266900810)
@@ -78,6 +70,12 @@ Candidates
 - damn "Parasite" is great too!!!
 
 # Other albums I listened to
+
+## Days in the Desert - High Pulp
+
+https://tidal.com/browse/album/287308178
+
+- one of the more interesting albums I've listened to in the past couple weeks
 
 ## Slugs of Love - Little Dragon
 
@@ -112,6 +110,7 @@ https://tidal.com/browse/album/295015169
 
 - Whoa! Such a fun album! Great electro-funk vibes.
 - Good for background or foreground listening, really enjoying this of my first listen
+- ok on second listen, this is only OK. Fun album, good for background, but not a "top 5 of 2023" album
 
 ## Cloud Lifter - Sam Barsh
 
@@ -201,6 +200,7 @@ https://tidal.com/browse/album/290581948
 [https://tidal.com/browse/album/284698087](https://tidal.com/browse/album/284698087)
 
 - Psychedelic Turkish rock. Pretty good! Deserves another listen. I'm not sure its a top album of the year but it is good
+- second listen, I like this more than I remember. I think it could be a contender. Really good music, and pretty melodically interesting.
 
 ## fOUR Step Aside - Nate Wood
 
@@ -313,6 +313,15 @@ https://tidal.com/browse/album/290581948
 [https://tidal.com/browse/album/267247604](https://tidal.com/browse/album/267247604)
 
 - really traditional jazz, I didn't listen to the whole thing but I couldn't get into it
+
+## Legacy - Emile Londonien
+
+[https://tidal.com/browse/album/258057189](https://tidal.com/browse/album/258057189)
+
+- Jazz
+- horns, rhodes, electric bass, grooving pocket drumming, hand percussion (congas?), synths. Opening track is jamming!
+- the first three tracks are excellent. Grooves are a little "trippy" (need to look up what this is called when its laying back behind the beat), really great bass playing and cool instrumentation. Great atmosphere and interesting compositions
+- on second listen, good but not great
 
 # Not from 2023
 
