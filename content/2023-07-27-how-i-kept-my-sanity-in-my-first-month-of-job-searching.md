@@ -104,7 +104,7 @@ Here's my [Sankey diagram](https://sankeymatic.com/build/) of my current progres
 
 <title>Job application progress</title>
 <!-- Generated with SankeyMATIC: 7/26/2023, 4:06:56 PM -->
-<rect height="600" width="600" fill="#ffffff"></rect>
+<rect height="600" width="600" fill="#f9fafb"></rect>
 <g transform="translate(138.00666690826415,18)">
 <g id="sankey_flows">
 <path id="flow1" d="M9 260.71358C212.74833 260.71358 212.74833 267.24839 416.49667 267.24839" fill="none" stroke-width="174.48529" stroke="#f00" opacity="0.45"><title>Applications → No reply yet: 21</title></path>
