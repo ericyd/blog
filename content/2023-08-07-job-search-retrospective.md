@@ -1,8 +1,8 @@
 ---
 title: "Job Search Retrospective"
 created: 2023-07-31T11:33:10-05:00
-date:
-draft: true
+date: 2023-08-07T10:05:40-0500
+draft: false
 slug: job-search-retrospective
 description: Job searching still sucks, so buckle up. I recently accepted an offer and I wanted to share some highlights from my recent job search.
 tags: [jobs, unemployment, applications]
@@ -22,8 +22,8 @@ Hot tip: if you're at any phase of a job search (including ideation/pre-applicat
 
 The numbers everyone has been waiting for: statistics about my job search!
 
-1. Total time from layoff to accepted job offer: 42 days
-2. Total applications submitted: 42 (weird coincidence!)
+1. Total time from layoff to accepted job offer: 42 days (exactly 6 weeks 😮)
+2. Total applications submitted: 42 (weird coincidence 🧐)
 3. Total response rate{{< sup 1 >}}: 47.6%
 4. Total number of offers: 1
 
@@ -127,11 +127,11 @@ Here's my [Sankey diagram](https://sankeymatic.com/build/) of my job application
 </g></svg>
 {{< /raw >}}
 
-{{< sup 1 >}}Includes: rejections and phone screens that resulted from an application. Excludes: phone screens with unaffiliated recruiters who said they would submit my application for a position and then ghosted me.
+{{< sup 1 >}}Response rate includes: rejections and phone screens that resulted from an application. Response rate excludes: phone screens with unaffiliated recruiters who said they would submit my application for a position and then ghosted me.
 
 ## What my interviews were like
 
-I didn't have a bunch of interviews beyond phone screens, but most of my interviews were technical in nature. They fell into three camps:
+I didn't have a bunch of interviews beyond phone screens, but most of my interviews were technical in nature. They fell into three broad categories:
 
 ### 1. Live coding
 
@@ -156,7 +156,7 @@ I had 2 interviews that tested my technical knowledge by asking questions like
 5. What are some design patterns you've used?
 6. What are some examples of when you've used inheritance and composition?
 
-I kind of like this style of interview because it presents the opportunity for a dialogue. I felt out of my element with the design patterns question even though I should have known it was coming. I think my biggest area for growth here is being more concise - I tend to ramble.
+I like this style of interview because it presents the opportunity for a dialogue. I felt out of my element with the design patterns question even though I should have known it was coming. I think my biggest area for growth here is being more concise - I tend to ramble.
 
 ### 3. System design
 
@@ -186,7 +186,7 @@ In no particular order, I found some of these resources to be highly useful
 ## Learning experiences / take-aways
 
 1. Be prepared for a _large_ number of no-replies!
-2. Keep a pulse on the market - just as the housing market has "buyers markets" and "sellers markets", the job market has "employers markets" and "applicants markets".
+2. Keep a pulse on the market - just as the housing market has "buyers markets" and "sellers markets", the job market has "employers markets" and "applicants markets". (Hint: it is currently an "employers market".)
 3. Do not underestimate the value of interview practice! I would have been absolutely hosed in a couple of my interviews if I hadn't spent time practicing some algorithmic questions (à la LeetCode) and [studying system design interviews](https://interviewing.io/guides/system-design-interview/) in particular.
 4. [Interviewing.io](https://interviewing.io) has some absolutely 🔥 fire content 🔥 - keep it going y'all!
 
