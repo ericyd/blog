@@ -23,7 +23,7 @@ body {
   font-family: sans-serif;
   line-height: 1.45;
   margin: 0 auto;
-  max-width: 60rem;
+  max-width: 64rem;
   padding: 0 15px;
   background: var(--white);
   color: var(--black);
@@ -141,7 +141,8 @@ code {
 pre {
   border: 1px solid;
 }
-pre code {
+pre code,
+.svg-wrapper {
   border: 0;
   display: block;
   overflow-x: auto;
