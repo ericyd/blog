@@ -71,6 +71,14 @@ Candidates
 
 # Other albums I listened to
 
+## Volcano - Jungle
+
+- Upbeat album, kind of like soul-electronica? Not totally accurate but organic beats, some interesting and pleasing vocals.
+- I like this a lot, definitely feels like a contender
+- "Back on 74" is really nice, probably my fav track so far
+
+https://tidal.com/browse/album/280609853
+
 ## Days in the Desert - High Pulp
 
 https://tidal.com/browse/album/287308178
