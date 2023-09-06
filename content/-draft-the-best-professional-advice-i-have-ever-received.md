@@ -9,3 +9,5 @@ tags: []
 ---
 
 "If you see something you want to do, do it."
+
+Take a perspective of "ask for forgiveness, not permission" w.r.t. work
