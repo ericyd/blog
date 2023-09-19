@@ -71,6 +71,17 @@ Candidates
 
 # Other albums I listened to
 
+## Soul,PRESENT - Q
+
+https://tidal.com/browse/album/292354008
+
+- WHOA. First three tracks are EXCELLENT
+- retro funk/soul vibes. Reminds me of this album actually, which I also love!!! Chanti Darling: https://tidal.com/browse/album/91987442
+- Nice falsetto
+- upbeat. Damn, I am DIGGING this. Slap bass, funk synth bass, so funky
+- Maybe future listens will prove me wrong but this album is great.
+- about halfway through, turns into a more mellow R&B album. Still really strong songwriting, but different vibe from the highly-danceable first 4 tracks
+
 ## Volcano - Jungle
 
 - Upbeat album, kind of like soul-electronica? Not totally accurate but organic beats, some interesting and pleasing vocals.
