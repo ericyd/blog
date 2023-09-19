@@ -58,7 +58,13 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
       </div>
     </div>
 
-    <h1>{{ .Title | markdownify }}</h1>
+    <h1>
+      {{ .Title | markdownify }}
+      {{ with .Params.subtitle }}
+      <small>{{ . }}</small>
+      {{ end }}
+
+    </h1>
 
     {{/* Available because of enableGitInfo=true in hugo.toml */}}
     {{/* currently throwing an error <em>Updated: {{ .GitInfo.Lastmod }}</em> */}}
