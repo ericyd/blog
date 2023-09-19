@@ -29,3 +29,4 @@ slug: ideas
 - List of "advive", or "things that have worked for me" a la Freakonomics episode 507
 - Signs of aging: parties that start at 10 or 11...
 - life hack 2: get enough sleep
+- life hack 3: embrace "good enough"
