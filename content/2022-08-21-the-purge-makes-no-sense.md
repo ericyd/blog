@@ -6,6 +6,7 @@ draft: false
 slug: the-purge-makes-no-sense
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661098020691/a1ZylkJoU.png
 tags: [horror, film]
+subtitle: The Purge is an American horror movie from 2013 starring Ethan Hawke and Lena Headey. It makes no sense.
 ---
 
 _The Purge_ rests on a simple premise: the American legal system is the only thing preventing Americans from murdering each other freely, on a whim, all of the time.
