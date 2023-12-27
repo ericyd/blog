@@ -6,45 +6,35 @@ draft: true
 slug: 2023-in-review-my-favorite-album-releases
 ---
 
-Candidates
+## Favorite Deep Grooves: King Canyon - King Canyon, Eric Krasno, Otis McDonald
 
-## Inflorescence - Mike Dillon and Punkadelic
+https://songwhip.com/kingcanyon/king-canyon
 
-[https://found.ee/Inflorescence](https://found.ee/Inflorescence)
+King Canyon's debut album, _King Canyon_, is confusingly listed as the product of three artists (King Canyon, Eric Krasno, Otis McDonald) despite the fact that King Canyon is itself a group made up of Krasno, McDonald, and Mike Chiavaro. Is this some sort of recursive self-referential name like [YAML](https://yaml.org/)?
 
-- Groove-based jazz
-- Title track is a compelling journey; hopeful, intense, interesting
-- Some interesting fluidity with time... the band doesn't always seem to agree on where the downbeat is
+Confusing credits aside, I really love this album! If you like groove-oriented jams à la Khruangbin or Surprise Chef, you will love this album. The only bad thing I can say about it is that it is too short! I am not sure what to call the genre: there are elements of rock, blues, soul, and probably many other things that I'm too ignorant to name correctly. This album works well in the background or foreground which is also a plus for me.
 
-## Tchompitoulas - Galactic
+## Favorite Rock Album: 72 Seasons - Metallica
 
-[https://tidal.com/browse/album/271984687](https://tidal.com/browse/album/271984687)
+https://songwhip.com/metallica/72-seasons
 
-- Groovy, funky
-- dirty, tight, powerful funk. Classic Galactic
-- New Orleans style blues / brass
-- very fun album!
+Wow, who knew Metallica was still making music??? And what a refreshing surprise! I've never considered myself a big Metallica fan, but I stumbled across their new album when watching this [entertaining video of Thomas Lang speed-learning one of their new songs on drums](https://www.youtube.com/watch?v=Xv5Rhp3fX60). Turns out it is a really fun, classic-sounding rock album! They do a great job of balancing heaviness with approachability, and there's no point in the album where they veer off course. The whole composition is very strong, and did I say, fun! The title track "72 Seasons" is a great opener and remarkably catch. "Lux Æterna" and "Room of Mirrors" are both really strong tracks too. Excellent "pump you up" music for a workout, or just regular work!
 
-## Phil Ranelin and Wendell Harrison JID016
+### Runner up: In Times New Roman... - Queens of the Stone Age
 
-[https://tidal.com/browse/album/264117758](https://tidal.com/browse/album/264117758)
+https://songwhip.com/queens-of-the-stone-age/in-times-new-roman
 
-- Some fairly avante-garde pieces. The intro track is very spacy and freestyle
-- Also some really tight grooves! "Running With The Tribe" is a really tight groove and great arrangement
-- Very interesting album, and fun! Interesting mix of spacey atmosphere and groovy. They do a good job of playing with time through the whole album
+Speaking of other rock bands that nobody knew were still in business: Queens of the Stone Age! I did not have high hopes for this album; they kinda lost me at Era Vulgaris. But dang I'm really happy I gave this a listen! It doesn't push the envelope too far, but it has a lot of fun, riff-based rock music. If you have ever liked QOTSA's music, this deserves a listen.
 
-## King Canyon - King Canyon
+## Favorite Emotive, Cinematic Break-Beat Trio Album: Everything Is Going to Be OK - GoGo Penguin
 
-[https://tidal.com/browse/album/266766309](https://tidal.com/browse/album/266766309)
+https://songwhip.com/gogo-penguin/everything-is-going-to-be-ok
 
-- Smooth, groovy, melodic, jammy, what is not to like!
-- Only bad thing I can say about it is too short!
+Alright, I'll admit that I stole this categorization from [GoGo Penguin's official site](https://gogopenguin.co.uk/) (shame on me). But really, what else would you call GoGo Penguin? I think they probably appeal to a lot of jazz lovers, but are they jazz? Their audience probably has a lot of overlap with various types of EDM and electronica, but GoGo Penguin is fundamentally a live performance trio, so not exactly DJ-at-a-turntable either.
 
-## Winter - Otis McDonald
+Anyway, here's what you need to know about _Everything Is Going To Be OK_: it is utterly beautiful. Please do yourself a favor: dim the lights, pour yourself a glass of wine or peppermint tea, find a cozy seat and crank this album. It has depth, it has texture, it has melodies for days, it has rhythms that don't make sense but are somehow completely natural. There are too many good tracks on this album: "Friday Film Special", "We May Not Stay", the title track "Everything Is Going To Be OK", and "Parasite" are all very strong. Next time you need to be alone and feel in awe of the universe, this is your album.
 
-[https://tidal.com/browse/album/251576877](https://tidal.com/browse/album/251576877)
-
-- Really interesting album. Pretty short, just over 20mins total runtime. I need to give this another listen
+#### Top candidates / need to listen again
 
 ## Lotus Glow - Adi Oasis
 
@@ -55,6 +45,68 @@ Candidates
 - Some really great grooves from the band actually, it is really a band, not just a solo singer
 - I really like this album actually, its _very_ funky and just really fun compositions
 - This has become a staple of "cleaning day music". Easy to listen to but really rich, interesting, and fun sounds!
+- This is a really great album. I feel like other times of the year, it spoke to me more, but I do really like it.
+
+
+## Six - Oli Howe, HOWES3
+
+https://tidal.com/browse/album/325499911
+
+1. Great modern prog-jazz/fusion vibes! Really fun and solid album. If you like Snarky Puppy, you'll like this!!
+2. This is a GREAT album!!! I love this kind of shit, and it is **really** well done!! 
+
+## Roll The Tape - The Adam Deitch Quartet
+
+https://tidal.com/browse/album/306462752
+
+1. **Really** solid jazz/funk grooves! Dance-able, and surprisingly rich for a quartet
+2. Sounds like classic old-school Lettuce, no wonder I like it 😛
+3. Honestly really solid album from start to finish though. I thoroughly enjoyed it.
+4. From the liner notes: "The album features organist Wil Blades, Lettuce cohorts Eric “Benny” Bloom on trumpet and Ryan Zoidis on saxophone, and a feature from legendary guitarist John Scofield on the leading single “Mushroom Gravy”."
+
+## Volcano - Jungle
+
+https://tidal.com/browse/album/280609853
+
+- Upbeat album, kind of like soul-electronica? Not totally accurate but organic beats, some interesting and pleasing vocals.
+- I like this a lot, definitely feels like a contender
+- "Back on 74" is really nice, probably my fav track so far
+
+## That! Feels Good! - Jessie Ware
+
+https://tidal.com/browse/album/290581948
+
+- dancey, poppy, feels good. It will make you move. It will make you funk. It will make your head bop.
+- _Free Yourself_ feels kind of like a disco-era club hit
+- Title track has some ridiculously funky instrumentation and riffs
+- _Shake The Bottle_ has one of those dead-simple-meets-ultra-funky bass lines that is reminiscent of her earlier _What's Your Pleasure_ album. It sounds like something that Bootsy Collins would write back in the day.
+
+## Ask - Altin Gün
+
+[https://tidal.com/browse/album/284698087](https://tidal.com/browse/album/284698087)
+
+- Psychedelic Turkish rock. Pretty good! Deserves another listen. I'm not sure its a top album of the year but it is good
+- second listen, I like this more than I remember. I think it could be a contender. Really good music, and pretty melodically interesting.
+
+## Madres - Sofia Koutesis
+
+https://tidal.com/browse/album/307304924
+
+- Same short notes as the Madres EP but includes a few more tracks!
+- Cecilia is very nice
+- The whole album is really interesting; dance vibes and beats and really soft acoustic instrumentation/vocals over the top
+
+## Welcome to the Hills - Yussef Dayes, Charlie Stacy, Rocco Palladino
+
+[https://tidal.com/browse/album/243104004](https://tidal.com/browse/album/243104004)
+
+- interesting, kind of dark jazz
+- damn this is a very jammy jazz album! I like that the compositions are darker, they feel kind of complex and slightly untethered, but still are a lot of beauty to them. And some really cool solos
+- some parts are actually riff-based, which I think is what was eluding me about it. "Palladino Sauce" starts with a phaser-ed bass riff that sounds like it could open a rock anthem. Then moves into a fantastic syncopated riff.
+- Strong contender!
+
+
+--------------------------------------
 
 ## Everything Is Going to Be OK - GoGo Penguin
 
@@ -69,7 +121,163 @@ Candidates
 - title track is fabulous, amazing bass lines and really beautiful organic growth to the climax
 - damn "Parasite" is great too!!!
 
-# Other albums I listened to
+
+## 72 Seasons - Metallica
+
+https://tidal.com/browse/album/288984589
+
+- Such a fun, classic-sounding rock album!
+- Title track "72 Seasons" is really great
+- "Lux Æterna" is really fun - Thomas Lang video!
+- "Room of Mirrors" is so catchy!
+- Successfully finds a challenging balance between "heavy" and "approachable"
+
+
+## King Canyon - King Canyon
+
+[https://tidal.com/browse/album/266766309](https://tidal.com/browse/album/266766309)
+
+- Smooth, groovy, melodic, jammy, what is not to like!
+- Only bad thing I can say about it is too short!
+- This has some similarity to Khruangbin or Surprise Chef in some places. Reverb-y, groovy. I really like this.
+- Second listen 2023-12-22, I honestly cannot say anything bad about this album. I *really* like every song. I wish it was longer, but as a whole package it is really an excellent album. I can see this fitting in so many moods. It has enough energy to work for coding, but it's also mellow enough to work while playing board games, or just background music. But it is musical enough that you can listen closely and find lots of interesting music and textures.
+
+
+## Feel The Spirit - Lucas De Mulder, The New Mastersounds
+
+https://tidal.com/browse/album/321197796
+
+1. Classic New Mastersounds sound. Very agreeable, very funky, very good!
+2. I've listened to this album a few times. It is very fun, but I don't think it's a "best of 2023" album
+
+## Solar Music - Butcher Brown
+
+https://tidal.com/browse/album/319065250
+
+- very nice. I like it but I was in a bad mood when I listened first. Give it another try.
+- Second listen 2023-12-24 there are some great tracks, but a lot of it is weird and not my fav.
+
+## Sunblind - Jacana People
+
+https://tidal.com/browse/album/294977629
+
+- Really nice electronica album!
+- second listen 2023-12-22 perfectly nice but doesn't really stick out. Feels more like something that is nice to listen to but not a super standout.
+
+## Tchompitoulas - Galactic
+
+[https://tidal.com/browse/album/271984687](https://tidal.com/browse/album/271984687)
+
+- Groovy, funky
+- dirty, tight, powerful funk. Classic Galactic
+- New Orleans style blues / brass
+- very fun album!
+- Second listen 2023-12-22 this is fun, but there's some "weird" music here that isn't quite working for me. Some strange vocal tracks that don't feel like they fit super well.
+
+
+## Inflorescence - Mike Dillon and Punkadelic
+
+[https://found.ee/Inflorescence](https://found.ee/Inflorescence)
+
+- Groove-based jazz
+- Title track is a compelling journey; hopeful, intense, interesting
+- Some interesting fluidity with time... the band doesn't always seem to agree on where the downbeat is
+
+
+
+## Phil Ranelin and Wendell Harrison JID016
+
+[https://tidal.com/browse/album/264117758](https://tidal.com/browse/album/264117758)
+
+- Some fairly avante-garde pieces. The intro track is very spacy and freestyle
+- Also some really tight grooves! "Running With The Tribe" is a really tight groove and great arrangement
+- Very interesting album, and fun! Interesting mix of spacey atmosphere and groovy. They do a good job of playing with time through the whole album
+
+
+## Winter - Otis McDonald
+
+[https://tidal.com/browse/album/251576877](https://tidal.com/browse/album/251576877)
+
+- Really interesting album. Pretty short, just over 20mins total runtime. I need to give this another listen
+
+## DāM-FunK Presents The Music Of Grand Theft Auto Online Original
+
+https://tidal.com/browse/album/329269376
+
+1. Ok, not amazing. Also seems like a compilation album?
+
+## Live at Alexandria Palance London, 24th May 2023 - Four Tet
+
+https://tidal.com/browse/album/323604985
+
+1. If you like Four Tet, this is a perfectly enjoyable album, but 
+
+## Senses - Crackazat
+
+https://tidal.com/browse/album/299513996
+
+1. Really great electronic album! The first few tracks are much stronger than the second half, but a good album overall.
+
+## Make Up The Edits 3 - Chez Damier, Camille, Nico Lahs
+
+https://tidal.com/browse/album/290301839
+
+1. Really classic funk/soul/house beats. Would be great for a party, and is generally a fun album to have on! I don't know if it's the deepest compositions of the year, but really fun/good album.
+2. Some almost "nu-jazz" feel to it. Like a classic 4-on-the-floor kick with retro sampled licks over the top.
+3. Feels like old disco.
+
+## Cream and Sugar - Duo Brothers
+
+https://tidal.com/browse/album/281169761
+
+1. Really nice. Retro soul vibes, great grooves, good synths.
+2. Very easy to listen to, feels good
+3. Has that rare mix of being very pretty, but with deep pockets
+
+## The Lucky One - Cory Wong
+
+https://tidal.com/browse/album/309825276
+
+1. I mean, of course there are some bangers on here, but I gotta say as a whole, it's a little too happy-springy-poppy for me :shrug:
+
+## Chronicles of a Diamond - Black Pumas
+
+https://tidal.com/browse/album/322890141
+
+1. Any album that opens with a tasty conga groove is probably gonna be good
+2. Kinda soul-infused rocky jams? Maybe "soul" is the best description for this.
+3. Definitely a modern rock album, but has some nice retro/vintage vibes. Really good sound.
+
+## Oscillate - Alexander Flood
+
+https://tidal.com/browse/album/281342904
+
+1. Weird, but enjoyable!
+
+## For That Beautiful Feeling - The Chemical Brothers
+
+https://tidal.com/browse/album/313933864
+
+1. Fun, but not amazing
+
+## Filter System - Polyrhythmics
+
+https://tidal.com/browse/album/291528140
+
+1. Deserves another listen, I enjoyed it. Pretty laid back, but nice syncopated grooves
+
+## Que Dios Te Maldiga Mi Corazon - The Mars Volta
+
+https://tidal.com/browse/album/286490180
+
+1. Acoustic, but very nice. If you like the Mars Volta's vibe then it's really good.
+
+## It's Ok, B U - Kiefer
+
+https://tidal.com/browse/album/306758889
+
+- Lots of nice textures and grooves. I think it deserves another listen. It didn't completely knock me out but I definitely felt a desire to return to it. I enjoyed all of it.
+- jazzy, electronic grooves. Like imagine smooth 80s pads, pocket drums, and tasty rhodes lines over the top. That's like half the album.
 
 ## Soul,PRESENT - Q
 
@@ -81,14 +289,6 @@ https://tidal.com/browse/album/292354008
 - upbeat. Damn, I am DIGGING this. Slap bass, funk synth bass, so funky
 - Maybe future listens will prove me wrong but this album is great.
 - about halfway through, turns into a more mellow R&B album. Still really strong songwriting, but different vibe from the highly-danceable first 4 tracks
-
-## Volcano - Jungle
-
-- Upbeat album, kind of like soul-electronica? Not totally accurate but organic beats, some interesting and pleasing vocals.
-- I like this a lot, definitely feels like a contender
-- "Back on 74" is really nice, probably my fav track so far
-
-https://tidal.com/browse/album/280609853
 
 ## Days in the Desert - High Pulp
 
@@ -102,12 +302,6 @@ https://tidal.com/browse/album/292747938
 
 - Groovy, electronic, fun, bop, light hearted, catchy, lush.
 - First impression is VERY good! Feels like a contender
-
-## Sunblind - Jacana People
-
-https://tidal.com/browse/album/294977629
-
-- Really nice electronica album!
 
 ## PetroDragonic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation - King Gizzard & The Lizard Wizard
 
@@ -183,15 +377,6 @@ https://tidal.com/browse/album/281058057
 - strong pocket grooves
 - great easy listening jams
 
-## That! Feels Good! - Jessie Ware
-
-https://tidal.com/browse/album/290581948
-
-- dancey, poppy, feels good. It will make you move. It will make you funk. It will make your head bop.
-- _Free Yourself_ feels kind of like a disco-era club hit
-- Title track has some ridiculously funky instrumentation and riffs
-- _Shake The Bottle_ has one of those dead-simple-meets-ultra-funky bass lines that is reminiscent of her earlier _What's Your Pleasure_ album. It sounds like something that Bootsy Collins would write back in the day.
-
 ## A Good Woman - Izo FitzRoy
 
 [https://tidal.com/browse/album/269842734](https://tidal.com/browse/album/269842734)
@@ -214,20 +399,13 @@ https://tidal.com/browse/album/290581948
 - mix of R&B and jazz. I think Brandee is a mallet instrument player, there is a lot of vibraphone on this album. Lots of harp too actually.
 - This is a good album for sure, not sure if its "top 5" material or not but it is good!
 
-## Ask - Altin Gün
-
-[https://tidal.com/browse/album/284698087](https://tidal.com/browse/album/284698087)
-
-- Psychedelic Turkish rock. Pretty good! Deserves another listen. I'm not sure its a top album of the year but it is good
-- second listen, I like this more than I remember. I think it could be a contender. Really good music, and pretty melodically interesting.
-
 ## fOUR Step Aside - Nate Wood
 
 [https://tidal.com/browse/album/245039310](https://tidal.com/browse/album/245039310)
 
 - I didn't really like it. Kind of avant-garde electronic jazz-pop?
 
-## Madres - Sofia Koutesis
+## Madres EP - Sofia Koutesis
 
 [https://tidal.com/browse/album/279534070](https://tidal.com/browse/album/279534070)
 
@@ -240,15 +418,6 @@ https://tidal.com/browse/album/290581948
 
 - Jazz - piano, drum, bass trio
 - Fun music! Dave Brubeck is coming to mind for some reason?
-
-## Welcome to the Hills - Yussef Dayes, Charlie Stacy, Rocco Palladino
-
-[https://tidal.com/browse/album/243104004](https://tidal.com/browse/album/243104004)
-
-- interesting, kind of dark jazz
-- damn this is a very jammy jazz album! I like that the compositions are darker, they feel kind of complex and slightly untethered, but still are a lot of beauty to them. And some really cool solos
-- some parts are actually riff-based, which I think is what was eluding me about it. "Palladino Sauce" starts with a phaser-ed bass riff that sounds like it could open a rock anthem. Then moves into a fantastic syncopated riff.
-- Strong contender!
 
 ## Prime - Dave Stryker, Jared Gold, McClenty Hunter Jr.
 
