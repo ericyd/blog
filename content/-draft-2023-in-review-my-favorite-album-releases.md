@@ -6,27 +6,39 @@ draft: true
 slug: 2023-in-review-my-favorite-album-releases
 ---
 
-## Favorite Deep Grooves: King Canyon - King Canyon, Eric Krasno, Otis McDonald
+## Favorite Groovy Jams Album: _King Canyon_ - King Canyon, Eric Krasno, Otis McDonald
 
 https://songwhip.com/kingcanyon/king-canyon
 
-King Canyon's debut album, _King Canyon_, is confusingly listed as the product of three artists (King Canyon, Eric Krasno, Otis McDonald) despite the fact that King Canyon is itself a group made up of Krasno, McDonald, and Mike Chiavaro. Is this some sort of recursive self-referential name like [YAML](https://yaml.org/)?
+King Canyon's debut album, _King Canyon_, is confusingly listed as the product of three artists (King Canyon, Eric Krasno, Otis McDonald) despite the fact that King Canyon is itself a group made up of Krasno, McDonald, and Mike Chiavaro. Is this some sort of recursive joke name like [YAML](https://yaml.org/)?
 
 Confusing credits aside, I really love this album! If you like groove-oriented jams à la Khruangbin or Surprise Chef, you will love this album. The only bad thing I can say about it is that it is too short! I am not sure what to call the genre: there are elements of rock, blues, soul, and probably many other things that I'm too ignorant to name correctly. This album works well in the background or foreground which is also a plus for me.
 
-## Favorite Rock Album: 72 Seasons - Metallica
+## Favorite Jazz-Funk Album: _Roll The Tape_ - The Adam Deitch Quartet
+
+https://songwhip.com/the-adam-deitch-quartet/roll-the-tape
+
+I know Adam Deitch as the drummer for the band Lettuce. I love Lettuce, but I sometimes feel more drawn to their older stuff rather than their newer music. To me, _Roll The Tape_ feels very much like a classic, old-school Lettuce album: some tracks are danceable, some tracks groove super hard, and all of it is rich and expertly performed. This album features at least one other member of Lettuce - trumpeter Eric "Benny" Bloom - and I read that this quartet was formed when Lettuce toured with another band a few of the members started jamming together. If you like jazzy-funky pocket grooves, you should love this album.
+
+### Runner up: _Six_ - Oli Howe, HOWES3
+
+https://songwhip.com/olihowe/six
+
+I might describe _Six_ as more of a progressive-jazz-fusion album than jazz-funk, but I imagine the audience would overlap. I stumbled across these two albums the same week so that was a pretty great week for me. If you like Snarky Puppy, I think you will definitely like _Six_; it is interesting, complex, and crafted to a very high level. I will definitely be coming back to this one again.
+
+## Favorite Rock Album: _72 Seasons_ - Metallica
 
 https://songwhip.com/metallica/72-seasons
 
 Wow, who knew Metallica was still making music??? And what a refreshing surprise! I've never considered myself a big Metallica fan, but I stumbled across their new album when watching this [entertaining video of Thomas Lang speed-learning one of their new songs on drums](https://www.youtube.com/watch?v=Xv5Rhp3fX60). Turns out it is a really fun, classic-sounding rock album! They do a great job of balancing heaviness with approachability, and there's no point in the album where they veer off course. The whole composition is very strong, and did I say, fun! The title track "72 Seasons" is a great opener and remarkably catch. "Lux Æterna" and "Room of Mirrors" are both really strong tracks too. Excellent "pump you up" music for a workout, or just regular work!
 
-### Runner up: In Times New Roman... - Queens of the Stone Age
+### Runner up: _In Times New Roman..._ - Queens of the Stone Age
 
 https://songwhip.com/queens-of-the-stone-age/in-times-new-roman
 
 Speaking of other rock bands that nobody knew were still in business: Queens of the Stone Age! I did not have high hopes for this album; they kinda lost me at Era Vulgaris. But dang I'm really happy I gave this a listen! It doesn't push the envelope too far, but it has a lot of fun, riff-based rock music. If you have ever liked QOTSA's music, this deserves a listen.
 
-## Favorite Emotive, Cinematic Break-Beat Trio Album: Everything Is Going to Be OK - GoGo Penguin
+## Favorite Emotive, Cinematic Break-Beat Trio Album: _Everything Is Going to Be OK_ - GoGo Penguin
 
 https://songwhip.com/gogo-penguin/everything-is-going-to-be-ok
 
@@ -34,7 +46,68 @@ Alright, I'll admit that I stole this categorization from [GoGo Penguin's offici
 
 Anyway, here's what you need to know about _Everything Is Going To Be OK_: it is utterly beautiful. Please do yourself a favor: dim the lights, pour yourself a glass of wine or peppermint tea, find a cozy seat and crank this album. It has depth, it has texture, it has melodies for days, it has rhythms that don't make sense but are somehow completely natural. There are too many good tracks on this album: "Friday Film Special", "We May Not Stay", the title track "Everything Is Going To Be OK", and "Parasite" are all very strong. Next time you need to be alone and feel in awe of the universe, this is your album.
 
-#### Top candidates / need to listen again
+## Favorite Pop Album: _That! Feels Good!_ - Jessie Ware
+
+https://songwhip.com/jessie-ware/that-feels-good
+
+I was first introduced to Jessie Ware by my partner after the release of her 2020 album _What's Your Pleasure?_, which I _highly_ recommend to _everybody_. "Ooh La La" and "Soul Control" have the two best basslines on a pop song since LaMarquis "ReMarqable" Jefferson laid down the dirtiest bass of the 90s on TLC's "Waterfalls".
+
+I digress: _That! Feels Good!_ is a really great album it its own right. The title track is a rich, funky, satisfying, sensual pop jam that sets a great mood for the album. The rest of the album has a mix of high energy bangers and smooth balads, but is consistently enjoyable throughout. "Free Yourself" feels like a disco-era club hit, and "Shake The Bottle" has another dead-simple-and-dead-perfect bassline that reminds me of Bootsy Collins for some reason. And hey, pleasure activism is pretty hard to argue with, so go get some Jessie Ware in your life.
+
+## Favorite Turkish Psychedelic Album: _Aşk_ - Altın Gün
+
+https://songwhip.com/altingun/ask2023
+
+In 2023, I learned that I love some music under the "psychedelic" banner, and absolutely hate others. I discovered Altın Gün while listening to "Kikagaku Moyo radio" on TIDAL (which, incidentally, is a really enjoyable artist radio). _Aşk_ is not a perfect album, but there are enough ear worms on here that I wanted to give it a shout out. Also I feel like this album was helpful for me to identify "psychedelic" music as a genre I wanted to listen to. Part of what I appreciate about this album, and international psychedelic music more broadly, is that it feels like such a breath of fresh air compared to other music I listen to. There's nothing else in my favorites that quite sounds like this, and I really appreciate that I can still find fresh, unusual sounds in 2023 that still groove hard.
+
+## Favorite R&B Album: _Lotus Glow_ - Adi Oasis
+
+https://songwhip.com/adioasis/lotus-glow
+
+In addition to having a fun semi-punny name, Adi Oasis is a neo-soul R&B queen! This album is extremely approachable, and it quickly became a go-to for cleaning day music after I discovered it and introduced my partner to it. I will say that this album spoke to me more in early 2023 than late 2023, but I still feel like it is a solid album that deserves a place in my "favorites" list. One thing I really appreciate about this album is that it features really strong vocals from a talented singer, but also has an extremely solid backing band and fun arrangements. It would be a pretty decent album if all the vocals removed, but with the vocals it comes together into quite a beautiful package.
+
+## Favorite Electro-Soul Album: _Volcano_ - Jungle
+
+https://songwhip.com/jungle/volcano
+
+Organic beats, great synths, and cool vocals? Sign me up! I hadn't heard of Jungle until this year, but I'm glad this album was recommended to me (thanks The Algorithm 🙄). There's really nothing I dislike about this album. It is imminently listenable and ranges between relaxing and exciting.
+
+<!-- Left off here -->
+
+- Upbeat album, kind of like soul-electronica? Not totally accurate but organic beats, some interesting and pleasing vocals.
+- I like this a lot, definitely feels like a contender
+- "Back on 74" is really nice, probably my fav track so far
+
+## Favorite House-ish Album: _Madres_ - Sofia Koutesis
+
+https://tidal.com/browse/album/307304924
+
+- Same short notes as the Madres EP but includes a few more tracks!
+- Cecilia is very nice
+- The whole album is really interesting; dance vibes and beats and really soft acoustic instrumentation/vocals over the top
+
+
+--------------------------------------
+
+
+## Welcome to the Hills - Yussef Dayes, Charlie Stacy, Rocco Palladino
+
+[https://tidal.com/browse/album/243104004](https://tidal.com/browse/album/243104004)
+
+- interesting, kind of dark jazz
+- damn this is a very jammy jazz album! I like that the compositions are darker, they feel kind of complex and slightly untethered, but still are a lot of beauty to them. And some really cool solos
+- some parts are actually riff-based, which I think is what was eluding me about it. "Palladino Sauce" starts with a phaser-ed bass riff that sounds like it could open a rock anthem. Then moves into a fantastic syncopated riff.
+- Strong contender!
+- Listened again 2023-12-29, it is good but a little too abstract for me right now
+
+## Volcano - Jungle
+
+https://tidal.com/browse/album/280609853
+
+- Upbeat album, kind of like soul-electronica? Not totally accurate but organic beats, some interesting and pleasing vocals.
+- I like this a lot, definitely feels like a contender
+- "Back on 74" is really nice, probably my fav track so far
+
 
 ## Lotus Glow - Adi Oasis
 
@@ -48,29 +121,13 @@ Anyway, here's what you need to know about _Everything Is Going To Be OK_: it is
 - This is a really great album. I feel like other times of the year, it spoke to me more, but I do really like it.
 
 
-## Six - Oli Howe, HOWES3
+## Ask - Altin Gün
 
-https://tidal.com/browse/album/325499911
+[https://tidal.com/browse/album/284698087](https://tidal.com/browse/album/284698087)
 
-1. Great modern prog-jazz/fusion vibes! Really fun and solid album. If you like Snarky Puppy, you'll like this!!
-2. This is a GREAT album!!! I love this kind of shit, and it is **really** well done!! 
+- Psychedelic Turkish rock. Pretty good! Deserves another listen. I'm not sure its a top album of the year but it is good
+- second listen, I like this more than I remember. I think it could be a contender. Really good music, and pretty melodically interesting.
 
-## Roll The Tape - The Adam Deitch Quartet
-
-https://tidal.com/browse/album/306462752
-
-1. **Really** solid jazz/funk grooves! Dance-able, and surprisingly rich for a quartet
-2. Sounds like classic old-school Lettuce, no wonder I like it 😛
-3. Honestly really solid album from start to finish though. I thoroughly enjoyed it.
-4. From the liner notes: "The album features organist Wil Blades, Lettuce cohorts Eric “Benny” Bloom on trumpet and Ryan Zoidis on saxophone, and a feature from legendary guitarist John Scofield on the leading single “Mushroom Gravy”."
-
-## Volcano - Jungle
-
-https://tidal.com/browse/album/280609853
-
-- Upbeat album, kind of like soul-electronica? Not totally accurate but organic beats, some interesting and pleasing vocals.
-- I like this a lot, definitely feels like a contender
-- "Back on 74" is really nice, probably my fav track so far
 
 ## That! Feels Good! - Jessie Ware
 
@@ -81,32 +138,24 @@ https://tidal.com/browse/album/290581948
 - Title track has some ridiculously funky instrumentation and riffs
 - _Shake The Bottle_ has one of those dead-simple-meets-ultra-funky bass lines that is reminiscent of her earlier _What's Your Pleasure_ album. It sounds like something that Bootsy Collins would write back in the day.
 
-## Ask - Altin Gün
 
-[https://tidal.com/browse/album/284698087](https://tidal.com/browse/album/284698087)
+## Six - Oli Howe, HOWES3
 
-- Psychedelic Turkish rock. Pretty good! Deserves another listen. I'm not sure its a top album of the year but it is good
-- second listen, I like this more than I remember. I think it could be a contender. Really good music, and pretty melodically interesting.
+https://songwhip.com/olihowe/six
 
-## Madres - Sofia Koutesis
-
-https://tidal.com/browse/album/307304924
-
-- Same short notes as the Madres EP but includes a few more tracks!
-- Cecilia is very nice
-- The whole album is really interesting; dance vibes and beats and really soft acoustic instrumentation/vocals over the top
-
-## Welcome to the Hills - Yussef Dayes, Charlie Stacy, Rocco Palladino
-
-[https://tidal.com/browse/album/243104004](https://tidal.com/browse/album/243104004)
-
-- interesting, kind of dark jazz
-- damn this is a very jammy jazz album! I like that the compositions are darker, they feel kind of complex and slightly untethered, but still are a lot of beauty to them. And some really cool solos
-- some parts are actually riff-based, which I think is what was eluding me about it. "Palladino Sauce" starts with a phaser-ed bass riff that sounds like it could open a rock anthem. Then moves into a fantastic syncopated riff.
-- Strong contender!
+1. Great modern prog-jazz/fusion vibes! Really fun and solid album. If you like Snarky Puppy, you'll like this!!
+2. This is a GREAT album!!! I love this kind of shit, and it is **really** well done!! 
 
 
---------------------------------------
+## Roll The Tape - The Adam Deitch Quartet
+
+https://songwhip.com/the-adam-deitch-quartet/roll-the-tape
+
+1. **Really** solid jazz/funk grooves! Dance-able, and surprisingly rich for a quartet
+2. Sounds like classic old-school Lettuce, no wonder I like it 😛
+3. Honestly really solid album from start to finish though. I thoroughly enjoyed it.
+4. From the liner notes: "The album features organist Wil Blades, Lettuce cohorts Eric “Benny” Bloom on trumpet and Ryan Zoidis on saxophone, and a feature from legendary guitarist John Scofield on the leading single “Mushroom Gravy”."
+
 
 ## Everything Is Going to Be OK - GoGo Penguin
 
