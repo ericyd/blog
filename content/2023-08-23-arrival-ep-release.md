@@ -7,6 +7,8 @@ slug: arrival-ep-release
 tags: [music]
 ---
 
+![Arrival EP album art](https://i.scdn.co/image/ab67616d00001e02f4fba55bc553b3566670ca77)
+
 I'm so happy to announce the release of my [_Arrival_](https://songwhip.com/usualphase/arrival) EP! This was such a fun project for me and I'm really pleased to be releasing it to the world.
 
 When I was laid off in June, I set a goal to record and release 4 tracks before I got a new job. I was quite lucky that my unemployment was very short, but that meant I really needed to hustle to meet my music-making goal!
