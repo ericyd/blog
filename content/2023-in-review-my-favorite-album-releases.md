@@ -1,8 +1,8 @@
 ---
 title: "2023 in review: My favorite album releases"
 created: 2023-04-19T19:58:04-05:00
-date:
-draft: true
+date: 2024-01-01T21:07:58-0600
+draft: false
 slug: 2023-in-review-my-favorite-album-releases
 ---
 
@@ -12,25 +12,29 @@ As with last year, these are not ranked, and I hold no ego over these choices. T
 
 ## Favorite Groovy-Jammy Album: _King Canyon_ - King Canyon, Eric Krasno, Otis McDonald
 
-![King Canyon album art](https://f4.bcbits.com/img/a1225650501_10.jpg)
+{{<raw>}}
+<img class="album-art-img" alt="King Canyon album art" src="https://f4.bcbits.com/img/a1225650501_10.jpg"></img>
+{{</raw>}}
 
 https://songwhip.com/kingcanyon/king-canyon
 
-King Canyon's debut album, _King Canyon_, is confusingly listed as the product of three artists (King Canyon, Eric Krasno, Otis McDonald) despite the fact that King Canyon is itself a group made up of Krasno, McDonald, and Mike Chiavaro. Is this some sort of recursive joke name like [YAML](https://yaml.org/)?
-
-Confusing credits aside, I really love this album! If you like groove-oriented jams à la Khruangbin or Surprise Chef, you will love this album. The only bad thing I can say about it is that it is too short! I am not sure what to call the genre: there are elements of rock, blues, soul, and probably many other things that I'm too ignorant to name correctly. This album works well in the background or foreground which is also a plus for me.
+King Canyon is a collaboration of three artists: Eric Krasno, Otis McDonald, and Mike Chiavaro. It feels like a jam band playing soulful grooves in a cool basement club, and I love every moment of it. Eric Krasno has been involved in Soulive and Lettuce so it shouldn't surprise me that I also love this project. If you like groove-oriented jams à la Khruangbin or Surprise Chef, you will love this album. The only bad thing I can say about it is that it is too short! I am not sure what to call the genre: there are elements of rock, blues, soul, and probably many other things that I'm too ignorant to name correctly. This album works well in the background or foreground which is also a plus for me.
 
 ## Favorite Jazz-Funk Album: _Roll The Tape_ - The Adam Deitch Quartet
 
-![Roll The Tape album art](https://m.media-amazon.com/images/I/51IO3PdjAsL._UX716_FMwebp_QL85_.jpg)
+{{<raw>}}
+<img class="album-art-img" alt="Roll The Tape album art" src="https://m.media-amazon.com/images/I/51IO3PdjAsL._UX716_FMwebp_QL85_.jpg"></img>
+{{</raw>}}
 
 https://songwhip.com/the-adam-deitch-quartet/roll-the-tape
 
-I know Adam Deitch as the drummer for the band Lettuce. I love Lettuce, but I feel more drawn to their older stuff rather than their newer music. To me, _Roll The Tape_ feels very much like a classic, old-school Lettuce album: some tracks are danceable, some tracks groove super hard, and all of it is rich and expertly performed. This album features at least one other member of Lettuce - trumpeter Eric "Benny" Bloom - and I read that this quartet was formed when Lettuce toured with another band a few of the members started jamming together. If you like jazzy-funky pocket grooves, you should love this album.
+I know Adam Deitch as the drummer for the band Lettuce. You may think I'm a Lettuce fanboy; well, that might be true - I have tickets to see them again in February! To me, _Roll The Tape_ feels very much like a classic, old-school Lettuce album: some tracks are danceable, some tracks groove super hard, and all of it is rich and expertly performed. This album features at least one other member of Lettuce - trumpeter Eric "Benny" Bloom - and I read that this quartet was formed when Lettuce toured with another band a few of the members started jamming together. If you like jazzy-funky pocket grooves, you should love this album.
 
 ### Runner up: _Six_ - Oli Howe, HOWES3
 
-![Six album art](https://f4.bcbits.com/img/a3916448337_10.jpg)
+{{<raw>}}
+<img class="album-art-img" alt="Six album art" src="https://f4.bcbits.com/img/a3916448337_10.jpg"></img>
+{{</raw>}}
 
 https://songwhip.com/olihowe/six
 
@@ -38,15 +42,19 @@ I might describe _Six_ as more of a progressive-jazz-fusion album than jazz-funk
 
 ## Favorite Rock Album: _72 Seasons_ - Metallica
 
-![72 Seasons album art](https://m.media-amazon.com/images/I/91VCs2rBqoL._SL1500_.jpg)
+{{<raw>}}
+<img class="album-art-img" alt="72 Seasons album art" src="https://m.media-amazon.com/images/I/91VCs2rBqoL._SL1500_.jpg"></img>
+{{</raw>}}
 
 https://songwhip.com/metallica/72-seasons
 
-Wow, who knew Metallica was still making music??? And what a refreshing surprise! I've never considered myself a big Metallica fan, but I stumbled across their new album when watching this [entertaining video of Thomas Lang speed-learning one of their new songs on drums](https://www.youtube.com/watch?v=Xv5Rhp3fX60). Turns out it is a really fun, classic-sounding rock album! They do a great job of balancing heaviness with approachability, and there's no point in the album where they veer off course. The whole composition is very strong, and fun! Did I mention it's fun? The title track "72 Seasons" is a great opener and remarkably catch. "Lux Æterna" and "Room of Mirrors" are both really strong tracks too. Excellent "pump you up" music for a workout, regular work, or just chillin!
+Wow, who knew Metallica was still making music??? And what a refreshing surprise! I've never considered myself a big Metallica fan, but I stumbled across their new album when watching this [entertaining video of Thomas Lang speed-learning one of their new songs on drums](https://www.youtube.com/watch?v=Xv5Rhp3fX60). Turns out it is a really fun, classic-sounding rock album! They do a great job of balancing heaviness with approachability, and there's no point in the album where they veer off course. The whole composition is very strong, and fun! Did I mention it's fun? The title track "72 Seasons" is a great opener and remarkably catchy. "Lux Æterna" and "Room of Mirrors" are both really strong tracks too. Excellent "pump you up" music for a workout, regular work, or just chillin!
 
 ### Runner up: _In Times New Roman..._ - Queens of the Stone Age
 
-![In Times New Roman album art](https://m.media-amazon.com/images/I/61Q33IP2dML._SL1400_.jpg)
+{{<raw>}}
+<img class="album-art-img" alt="In Times New Roman album art" src="https://m.media-amazon.com/images/I/61Q33IP2dML._SL1400_.jpg"></img>
+{{</raw>}}
 
 https://songwhip.com/queens-of-the-stone-age/in-times-new-roman
 
@@ -54,7 +62,9 @@ Speaking of other rock bands that nobody knew were still in business: Queens of 
 
 ## Favorite Emotive, Cinematic Break-Beat Trio Album: _Everything Is Going to Be OK_ - GoGo Penguin
 
-![Everything Is Going To Be OK album art](https://m.media-amazon.com/images/I/81B-zCSKmqL._SL1500_.jpg)
+{{<raw>}}
+<img class="album-art-img" alt="Everything Is Going To Be OK album art" src="https://m.media-amazon.com/images/I/81B-zCSKmqL._SL1500_.jpg"></img>
+{{</raw>}}
 
 https://songwhip.com/gogo-penguin/everything-is-going-to-be-ok
 
@@ -64,7 +74,9 @@ Anyway, here's what you need to know about _Everything Is Going To Be OK_: it is
 
 ## Favorite Pop Album: _That! Feels Good!_ - Jessie Ware
 
-![That Feels Good album art](https://m.media-amazon.com/images/I/61EqtWgkQyL._SL1200_.jpg)
+{{<raw>}}
+<img class="album-art-img" alt="That Feels Good album art" src="https://m.media-amazon.com/images/I/61EqtWgkQyL._SL1200_.jpg"></img>
+{{</raw>}}
 
 https://songwhip.com/jessie-ware/that-feels-good
 
@@ -74,17 +86,21 @@ I digress: _That! Feels Good!_ is a really great follow-up album to _What's Your
 
 ## Favorite Turkish Psychedelic Album: _Aşk_ - Altın Gün
 
-![Aşk Album art](https://m.media-amazon.com/images/I/61wQesTS9rL._UX716_FMwebp_QL85_.jpg)
+{{<raw>}}
+<img class="album-art-img" alt="Aşk Album art" src="https://m.media-amazon.com/images/I/61wQesTS9rL._UX716_FMwebp_QL85_.jpg"></img>
+{{</raw>}}
 
 https://songwhip.com/altingun/ask2023
 
-In 2023, I learned that I love some music under the "psychedelic" banner, and absolutely hate others. I discovered Altın Gün while listening to "Kikagaku Moyo radio" on TIDAL (which, incidentally, is a really enjoyable artist radio). _Aşk_ is not a perfect album, but there are enough ear worms on here that I wanted to give it a shout out. Also I feel like this album was helpful for me to identify "psychedelic" music as a genre I wanted to listen to. Part of what I appreciate about this album, and international psychedelic music more broadly, is that it feels like such a breath of fresh air compared to other music I listen to. There's nothing else in my favorites that quite sounds like this, and I really appreciate that I can still find fresh, unusual sounds in 2023 that still groove hard.
+In 2023, I learned that I love some music under the "psychedelic" banner, and absolutely hate others. I discovered Altın Gün while listening to "Kikagaku Moyo" radio on TIDAL (which, incidentally, is a really enjoyable artist radio). _Aşk_ is not a perfect album, but there are several tracks that are really fantastic, and the whole album does have a very consistent quality. Also I feel like this album was helpful for me to identify "psychedelic" music as a genre I wanted to listen to. Part of what I appreciate about this album, and international psychedelic music more broadly, is that it feels like such a breath of fresh air compared to other music I listen to. There's nothing else in my favorites that quite sounds like this, and I really appreciate that I can still find fresh, unusual sounds in 2023 that still groove hard. By far my favorite track is "Su Sızıyor", which frequently gets stuck in my head days after I listen to it. "Leylim Ley" is another great track too.
 
 Also, what defines "psychedelic" music?
 
 ## Favorite R&B Album: _Lotus Glow_ - Adi Oasis
 
-![Lotus Glow album art](https://m.media-amazon.com/images/I/51MsYBXK21L._UX716_FMwebp_QL85_.jpg)
+{{<raw>}}
+<img class="album-art-img" alt="Lotus Glow album art" src="https://m.media-amazon.com/images/I/51MsYBXK21L._UX716_FMwebp_QL85_.jpg"></img>
+{{</raw>}}
 
 https://songwhip.com/adioasis/lotus-glow
 
@@ -92,7 +108,9 @@ In addition to having a fun, punny name, Adi Oasis is a neo-soul R&B queen! This
 
 ## Favorite Electro-Soul Album: _Volcano_ - Jungle
 
-![Volcano album art](https://m.media-amazon.com/images/I/51hP-tGrtZL._UX716_FMwebp_QL85_.jpg)
+{{<raw>}}
+<img class="album-art-img" alt="Volcano album art" src="https://m.media-amazon.com/images/I/51hP-tGrtZL._UX716_FMwebp_QL85_.jpg"></img>
+{{</raw>}}
 
 https://songwhip.com/jungle/volcano
 
@@ -100,14 +118,13 @@ Organic beats, great synths, and cool vocals? Sign me up! I hadn't heard of Jung
 
 ## Favorite House-ish Album: _Madres_ - Sofia Kourtesis
 
-![Madres album art](https://m.media-amazon.com/images/I/518HlrRs8BL._UX716_FMwebp_QL85_.jpg)
+{{<raw>}}
+<img class="album-art-img" alt="Madres album art" src="https://m.media-amazon.com/images/I/518HlrRs8BL._UX716_FMwebp_QL85_.jpg"></img>
+{{</raw>}}
 
 https://songwhip.com/sofia-kourtesis/madres-2
 
 Confusingly, Peruvian DJ Sofia Kourtesis released two albums this year named _Madres_ - one being an EP and one a full length album. The EP was nice, but I prefer the full length album so that is what I'm referring to here. It's a pretty interesting composition, held down by dance beats and overlaid with soft vocals and acoustic instrumentation. There is a very organic feel to this album and I think that is the driving theme that I got: tapping into the elemental pulse of life without getting lost in artificial or hash sounds. "Cecilia" is possibly my favorite track, though many of them are good. 
-
-
---------------------------------------
 
 <!-- full notes here: https://github.com/ericyd/blog/blob/69bea429f59e3a8114d697f936849aea95ae2e5a/content/-draft-2023-in-review-my-favorite-album-releases.md -->
 
