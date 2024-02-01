@@ -24,4 +24,12 @@ tags: ["music"]
     * Released in 2023 but a really fun modern jazz album. It has that sound that I think turns off a lot of people, really shimmery keyboards, but I thought it was fun
 * _Parasols_, Orgone
     * Just an EP but it is solid!
-
+* _L'Impératrice_, Tako Tsubo
+    * A coworker described this as "Daft Punk style", which I don't agree with, but I do think it's a really fun album!
+* _Fronzoli_, Psychedlic Porn Crumpets
+    * I was OK on my first listen of this
+* _Wall Of Eyes_, The Smile
+    * This artist is a collab between the singer and guitarist of Radiohead and the drummer of Sons of Kemet!
+    * This is actually a pretty great album. Definitely will listen again. Mellow, but very strong songwriting.
+* _Vultures_, Ghostland Observatory
+    * Some good songs, but not sure I feel compelled to come back to it anytime soon.
