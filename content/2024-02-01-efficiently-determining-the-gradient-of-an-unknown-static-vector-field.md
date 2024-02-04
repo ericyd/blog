@@ -2,7 +2,7 @@
 title: "Efficiently Determining the Gradient of an Unknown Static Vector Field"
 created: 2024-01-31T21:18:16-06:00
 date: 2024-02-01T12:02:38-0600
-draft: true
+draft: false
 slug: efficiently-determining-the-gradient-of-an-unknown-static-vector-field
 description: Typically, when I'm doing a sketch with a flow field, the vector field is defined by some spatial function. In this case, the field was static but unknown, and it was a fun mental exercise to figure out how I could calculate the gradient efficiently.
 tags: [math, art]

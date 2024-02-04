@@ -2,7 +2,7 @@
 title: "The Meaning of Life: 2024 Edition"
 created: 2024-02-04T09:37:52-06:00
 date: 2024-02-04T10:03:42-0600
-draft: true
+draft: false
 slug: the-meaning-of-life-2024-edition
 description: For a long time, I've had a desire to share my version of an answer to the age-old question, "What is the meaning of life?". Here it goes.
 tags: [philosophy]
