@@ -29,3 +29,7 @@ slug: ideas
 - Signs of aging: parties that start at 10 or 11...
 - life hack 2: get enough sleep
 - life hack 3: embrace "good enough"
+
+- meaning of life
+   - "He draws inspiration from the psychiatrist and author David Viscott, who said: “The purpose of life is to discover your gift. The work of life is to develop it. The meaning of life is to give your gift away." "
+   - https://hbr.org/2024/02/6-questions-to-ask-at-the-midpoint-of-your-career
