@@ -33,3 +33,22 @@ tags: ["music"]
     * This is actually a pretty great album. Definitely will listen again. Mellow, but very strong songwriting.
 * _Vultures_, Ghostland Observatory
     * Some good songs, but not sure I feel compelled to come back to it anytime soon.
+* _What Now_, Brittany Howard
+    * Need to listen again. Very much an album of loss. Didn't grab me super strong the first time, but would like to listen again
+* _Searching for Tomorrow_, Timecop 1983
+    * AWESOME synthwave album
+    * EXCEPT for the 3 tracks with vocals, which I HATE
+* _Ted Tapes 2024_, Goose
+    * First track is a 34 minute jam, so you can't go wrong
+    * I haven't heard of Goose before but they definitely fit into the jam/fusion genre nicely it seems. Digging the album so far! Seems very stereotypically up my alley.
+* _A Trip to the Moon_, Ghost Funk Orchestra
+    * https://tidal.com/browse/album/328546015
+    * I enjoyed this and would like to listen to it again. It has some fun songs, although I'm not sure if I feel it's extremely cohesive as an album.
+    * But that kinda makes me want to listen again, and see if I feel the same way on a re-listen
+* _Chorus_, Mildlife
+    * nice instrumentals, melodic, groovy
+    * vocals kind of turn me off a little bit
+    * kind of reminds me of poolside
+* _Three_, Four Tet
+    * Pretty classic Four Tet actually! Mellow, smooth, electronic, textured, deep, organic. I'll listen to this again for sure
+    * "So Blue" stuck out to me on my first listen
