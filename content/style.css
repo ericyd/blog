@@ -10,6 +10,7 @@ https://git.sr.ht/~bt/barf/tree/8bdd163d69369316be145ac9a2e1d45b633d5d43/item/he
   --off-white: #e9eaeb;
   --link: royalblue;
   --link-visited: hsl(261.0, 45%, 43%);
+  --thick-border-width: 3px;
 }
 
 * {
@@ -22,11 +23,9 @@ html {
 }
 
 body {
-  font-family: sans-serif;
   line-height: 1.45;
-  margin: 0 auto;
-  max-width: 64rem;
-  padding: 0 15px;
+  margin: 0;
+  padding: 0;
   background: var(--white);
   color: var(--black);
   font-size: 1.6rem;
@@ -50,6 +49,9 @@ nav {
 
 main, article {
   hyphens: auto;
+  margin: 0 auto;
+  max-width: 64rem;
+  padding: 0 15px;
 }
 
 p {
@@ -97,6 +99,7 @@ h1,h2,h3,h4 {
 }
 
 h1 {
+  font-size: 3.6rem;
   margin-bottom: 0.5rem;
 }
 
@@ -214,29 +217,88 @@ footer {
   border-bottom: 1px solid var(--gray);
 }
 
-/* colors taken from ... myself!
-https://github.com/ericyd/generative-art/blob/94394078574a83f7842ca38543a528ef95e34099/openrndr/src/main/kotlin/sketch/flow/F7_Orbit2.kt#L137-L143 */
-.site-title {
-  --dark-purple: hsl(261.0, 45%, 43%);
-  --light-purple: hsl(255.0, 46%, 86%);
-  --salmon: hsl(29.0, 93%, 83%);
-  --light-blue: hsl(194.0, 70%, 85%);
-  --dark-blue: hsl(212.0, 67%, 30%);
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  background-color: var(--light-purple);
-  border: 0.6rem solid var(--dark-purple);
-  box-shadow: 0.6rem 0.6rem 0px var(--salmon), 1.2rem 1.2rem 0px var(--dark-blue);
-  padding: 0em 2rem;
-  height: 10rem;
-  margin: 2rem 4rem;
-  width: auto;
-  font-size: 2.4rem;
-  /* To keep thing lean-n-mean, none of these fonts are shipped with the site. They are just included in case the user has interesting monospace fonts available */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  border: var(--thick-border-width) solid var(--black);
+}
+
+.border-top {
+  border-top: var(--thick-border-width) solid var(--black);
+}
+
+.border-right {
+  border-right: var(--thick-border-width) solid var(--black);
+}
+
+.padding-1 {
+  padding: 1em;
+}
+
+/* To keep thing lean-n-mean, none of these fonts are shipped with the site. They are just included in case the user has interesting monospace fonts available */
+.monospace {
   font-family: "Inconsolata", "Source Code Pro", "IBM Plex Mono", "Andale Mono", "DejaVu Sans Mono", "Consolas", "Roboto Mono", "Hack", monospace;
-  /* hardcoded for proper dark mode contrast */
-  color: #18181b !important;
+}
+
+.flex-basis-50 {
+  flex-basis: 50%;
+}
+
+.flex-basis-100 {
+  flex-basis: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-123 {
+  height: 123px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.margin-05 {
+  margin: 0.5em;
+}
+
+.abs-w-360 {
+  max-width: 360px;
+  min-width: 360px;
+  margin: 0 auto;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.font-weight-400 {
   font-weight: 400;
-  text-decoration: none;
+}
+
+.font-size-24 {
+  font-size: 2.4rem;
+}
+
+.bg-custom-img {
+  background: url('./header.svg') repeat;
 }
 
 .header-anchor {

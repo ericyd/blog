@@ -43,11 +43,16 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
   </head>
 
   <body>
-    <div class="center-column" href="/">
-      <h1 class="center-column site-title">{{ .Site.Title }}</h1>
-      <div>
-        <a href="/">Blog</a> | <a href="https://ericyd.com">Homepage</a>
+    <div class="flex-row h-123">
+      <div class="bg-custom-img h-100 flex-basis-100"></div>
+      <div class="flex-column justify-center border monospace abs-w-360" style="flex-basis: 100%;">
+        <h1 class="margin-05 text-align-center font-weight-400 font-size-24">{{ .Site.Title }}</h1>
+        <div class="flex-row justify-center w-100">
+          <a href="/" class="justify-center padding-1 flex-basis-50 border-top border-right">Blog</a>
+          <a href="https://ericyd.com" class="justify-center padding-1 flex-basis-50 border-top">Homepage</a>
+        </div>
       </div>
+      <div class="bg-custom-img h-100 flex-basis-100"></div>
     </div>
 
     <article>
