@@ -15,6 +15,7 @@ tags: ["music"]
     * https://tidal.com/browse/album/327318531
     * Very, very good! I am feeling like I'll want to buy this on Bandcamp
     * Groovy, smooth, and fukin' cool
+    * I've listened to this several times recently and it _really_ holds up, this is agreat album.
 * _MINT JAMS(Live)_, Casiopea
     * https://tidal.com/browse/album/157660479
     * super fun classic funk/prog/jams!
@@ -52,3 +53,10 @@ tags: ["music"]
 * _Three_, Four Tet
     * Pretty classic Four Tet actually! Mellow, smooth, electronic, textured, deep, organic. I'll listen to this again for sure
     * "So Blue" stuck out to me on my first listen
+* _Mahal_, Glass Beams
+    * ooh, kind of an eastern psychedelic vibe, really nice!
+    * too short :D
+* _Notebook Fantasy, Chicano Batman
+    * damn, this might be one of their best! I need to listen to it again, but first listen this felt like gold
+* _A LA SALA_, Khruangbin
+    * need to listen again, felt pretty mellow even by Kruangbin standards but only listened to it once on a plane so lots of nuance was lost
