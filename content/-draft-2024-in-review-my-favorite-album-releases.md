@@ -60,3 +60,11 @@ tags: ["music"]
     * damn, this might be one of their best! I need to listen to it again, but first listen this felt like gold
 * _A LA SALA_, Khruangbin
     * need to listen again, felt pretty mellow even by Kruangbin standards but only listened to it once on a plane so lots of nuance was lost
+* _Mustard n'Onions_, Ghost-Note
+    * 100% HARD HITTING FUNK JAMS
+    * This album absolutely slaps!
+    * In the words on Cherish: "Love it, love it, love it"
+* _Old School_, The New Mastersounds
+    * I mean, what can you say, these guys are legends.
+    * This album is really fun, much better than the album they released last year. Excellent "fun friday" vibes.
+    * really exceptional organ tones on this album, just perfectly overdriven. Really rich mixing throughout.
