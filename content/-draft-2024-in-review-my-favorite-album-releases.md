@@ -23,8 +23,8 @@ tags: ["music"]
     * really fun! Robby Krieger is the guitarist for The Doors apparently
 * _The Drop_, Jeff Lorber
     * Released in 2023 but a really fun modern jazz album. It has that sound that I think turns off a lot of people, really shimmery keyboards, but I thought it was fun
-* _Parasols_, Orgone
-    * Just an EP but it is solid!
+* _Chimera_, Orgone
+    * I do like it.... but I can't say it really sings to me. Like it's nice, but I'm not sure when I would reach for it over other albums.
 * _L'Impératrice_, Tako Tsubo
     * A coworker described this as "Daft Punk style", which I don't agree with, but I do think it's a really fun album!
 * _Fronzoli_, Psychedlic Porn Crumpets
