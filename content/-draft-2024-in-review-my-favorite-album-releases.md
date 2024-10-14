@@ -2,10 +2,10 @@
 
 title: "2024 in Review: My Favorite Album Releases"
 created: 2024-01-19T15:35:53-06:00
-date: 
+date:
 draft: true
 slug: 2024-in-review-my-favorite-album-releases
-description: 
+description:
 tags: ["music"]
 ---
 
@@ -68,3 +68,32 @@ tags: ["music"]
     * I mean, what can you say, these guys are legends.
     * This album is really fun, much better than the album they released last year. Excellent "fun friday" vibes.
     * really exceptional organ tones on this album, just perfectly overdriven. Really rich mixing throughout.
+* _Groove Alchemy_, Stanton Moore, Will Bernard, Robert Walter
+    * solid new-orleans style jazz-funk. Very "Stanton Moore"
+* _Emphasis! (On Parenthesis)_, Stanton Moore, Will Bernard, Robert Walter
+    * solid new-orleans style jazz-funk. Very "Stanton Moore"
+* _Real Life_, Kinga Glyk
+    * really interesting groove-oriented jazz! Great bass (Kinga is a bassist apparently) and fun compositions
+* _Pulsar_, L'Impératrice
+    * Very groovy! Kind of a modern disco vibe
+* _Do What You Want_, Bill Laurance
+    * Loving it! Opener "Set Piece" is so dark and moody, while "Zeal" is beautiful and lush.
+    * https://billlaurance.bandcamp.com/album/do-what-you-want
+* _Pals Vol. 8_, Various Artists
+    * Play Pal Music!
+    * Nice electronica! Fairly dark but not depressing (to me at least)
+* _Flight b741_, King Gizzard & the Lizzard Wizard
+    * Ok this is a pretty good album so far 😁. For some reason I have a contrarian desire to be unimpressed by King Gizzard but they are an undeniable force. Amazingly prolific and so varied.
+    * This album is like jammy garage rock, very fun!
+* _Slice of life_, Larness Lewis
+    * Ok but not great.
+* _Big Party_, FORQ
+    * Only a few songs in and LOVING it!!! I will probably buy this album.
+    * https://store.groundupmusic.net/products/big-party-flac-download
+* _Starshipt Syncopation_, Jules Buckley, Cory Wong, Metropole Orkest
+    * Fun album, but not feeling like an all-time fav
+* _Dance, No One's Watching_, Ezra Collective
+    * Strong opener, groovy syncopated rhythms, up tempo, great instrumental solos, strong horn hooks.
+    * Not all songs are bangers, but damn this is a really fun album. Super high energy!
+* _Can I Tell You Something_, Mark Lettieri
+    * It's got some good tracks, but it didn't grab me. I didn't have a lot of fun listening to it, but I felt like it was aiming to be "fun" music
