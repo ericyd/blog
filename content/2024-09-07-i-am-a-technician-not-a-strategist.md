@@ -10,7 +10,7 @@ tags: [career, self, reflection]
 
 Wow that's wild, 7 months passed and I wrote nothing.
 
-Of course, this isn't an apology for being absent, because nobody noticed. If ~~a tree falls~~ you stop publishing ~~in the woods~~ to a blog that nobody reads, ~~does anybody hear it~~ does anybody give two fucks? No.
+Of course, this isn't an apology for being absent, because nobody noticed. If ~~a tree falls~~ you stop publishing ~~in the woods~~ to a blog that nobody reads, ~~does it make a sound~~ does anybody give two fucks? No.
 
 Luckily that isn't the point of this blog. The point is a reflection on my career strengths.
 
