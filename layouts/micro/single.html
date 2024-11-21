@@ -1,6 +1,3 @@
-{{/* I don't really know Go templateing so I just stole a bunch of code from the ananke theme
-https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_default/baseof.html */}}
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,21 +22,29 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
     https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/schema.html" . -}}
-    <link rel="stylesheet" href="style.css" />
+    {{/* 
+      Is it ethical to use Hashnode's og:image generator API even though I'm not using their service anymore?
+      I think probably not, but I expect it is not costing them much.
+      I could always spin up my own with (probably) fairly low effort
+    */}}
+    {{ $ogImageBase64 := dict "title" .Date "author" "Eric Yancey Dauenhauer" "domain" "blog.ericyd.com" | jsonify | base64Encode }}
+    <meta name="image" property="og:image" content="https://ericyd.hashnode.dev/api/og/post?og={{ $ogImageBase64 }}">
+    <link rel="stylesheet" href="../../style.css" />
     {{/* fancier option demonstrated here
     https://github.com/theNewDynamic/gohugo-theme-ananke/blob/a1a99cf12681ad95b006e648a28139e6b9b75f09/layouts/_default/baseof.html#L27-L32 */}}
     <link
-      href="index.xml"
+      href="../../index.xml"
       rel="alternate"
       type="application/rss+xml"
       title="{{ $.Site.Title }}"
     />
     <link
-      href="index.xml"
+      href="../../index.xml"
       rel="feed"
       type="application/rss+xml"
       title="{{ $.Site.Title }}"
     />
+    {{/* TODO: favicon */}}
   </head>
 
   <body>
@@ -56,16 +61,11 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
     </div>
 
     <article>
-      {{ .Content }}
+      <em>{{ .Params.date }}</em>
 
-      <ul class="homepage-article-list">
-        {{ range .RegularPages.ByDate.Reverse }}
-        <li>
-          {{ .Page.Date | time.Format "Jan 2, 2006" }}
-          <a href="{{ .Page.Permalink }}">{{ .Page.Title | markdownify }}</a>
-        </li>
-        {{ end }}
-      </ul>
+      {{ .Content }}
+      <a href="/micro">Back to micro blog</a>
     </article>
+
   </body>
 </html>

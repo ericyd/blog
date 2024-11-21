@@ -25,11 +25,11 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
     https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/schema.html" . -}}
-    <!--
+    {{/* 
       Is it ethical to use Hashnode's og:image generator API even though I'm not using their service anymore?
       I think probably not, but I expect it is not costing them much.
       I could always spin up my own with (probably) fairly low effort
-    -->
+    */}}
     {{ $ogImageBase64 := dict "title" .Title "author" "Eric Yancey Dauenhauer" "domain" "blog.ericyd.com" | jsonify | base64Encode }}
     <meta name="image" property="og:image" content="https://ericyd.hashnode.dev/api/og/post?og={{ $ogImageBase64 }}">
     <link rel="stylesheet" href="../style.css" />

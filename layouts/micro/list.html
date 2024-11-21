@@ -25,17 +25,17 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
     https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/schema.html" . -}}
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
     {{/* fancier option demonstrated here
     https://github.com/theNewDynamic/gohugo-theme-ananke/blob/a1a99cf12681ad95b006e648a28139e6b9b75f09/layouts/_default/baseof.html#L27-L32 */}}
     <link
-      href="index.xml"
+      href="../index.xml"
       rel="alternate"
       type="application/rss+xml"
       title="{{ $.Site.Title }}"
     />
     <link
-      href="index.xml"
+      href="../index.xml"
       rel="feed"
       type="application/rss+xml"
       title="{{ $.Site.Title }}"
@@ -56,13 +56,12 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
     </div>
 
     <article>
-      {{ .Content }}
-
-      <ul class="homepage-article-list">
+      <ul class="micro-blog-list">
         {{ range .RegularPages.ByDate.Reverse }}
         <li>
           {{ .Page.Date | time.Format "Jan 2, 2006" }}
-          <a href="{{ .Page.Permalink }}">{{ .Page.Title | markdownify }}</a>
+          <div>{{ .Page.Content }}</div>
+          <a href="{{ .Page.Permalink }}">Permalink</a>
         </li>
         {{ end }}
       </ul>

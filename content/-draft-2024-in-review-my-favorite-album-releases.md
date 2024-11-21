@@ -97,3 +97,7 @@ tags: ["music"]
     * Not all songs are bangers, but damn this is a really fun album. Super high energy!
 * _Can I Tell You Something_, Mark Lettieri
     * It's got some good tracks, but it didn't grab me. I didn't have a lot of fun listening to it, but I felt like it was aiming to be "fun" music
+* _Goat_, Goat
+    * Weird psychedelic album, but there are some great tracks. Feels very raw, human.
+* _Metropolis_, Timecop1983
+    * Great synthwave album!
