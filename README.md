@@ -37,7 +37,15 @@ This will
 ## New post
 
 ```
-hugo new drafts/my-new-post.md
+hugo new my-new-post.md
 ```
 
 Interestingly, the `.md` is _critical_ in this command. Without it, Hugo won't know which archetype to use.
+
+### New micro post
+
+To use the "micro" blog template ("archetype" in Hugo parlance), include "micro/" in the path:
+
+```
+hugo new micro/my-micro-post.md
+```
