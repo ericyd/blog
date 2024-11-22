@@ -59,9 +59,8 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
       <ul class="micro-blog-list">
         {{ range .RegularPages.ByDate.Reverse }}
         <li>
-          {{ .Page.Date | time.Format "Jan 2, 2006" }}
+          {{ .Page.Date | time.Format "Jan 2, 2006" }} &bullet; <a href="{{ .Page.Permalink }}">Permalink</a>
           <div>{{ .Page.Content }}</div>
-          <a href="{{ .Page.Permalink }}">Permalink</a>
         </li>
         {{ end }}
       </ul>
