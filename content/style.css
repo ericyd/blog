@@ -51,7 +51,7 @@ main, article {
   hyphens: auto;
   margin: 0 auto;
   max-width: 64rem;
-  padding: 0 15px;
+  padding: 2rem 15px 0;
 }
 
 p {
@@ -66,20 +66,23 @@ li {
   line-height: 1.6em;
 }
 
-.homepage-article-list {
+.homepage-article-list,
+.micro-blog-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.homepage-article-list li {
+.homepage-article-list li,
+.micro-blog-list li {
   padding: 1.6rem 0 0;
 }
 
 /* "border" between list elements.
 this would be simpler as an actual 'border' property, but leaving this as-is in case
 I want to reduce the width in the future */
-.homepage-article-list li:after {
+.homepage-article-list li:after,
+.micro-blog-list li:after {
   content: '';
   border-bottom: 1px solid var(--gray);
   width: 100%;
@@ -94,13 +97,13 @@ I want to reduce the width in the future */
   display: block;
 }
 
-h1,h2,h3,h4 {
+h2,h3,h4 {
   margin: 2rem 0 0;
 }
 
 h1 {
   font-size: 3.6rem;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem;
 }
 
 h1 small {
