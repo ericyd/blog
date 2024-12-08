@@ -1,6 +1,6 @@
 ---
 
-title: "2024 in Review: My Favorite Album Releases"
+title: "2024 in Review: Albums I Purchased This Year"
 created: 2024-01-19T15:35:53-06:00
 date:
 draft: true
@@ -9,95 +9,74 @@ description:
 tags: ["music"]
 ---
 
-## Albums I listened to
+This is the third time I've compiled some favorite album releases from the year. Here are my previous two posts:
 
-* _Mount Masu_, Yin Yin
-    * https://tidal.com/browse/album/327318531
-    * Very, very good! I am feeling like I'll want to buy this on Bandcamp
-    * Groovy, smooth, and fukin' cool
-    * I've listened to this several times recently and it _really_ holds up, this is agreat album.
-* _MINT JAMS(Live)_, Casiopea
-    * https://tidal.com/browse/album/157660479
-    * super fun classic funk/prog/jams!
-* _Robby Krieger & the Soul Savages_, Robby Krieger
-    * really fun! Robby Krieger is the guitarist for The Doors apparently
-* _The Drop_, Jeff Lorber
-    * Released in 2023 but a really fun modern jazz album. It has that sound that I think turns off a lot of people, really shimmery keyboards, but I thought it was fun
-* _Chimera_, Orgone
-    * I do like it.... but I can't say it really sings to me. Like it's nice, but I'm not sure when I would reach for it over other albums.
-* _L'Impératrice_, Tako Tsubo
-    * A coworker described this as "Daft Punk style", which I don't agree with, but I do think it's a really fun album!
-* _Fronzoli_, Psychedlic Porn Crumpets
-    * I was OK on my first listen of this
-* _Wall Of Eyes_, The Smile
-    * This artist is a collab between the singer and guitarist of Radiohead and the drummer of Sons of Kemet!
-    * This is actually a pretty great album. Definitely will listen again. Mellow, but very strong songwriting.
-* _Vultures_, Ghostland Observatory
-    * Some good songs, but not sure I feel compelled to come back to it anytime soon.
-* _What Now_, Brittany Howard
-    * Need to listen again. Very much an album of loss. Didn't grab me super strong the first time, but would like to listen again
-* _Searching for Tomorrow_, Timecop 1983
-    * AWESOME synthwave album
-    * EXCEPT for the 3 tracks with vocals, which I HATE
-* _Ted Tapes 2024_, Goose
-    * First track is a 34 minute jam, so you can't go wrong
-    * I haven't heard of Goose before but they definitely fit into the jam/fusion genre nicely it seems. Digging the album so far! Seems very stereotypically up my alley.
-* _A Trip to the Moon_, Ghost Funk Orchestra
-    * https://tidal.com/browse/album/328546015
-    * I enjoyed this and would like to listen to it again. It has some fun songs, although I'm not sure if I feel it's extremely cohesive as an album.
-    * But that kinda makes me want to listen again, and see if I feel the same way on a re-listen
-* _Chorus_, Mildlife
-    * nice instrumentals, melodic, groovy
-    * vocals kind of turn me off a little bit
-    * kind of reminds me of poolside
-* _Three_, Four Tet
+- [2023 favorite album releases](/2023-in-review-my-favorite-album-releases)
+- [2022 favorite album releases](/my-favorite-album-releases-of-2022)
+
+I went in a slightly different direction this year. One of the goals I set for myself this year was to purchase more music, as a way to support artists I enjoy. Streaming services are wonderful for consumers and terrible for producers, and I wanted to be more active in how I engaged with musical artists this year.
+
+My goal was to purchase one album a month. I ended up buying 12 albums total this year, although I didn't stick to the calendar very well (5 were purchased in December as I realized I was behind on my goal). Not all of my purchases were released this year, but many of them were. Without further ado, here are the albums I purchased this year.
+
+- [_Mount Masu_, Yīn Yīn](https://yinyin.bandcamp.com/album/mount-matsu)
+- [_Mustard n'Onions_, Ghost-Note](https://ghost-note.bandcamp.com/album/mustard-nonions)
+- [_Goat_, Goat](https://goat.bandcamp.com/album/goat)
+- [_Lagos Paris London_, Yannis & The Yaw](https://yannistheyaw.bandcamp.com/album/lagos-paris-london)
+- [_Talkie Talkie_, Los Bitchos](https://losbitchos.bandcamp.com/album/talkie-talkie)
+- [_Three_, Four Tet](https://fourtet.bandcamp.com/album/three)
+- [_Big Party_, FORQ](https://store.groundupmusic.net/products/big-party-mp3-download)
+- [_Do What You Want_, Bill Laurance](https://billlaurance.bandcamp.com/album/do-what-you-want)
+- [_Culcha Vulcha_, Snarky Puppy](https://store.groundupmusic.net/products/culcha-vulcha-mp3-download)
+- [_Return_, Lydian Collective](https://lydiancollective.bandcamp.com/album/return)
+- [_Aftersun_, Bill Laurance](https://billlaurance.bandcamp.com/album/aftersun)
+- [_Roll the Tape_, Adam Deitch Quartet](https://goldenwolfrecords.bandcamp.com/album/roll-the-tape)
+
+## 2024 releases
+
+I always have a soft spot for new music. Here are the albums released this year that I liked enough to purchase.
+
+### [_Mount Masu_, Yīn Yīn](https://yinyin.bandcamp.com/album/mount-matsu)
+
+This album has _extremely_ high replayability. There's a wonderful balance of driving pocket grooves, lush synth textures, and beautiful slow jams. I have a hard time imagining a person who doesn't like this album at all.
+
+### [_Mustard n'Onions_, Ghost-Note](https://ghost-note.bandcamp.com/album/mustard-nonions)
+
+Hands down the best funk album of 2024, possibly the entire 2020s, possibly the entire millenium! I saw them live at the Parish Theater in Austin, TX and it was one of the best shows I can remember seeing. Absolute artistic mastery from start to finish. I loved it, and the recorded album is just as fantastic.
+
+### [_Do What You Want_, Bill Laurance](https://billlaurance.bandcamp.com/album/do-what-you-want)
+
+If you're looking for the absolute _tastiest_ overdriven Rhodes tones you've ever heard, _please_ do yourself a favor and check out _Do What You Want_. The opening track "Set Piece" is dark and moody and delicious.
+
+### [_Talkie Talkie_, Los Bitchos](https://losbitchos.bandcamp.com/album/talkie-talkie)
+
+Possibly the most fun release of 2024! I love this album and can listen to it nearly on repeat.
+
+### [_Goat_, Goat](https://goat.bandcamp.com/album/goat)
+
+The first time I listened to this album, I was not super impressed with it. But something drew me back for a second listen, then a third. It ended up having one of my highest listening counts of any album this year. This album was released shortly after my dog died, and it really matched the "fuck it" brand of depression I was feeling. There is something cathartic about this album in the way that it is so free, so raw, and so visceral. The production confuses me with it's chaotic mixing style, but somehow it adds to the energy of the album.
+
+### [_Lagos Paris London_, Yannis & The Yaw](https://yannistheyaw.bandcamp.com/album/lagos-paris-london)
+
+### [_Three_, Four Tet](https://fourtet.bandcamp.com/album/three)
     * Pretty classic Four Tet actually! Mellow, smooth, electronic, textured, deep, organic. I'll listen to this again for sure
     * "So Blue" stuck out to me on my first listen
-* _Mahal_, Glass Beams
-    * ooh, kind of an eastern psychedelic vibe, really nice!
-    * too short :D
-* _Notebook Fantasy, Chicano Batman
-    * damn, this might be one of their best! I need to listen to it again, but first listen this felt like gold
-* _A LA SALA_, Khruangbin
-    * need to listen again, felt pretty mellow even by Kruangbin standards but only listened to it once on a plane so lots of nuance was lost
-* _Mustard n'Onions_, Ghost-Note
-    * 100% HARD HITTING FUNK JAMS
-    * This album absolutely slaps!
-    * In the words on Cherish: "Love it, love it, love it"
-* _Old School_, The New Mastersounds
-    * I mean, what can you say, these guys are legends.
-    * This album is really fun, much better than the album they released last year. Excellent "fun friday" vibes.
-    * really exceptional organ tones on this album, just perfectly overdriven. Really rich mixing throughout.
-* _Groove Alchemy_, Stanton Moore, Will Bernard, Robert Walter
-    * solid new-orleans style jazz-funk. Very "Stanton Moore"
-* _Emphasis! (On Parenthesis)_, Stanton Moore, Will Bernard, Robert Walter
-    * solid new-orleans style jazz-funk. Very "Stanton Moore"
-* _Real Life_, Kinga Glyk
-    * really interesting groove-oriented jazz! Great bass (Kinga is a bassist apparently) and fun compositions
-* _Pulsar_, L'Impératrice
-    * Very groovy! Kind of a modern disco vibe
-* _Do What You Want_, Bill Laurance
-    * Loving it! Opener "Set Piece" is so dark and moody, while "Zeal" is beautiful and lush.
-    * https://billlaurance.bandcamp.com/album/do-what-you-want
-* _Pals Vol. 8_, Various Artists
-    * Play Pal Music!
-    * Nice electronica! Fairly dark but not depressing (to me at least)
-* _Flight b741_, King Gizzard & the Lizzard Wizard
-    * Ok this is a pretty good album so far 😁. For some reason I have a contrarian desire to be unimpressed by King Gizzard but they are an undeniable force. Amazingly prolific and so varied.
-    * This album is like jammy garage rock, very fun!
-* _Slice of life_, Larness Lewis
-    * Ok but not great.
-* _Big Party_, FORQ
-    * Only a few songs in and LOVING it!!! I will probably buy this album.
-    * https://store.groundupmusic.net/products/big-party-flac-download
-* _Starshipt Syncopation_, Jules Buckley, Cory Wong, Metropole Orkest
-    * Fun album, but not feeling like an all-time fav
-* _Dance, No One's Watching_, Ezra Collective
-    * Strong opener, groovy syncopated rhythms, up tempo, great instrumental solos, strong horn hooks.
-    * Not all songs are bangers, but damn this is a really fun album. Super high energy!
-* _Can I Tell You Something_, Mark Lettieri
-    * It's got some good tracks, but it didn't grab me. I didn't have a lot of fun listening to it, but I felt like it was aiming to be "fun" music
-* _Goat_, Goat
-    * Weird psychedelic album, but there are some great tracks. Feels very raw, human.
-* _Metropolis_, Timecop1983
-    * Great synthwave album!
+
+### [_Big Party_, FORQ](https://store.groundupmusic.net/products/big-party-mp3-download)
+
+## Older releases that I purchased to backfill my music collection
+
+### [_Culcha Vulcha_, Snarky Puppy](https://store.groundupmusic.net/products/culcha-vulcha-mp3-download)
+
+This might be my favorite album of all time. I absolutely love it from start to finish and I wanted it for my personal collection.
+
+### [_Aftersun_, Bill Laurance](https://billlaurance.bandcamp.com/album/aftersun)
+
+The textures and rhythms in this album are just fantastic to me
+
+### [_Return_, Lydian Collective](https://lydiancollective.bandcamp.com/album/return)
+
+I wasn't familiar with Lydian Collective before this year. I found them by listening to "Shubh Saran radio" on TIDAL. I really got into this "math rock" style of music this year, adn this album is great!
+
+### [_Roll the Tape_, Adam Deitch Quartet](https://goldenwolfrecords.bandcamp.com/album/roll-the-tape)
+
+This was one of my top albums from 2023 and I wanted to have it in my permanent collection.
