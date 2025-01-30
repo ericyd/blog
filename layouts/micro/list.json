@@ -6,7 +6,7 @@
             "id" : "{{ .Params.slug }}",
             "permalink": "{{ .Page.Permalink }}",
             "date": {
-                "formatted": "{{ .Page.Date | time.Format "Jan 2, 2006" }}",
+                "formatted": "{{ .Params.date | time.Format "Jan 2, 2006" }}",
                 "raw": "{{ .Params.date }}"
             },
             {{ $escaped_content := replace .Page.Content "\n" "" }}
