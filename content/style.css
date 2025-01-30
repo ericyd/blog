@@ -175,6 +175,7 @@ code {
 
 pre {
   border: 1px solid;
+  white-space: break-spaces;
 }
 
 pre code,
