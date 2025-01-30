@@ -32,4 +32,4 @@ enableGitInfo = true
 # My goal with JSON was to generate a JSON file and make my micro blog data-drive with a little helper JS, à la https://github.com/ericyd/generative-art/blob/b584b6d05e00e533f4c5bdacf23f92aee48f9ac7/docs/index.html#L55-L340
 # The problem I'm not sure how to solve yet is how to make the dynamic routes work correctly, for individual microblogs.
 # I would like someone to be able to link to a direct microblog, but I'm not sure if it's possible to handle "route params" in Cloudflare pages and/or Hugo.
-#  section = ["json", "html"]
+  section = ["json", "html"]
