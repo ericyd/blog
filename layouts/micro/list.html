@@ -58,14 +58,111 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
     <!-- /Header -->
 
     <article>
-      <ul class="micro-blog-list">
-        {{ range .RegularPages.ByDate.Reverse }}
-        <li>
-          {{ .Page.Date | time.Format "Jan 2, 2006" }} &bullet; <a href="{{ .Page.Permalink }}">Permalink</a>
-          <div>{{ .Page.Content }}</div>
-        </li>
-        {{ end }}
+      <ul class="micro-blog-list" id="micro-blog-list">
+        {{/*
+          {{ range .RegularPages.ByDate.Reverse }}
+          <li>
+            {{ .Page.Date | time.Format "Jan 2, 2006" }} &bullet; <a href="{{ .Page.Permalink }}">Permalink</a>
+            <div>{{ .Page.Content }}</div>
+          </li>
+          {{ end }}
+        */}}
       </ul>
     </article>
   </body>
+
+  <script type="text/javascript">
+
+    /**
+     * defined by layouts/micro/list.json
+     * 
+     * type Item = {
+     *   id: string,
+     *   date: {
+     *     formatted: string,
+     *     raw: string
+     *   },
+     *   permalink: string,
+     *   content: string
+     * }
+     */
+    window.addEventListener('load', fetchItems)
+    async function fetchItems(_event) {
+      const root = document.getElementById("micro-blog-list")
+      try {
+        const response = await fetch('/micro/index.json');
+        const json = await response.json();
+        // TODO: pagination
+        const items = json.items.map(createItem);
+        
+        items.forEach(item => root.appendChild(item));
+      } catch (e) {
+        displayError(contentDiv, e);
+      }
+    }
+
+    /**
+     * 
+     * <li>
+     *   {{ .Page.Date | time.Format "Jan 2, 2006" }} &bullet; <a href="{{ .Page.Permalink }}">Permalink</a>
+     *   <div>{{ .Page.Content }}</div>
+     * </li>
+     */
+    function createItem(item) {
+      // Permalink
+      const permalink = document.createElement('a');
+      permalink.setAttribute('href', item.permalink);
+      permalink.innerText = 'Permalink';
+      
+      // Markdown content
+      const markdown = document.createElement('div');
+      markdown.innerHTML = item.content; // ¯\_(ツ)_/¯
+
+      // Build list item
+      const li = document.createElement('li');
+      li.appendChild(document.createTextNode(`${item.date.formatted} • `));
+      li.appendChild(permalink);
+      li.appendChild(markdown);
+      return li;
+    }
+
+    function hideLoadMoreButton() {
+      document.getElementById('load-more-btn').classList.add('display-none')
+    }
+
+    function paginate(images, size = 10) {
+      // returns an array of arrays, with each inner array representing a "page" of images with max length `size`
+      const pages = images.reduce((accumulator, currentValue) => {
+        if (accumulator.length === 0 || accumulator[accumulator.length - 1].length === size) {
+          accumulator.push([])
+        }
+        accumulator[accumulator.length - 1].push(currentValue)
+        return accumulator
+      }, [])
+
+      // alternative is to reverse the array but for such an infrequent operation it doesn't matter
+      const firstPage = pages.shift()
+
+      // load more button grabs next page of images and populates
+      const loadMoreBtn = document.getElementById('load-more-btn')
+      if (pages.length >= 1) {
+        loadMoreBtn.addEventListener('click', e => {
+          populateImages(pages.shift())
+
+          if (pages.length === 0) {
+            hideLoadMoreButton()
+          }
+        })
+      } else {
+        hideLoadMoreButton()
+      }
+
+      return firstPage
+    }
+
+    function displayError(contentDiv, error) {
+      const errorText = error ? `<pre>${error.toString().replace(/\n/g, '<br />')}</pre>` : ''
+      contentDiv.innerHTML = `<h1>Error loading page</h1><p>You probably messed up.</p>${errorText}`
+    }
+  </script>
 </html>

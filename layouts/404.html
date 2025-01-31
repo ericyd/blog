@@ -93,6 +93,7 @@
      *   content: string
      * }
      */
+    window.addEventListener('load', fetchItems);
     async function fetchItems(_event) {
       const contentDiv = document.getElementById("content")
       try {
@@ -106,8 +107,7 @@
         }
 
         const markdown = document.createElement('div');
-        // Pretty insecure... meh ¯\_(ツ)_/¯
-        markdown.innerHTML = maybeItem.content;
+        markdown.innerHTML = maybeItem.content; // ¯\_(ツ)_/¯
         const date = document.createElement('em')
         date.innerText = maybeItem.date.raw;
         contentDiv.appendChild(date);
@@ -121,7 +121,5 @@
       const errorText = error ? `<pre>${error.toString().replace(/\n/g, '<br />')}</pre>` : ''
       contentDiv.innerHTML = `<h1>Error loading page</h1><p>You probably messed up.</p>${errorText}`
     }
-
-    window.addEventListener('load', fetchItems)
   </script>
 </html>
