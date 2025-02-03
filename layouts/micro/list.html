@@ -68,6 +68,10 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
           {{ end }}
         */}}
       </ul>
+
+      <div class="load-more-container">
+        <button id="load-more-btn">Load more</button>
+      </div>
     </article>
   </body>
 
@@ -92,13 +96,40 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
       try {
         const response = await fetch('/micro/index.json');
         const json = await response.json();
-        // TODO: pagination
-        const items = json.items.map(createItem);
-        
-        items.forEach(item => root.appendChild(item));
+        const page = paginate(json.items, root);
+        createItemFromPage(page, root);
       } catch (e) {
         displayError(contentDiv, e);
       }
+    }
+
+    function paginate(items, root, size = 10) {
+      const pages = splitBy(items, size);
+
+      // alternative is to reverse the array and use `.pop()` but for such an infrequent operation it doesn't matter
+      const firstPage = pages.shift();
+
+      // load more button grabs next page of images and populates
+      const loadMoreBtn = document.getElementById('load-more-btn')
+      if (pages.length >= 1) {
+        loadMoreBtn.addEventListener('click', e => {
+          createItemFromPage(pages.shift(), root);
+
+          if (pages.length === 0) {
+            hideLoadMoreButton();
+          }
+        })
+      } else {
+        hideLoadMoreButton();
+      }
+
+      return firstPage;
+    }
+
+    function createItemFromPage(items, root) {
+      items
+        .map(createItem)
+        .forEach(item => root.appendChild(item));
     }
 
     /**
@@ -126,38 +157,23 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
       return li;
     }
 
-    function hideLoadMoreButton() {
-      document.getElementById('load-more-btn').classList.add('display-none')
-    }
-
-    function paginate(images, size = 10) {
+    /**
+     * @param {Item[]} items
+     * @returns {Item[][]}
+     */
+     function splitBy(items, size = 10) {
       // returns an array of arrays, with each inner array representing a "page" of images with max length `size`
-      const pages = images.reduce((accumulator, currentValue) => {
+      return items.reduce((accumulator, currentValue) => {
         if (accumulator.length === 0 || accumulator[accumulator.length - 1].length === size) {
           accumulator.push([])
         }
         accumulator[accumulator.length - 1].push(currentValue)
         return accumulator
       }, [])
+    }
 
-      // alternative is to reverse the array but for such an infrequent operation it doesn't matter
-      const firstPage = pages.shift()
-
-      // load more button grabs next page of images and populates
-      const loadMoreBtn = document.getElementById('load-more-btn')
-      if (pages.length >= 1) {
-        loadMoreBtn.addEventListener('click', e => {
-          populateImages(pages.shift())
-
-          if (pages.length === 0) {
-            hideLoadMoreButton()
-          }
-        })
-      } else {
-        hideLoadMoreButton()
-      }
-
-      return firstPage
+    function hideLoadMoreButton() {
+      document.getElementById('load-more-btn').classList.add('display-none')
     }
 
     function displayError(contentDiv, error) {

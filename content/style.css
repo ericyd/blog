@@ -323,6 +323,32 @@ footer {
   font-size: 0.8rem;
 }
 
+.load-more-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  margin: 0 auto 2em auto;
+}
+
+#load-more-btn {
+  width: 100%;
+  max-width: 300px;
+  height: 4em;
+  font-size: 1em;
+  background: none;
+  border: 1px solid var(--black);
+  color: var(--black);
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.display-none {
+  display: none;
+}
+
 @supports (color-scheme: dark light) {
   @media screen and (prefers-color-scheme: dark) {
     :root {
