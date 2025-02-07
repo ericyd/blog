@@ -1,0 +1,157 @@
+{{/* I don't really know Go templateing so I just stole a bunch of code from the ananke theme
+https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_default/baseof.html */}}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+      {{ block "title" . }}
+        {{ with .Params.Title }}
+          {{ . }} | 
+        {{ end }}
+        {{ .Site.Title }}
+      {{ end }}
+    </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1" />
+    <meta
+      name="description"
+      content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"
+    />
+    {{ hugo.Generator }}
+    <meta name="robots" content="index, follow" />
+    {{/* NOTE: These Hugo Internal Templates can be found starting at
+    https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/schema.html" . -}}
+    <link rel="stylesheet" href="../style.css" />
+    {{/* fancier option demonstrated here
+    https://github.com/theNewDynamic/gohugo-theme-ananke/blob/a1a99cf12681ad95b006e648a28139e6b9b75f09/layouts/_default/baseof.html#L27-L32 */}}
+    <link
+      href="../index.xml"
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ $.Site.Title }}"
+    />
+    <link
+      href="../index.xml"
+      rel="feed"
+      type="application/rss+xml"
+      title="{{ $.Site.Title }}"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="flex-row h-123">
+      <div class="bg-custom-img h-100 flex-basis-100"></div>
+      <div class="flex-column justify-center border monospace abs-w-360" style="flex-basis: 100%;">
+        <h1 class="margin-05 text-align-center font-weight-400 font-size-24">{{ .Site.Title }}</h1>
+        <div class="flex-row justify-center w-100">
+          <a href="/" class="justify-center padding-1 flex-basis-50 border-top border-right">Blog</a>
+          <a href="https://ericyd.com" class="justify-center padding-1 flex-basis-50 border-top">Homepage</a>
+        </div>
+      </div>
+      <div class="bg-custom-img h-100 flex-basis-100"></div>
+    </div>
+    <!-- /Header -->
+
+    <article>
+      <ul class="micro-blog-list" id="micro-blog-list">
+        {{/*
+          {{ range .RegularPages.ByDate.Reverse }}
+          <li>
+            {{ .Page.Date | time.Format "Jan 2, 2006" }} &bullet; <a href="{{ .Page.Permalink }}">Permalink</a>
+            <div>{{ .Page.Content }}</div>
+          </li>
+          {{ end }}
+        */}}
+      </ul>
+
+      <div class="load-more-container">
+        <button id="load-more-btn">Load more</button>
+      </div>
+    </article>
+  </body>
+
+  <script type="text/javascript">
+
+    /**
+     * defined by layouts/micro/list.json
+     * 
+     * type Item = {
+     *   id: string,
+     *   date: {
+     *     formatted: string,
+     *     raw: string
+     *   },
+     *   permalink: string,
+     *   content: string
+     * }
+     */
+    window.addEventListener('load', () => fetchItems())
+    async function fetchItems(pageNumber = 0) {
+      const root = document.getElementById("micro-blog-list")
+      try {
+        const path = pageNumber > 0 ? `/micro/page/${pageNumber}/index.json` : '/micro/index.json'
+        const response = await fetch(path);
+        const json = await response.json();
+
+        createItemsFromPage(json.items, root);
+
+        // load more button grabs next page of images and populates
+        const loadMoreBtn = document.getElementById('load-more-btn')
+        if (json.hasNext) {
+          loadMoreBtn.addEventListener('click', e => {
+            fetchItems(pageNumber + 1);
+          }, { once: true });
+        } else {
+          hideLoadMoreButton();
+        }
+      } catch (e) {
+        displayError(contentDiv, e);
+      }
+    }
+
+    function createItemsFromPage(items, root) {
+      items
+        .map(createItem)
+        .forEach(item => root.appendChild(item));
+    }
+
+    /**
+     * 
+     * <li>
+     *   {{ .Page.Date | time.Format "Jan 2, 2006" }} &bullet; <a href="{{ .Page.Permalink }}">Permalink</a>
+     *   <div>{{ .Page.Content }}</div>
+     * </li>
+     */
+    function createItem(item) {
+      // Permalink
+      const permalink = document.createElement('a');
+      permalink.setAttribute('href', item.permalink);
+      permalink.innerText = 'Permalink';
+      
+      // Markdown content
+      const markdown = document.createElement('div');
+      markdown.innerHTML = item.content; // ¯\_(ツ)_/¯
+
+      // Build list item
+      const li = document.createElement('li');
+      li.appendChild(document.createTextNode(`${item.date.formatted} • `));
+      li.appendChild(permalink);
+      li.appendChild(markdown);
+      return li;
+    }
+
+    function hideLoadMoreButton() {
+      document.getElementById('load-more-btn').classList.add('display-none')
+    }
+
+    function displayError(contentDiv, error) {
+      const errorText = error ? `<pre>${error.toString().replace(/\n/g, '<br />')}</pre>` : ''
+      contentDiv.innerHTML = `<h1>Error loading page</h1><p>You probably messed up.</p>${errorText}`
+    }
+  </script>
+</html>

@@ -1,0 +1,24 @@
+{ {{/* This template generates the list of JSON entries for the items in `/micro`. It is triggered from the `outputs.section` config in hugo.toml 
+       It seems to me that $paginator is a "Pager"
+       https://gohugo.io/methods/pager/pagers/ */}}
+    {{ $pages := .RegularPages.ByDate.Reverse }}
+    {{ $paginator := .Paginate $pages }}
+    "items": [
+        {{ range $i, $e := $paginator.Pages }}
+        {{ if $i }}, {{ end }} {{/* This inserts a comma for every item where index is truthy (index != 0) */}}
+        {
+            "id" : "{{ .Params.slug }}",
+            "permalink": "{{ .Page.Permalink }}",
+            "date": {
+                "formatted": "{{ .Params.date | time.Format "Jan 2, 2006" }}",
+                "raw": "{{ .Params.date }}"
+            },
+            {{ $escaped_content := replace .Page.Content "\n" "" }}
+            {{ $escaped_content := replace $escaped_content  "\"" "\\\"" }}
+            "content": "{{$escaped_content}}"
+        }
+        {{ end }}
+    ],
+    "hasNext": {{ $paginator.HasNext }},
+    "hasPrev": {{ $paginator.HasPrev }}
+}
