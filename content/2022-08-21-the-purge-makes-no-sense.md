@@ -6,7 +6,7 @@ draft: false
 slug: the-purge-makes-no-sense
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661098020691/a1ZylkJoU.png
 tags: [horror, film]
-subtitle: The Purge is an American horror movie from 2013 starring Ethan Hawke and Lena Headey. It makes no sense.
+subtitle: _The Purge_ is an American horror movie from 2013 starring Ethan Hawke and Lena Headey. It makes no sense.
 ---
 
 _The Purge_ rests on a simple premise: the American legal system is the only thing preventing Americans from murdering each other freely, on a whim, all of the time.
@@ -70,11 +70,11 @@ _28 Days Later_ provides an archetype, in the form of a super-contagious virus t
 
 ## Set the film in a different society/culture/timeline that is not identical to the present day
 
-_The Purge_ was released in 2013. Remarkably, the writers set the movie in 2021<sup>[1]</sup>, which indicates that the writers themselves believe this to be a reasonable depiction of modern America.
+_The Purge_ was released in 2013. Remarkably, the writers set the movie in 2021{{<sup 1>}}, which indicates that the writers themselves believe this to be a reasonable depiction of modern America.
 
 Instead of setting it in the modern day (which falls prey to all the criticisms outlined in this post), why not set it more significantly in the future, or in an alternative dystopian past? _The Hunger Games_ provides an archetype, by setting the story in a substantially futuristic society. _The Hunger Games_ rests on a similarly absurd premise - that people are willing to accept ritualistic child sacrifice in the name of Law And Order - but it allows the viewer to suspend disbelief by setting the film in a substantially different/futuristic/dystopian society. Since we cannot possibly know all the history that led to the creation of this society, it allows the viewer to just "go with it" and enjoy the premise as its presented to us.
 
-_The Purge_ could easily have just added a century to their timestamps and instantly improved the believability<sup>[2]</sup> of the film. Who knows what will take place in the next century to increase the country's appetite for murder?
+_The Purge_ could easily have just added a century to their timestamps and instantly improved the believability{{<sup 2>}} of the film. Who knows what will take place in the next century to increase the country's appetite for murder?
 
 Alternatively, _The Purge_ could have placed the movie in some alternative past, where there is some believable basis for the behavior shown in the film. Either of these are easy choices that would have greatly improved the viewing experience.
 
@@ -92,8 +92,6 @@ I didn't like _The Purge_.
 
 ---
 
-<sup>[1]</sup> How did I come up with this year? The opening credits show "purge events" from previous years, and the last timestamp (that I remember seeing) was from 2020. The opening credits gave the impression that they were sequentially building from past to present (they also showed clips from 2019, just prior to the 2020 clips), so it would follow that the annual purge depicted in the movie is from the next sequential year, 2021.
+{{<sup 1>}} How did I come up with this year? The opening credits show "purge events" from previous years, and the last timestamp (that I remember seeing) was from 2020. The opening credits gave the impression that they were sequentially building from past to present (they also showed clips from 2019, just prior to the 2020 clips), so it would follow that the annual purge depicted in the movie is from the next sequential year, 2021.
 
-<sup>[2]</sup> My computer doesn't seem to think "believability" is a word. Who is right: me or the machine?
-
-<sup>[3]</sup> Lest you think I'm lazy, Hashnode apparently doesn't support Markdown syntax in the title and subtitle elements. I did skip the italics on the title, it simply wasn't allowed!
+{{<sup 2>}} My computer doesn't seem to think "believability" is a word. Who is right: me or the machine?

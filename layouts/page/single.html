@@ -67,7 +67,7 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
       <h1>
         {{ .Title | markdownify }}
         {{ with .Params.subtitle }}
-        <small>{{ . }}</small>
+        <small>{{ . | markdownify }}</small>
         {{ end }}
       </h1>
   
