@@ -33,3 +33,13 @@ enableGitInfo = true
 # The problem I'm not sure how to solve yet is how to make the dynamic routes work correctly, for individual microblogs.
 # I would like someone to be able to link to a direct microblog, but I'm not sure if it's possible to handle "route params" in Cloudflare pages and/or Hugo.
 #  section = ["json", "html"]
+  section = ["html"]
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
