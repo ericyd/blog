@@ -3,7 +3,7 @@
 title: "Go Ahead: Change Your Life with Za'atar Oatmeal"
 created: 2025-02-28T12:49:59-06:00
 date: 2025-02-28T12:49:59-06:00
-draft: true
+draft: false
 slug: zaatar-oatmeal
 description: Savory oatmeal is God's gift to Breakfast. Don't fight it, give in to the pleasure of savory oats.
 tags: [delicious, food]
