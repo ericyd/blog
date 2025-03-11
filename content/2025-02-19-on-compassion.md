@@ -3,7 +3,7 @@
 title: "On Compassion and Eating Vegetarian"
 created: 2025-02-19T08:53:17-06:00
 date: 2025-02-19T08:53:17-06:00
-draft: true
+draft: false
 slug: on-compassion-and-eating-vegetarian
 description:
 tags: [eating, vegetarian, reflection, compassion]
