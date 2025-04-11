@@ -14,3 +14,5 @@ tags: []
 - _Circle of Giants_, moe.
 - _Love Time_, The Motet
 - _In Green We Dream_, Parlor Greens
+- https://playpalmusic.bandcamp.com/album/more-faster
+  - this is a super fun EP
