@@ -10,9 +10,15 @@ tags: []
 ---
 
 - _Cascade_, Floating Points
+  - 💰purchased
 - _Panorama_, The Main Squeeze
+  - 💰purchased
 - _Circle of Giants_, moe.
 - _Love Time_, The Motet
+  - 💰purchased
 - _In Green We Dream_, Parlor Greens
 - https://playpalmusic.bandcamp.com/album/more-faster
   - this is a super fun EP
+  - 💰purchased
+- _Is Noise, Vol. 1_, TAKAAT
+  - 💰purchased
