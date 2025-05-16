@@ -22,3 +22,7 @@ tags: []
   - 💰purchased
 - _Is Noise, Vol. 1_, TAKAAT
   - 💰purchased
+- _The Monastery, 2020_, Various Artists (Gardens of Bablyon)
+  - 💰purchased
+- _The Fearless Flyers V_, The Fearless Flyers
+  - This is good shit, I should buy it
