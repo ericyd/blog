@@ -32,3 +32,5 @@ tags: []
   - I think I have this on CD, I should rip it!
 - _Live at L'Olympia_, Cory Wong
   - This is a pretty great Cory Wong album!
+- _Tuff Times Never Last_, Kokoroko
+  - I can't decide how I feel about this album. Some tracks are pretty great, but I'm not sure I love it from start to finish.
