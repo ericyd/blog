@@ -5,7 +5,7 @@ date: 2025-08-15T13:54:51-05:00
 draft: false
 slug: ai-hype-vs-crypto-hype
 description:
-tags: []
+tags: [ai, artificial, intelligence, crypto, hype]
 ---
 
 ## TLDR
