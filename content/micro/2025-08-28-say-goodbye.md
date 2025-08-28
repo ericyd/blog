@@ -3,7 +3,7 @@ date: 2025-08-28T10:34:58-05:00
 slug: 1756395298634
 ---
 
-I saw an email today from an acquaintaince who was leaving their job which signed off with the phrase:
+I saw an email today from an acquaintance who was leaving their job which signed off with the phrase:
 
 > It's not goodbye, it's see you later!
 
