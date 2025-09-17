@@ -32,5 +32,12 @@ tags: []
   - I think I have this on CD, I should rip it!
 - _Live at L'Olympia_, Cory Wong
   - This is a pretty great Cory Wong album!
+  - 💰purchased
 - _Tuff Times Never Last_, Kokoroko
   - I can't decide how I feel about this album. Some tracks are pretty great, but I'm not sure I love it from start to finish.
+- _Roll Mega_, Roll Mega
+  - This is some GREAT blues rock!
+- _The Holy Enchilada_, Scary Goldings
+  - This is a wonderful album, amazing pianos, organs, clavs. Tight grooves, great sounds, I am thinking I might pick this up
+- _Live at Thalia Hall_, LA LOM
+  - Great live album, exactly what you'd want from LA LOM!
