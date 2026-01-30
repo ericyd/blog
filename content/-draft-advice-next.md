@@ -30,3 +30,4 @@ A year late, here's another attempt at "annual life advice":
 14. Brush your teeth, you only have one set.
 15. At some point you will die. If you're lucky, you'll have some time before you die to reflect on your life. If you have this chance, it will likely be incredibly meaningful for you to look back on your life and consider it to be well-lived. Strive to live well, in accordance with your values, so that you can eventually look back on your life and feel satisfied.
 16. Recognize that your values may change over time, and it is OK for your past actions and values to not align with your current actions and values.
+17. New is not always better. The novel experience are not inherently superior to a known experience which brings joy. In other words: just buy the fucking salsa that tastes good instead of trying a new flavor ever damn time.
