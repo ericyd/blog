@@ -8,7 +8,7 @@ description: ICE is committing crimes against humanity. It must stop.
 tags: []
 ---
 
-I am not working today, in solidarity with the [National Shutdown](https://nationalshutdown.org/). I decided to use some of this time to elucidate why I am choosing to take part.
+I am not working today, in solidarity with the [National Shutdown](https://nationalshutdown.org/) and victims of ICE violence. I decided to use some of this time to elucidate why I am choosing to take part.
 
 ICE has recently killed a few US citizens including Alex Pretti, Renee Good, and Keith Porter Jr. This alone is terrifying and tragic, and deserves a national response. I'm heartened to see the country respond to these murders with outrage; it means we still value safety and human life.
 
