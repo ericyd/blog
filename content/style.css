@@ -74,7 +74,7 @@ li {
 }
 
 .homepage-article-list li,
-.micro-blog-list li {
+.micro-blog-list > li {
   padding: 1.6rem 0 0;
 }
 
@@ -82,7 +82,7 @@ li {
 this would be simpler as an actual 'border' property, but leaving this as-is in case
 I want to reduce the width in the future */
 .homepage-article-list li:after,
-.micro-blog-list li:after {
+.micro-blog-list > li:after {
   content: '';
   border-bottom: 1px solid var(--gray);
   width: 100%;
