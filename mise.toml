@@ -12,8 +12,13 @@ run = "hugo server --buildDrafts"
 [tasks."cf:login"]
 run = "pnpx wrangler login"
 
-[tasks.predeploy]
-run = "rm -rf public && hugo"
+[tasks.clean]
+run = "rm -rf public"
+
+[tasks.build]
+depends = ["clean"]
+run = "hugo"
 
 [tasks.deploy]
-run = "pnpx wrangler pages publish public --project-name blog --env production --branch main"
+depends = ["build"]
+run = "pnpx wrangler pages deploy public --project-name blog --branch main"
