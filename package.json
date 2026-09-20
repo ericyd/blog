@@ -7,11 +7,8 @@
   "scripts": {
     "start": "hugo server",
     "dev": "hugo server --buildDrafts",
-    "login": "npx wrangler login",
     "clean": "rm -rf public",
-    "build": "hugo",
-    "prepublish": "npm run clean && npm run build",
-    "publish": "export $(cat .env) && CLOUDFLARE_ACCOUNT_ID=$CLOUDFLARE_ACCOUNT_ID npx wrangler pages publish public --project-name blog --env production --branch main"
+    "build": "hugo"
   },
   "repository": {
     "type": "git",
@@ -24,7 +21,7 @@
     "url": "https://github.com/ericyd/blog/issues"
   },
   "homepage": "https://github.com/ericyd/blog#readme",
-  "dependencies": {
-    "wrangler": "^2.21.3"
+  "devDependencies": {
+    "wrangler": "^4.135.0"
   }
 }

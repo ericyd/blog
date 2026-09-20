@@ -1,0 +1,19 @@
+[tools]
+node = "26"
+pnpm = "11"
+
+[tasks.dev]
+run = "hugo server"
+alias = "start"
+
+[tasks."dev:drafts"]
+run = "hugo server --buildDrafts"
+
+[tasks."cf:login"]
+run = "pnpx wrangler login"
+
+[tasks.predeploy]
+run = "rm -rf public && hugo"
+
+[tasks.deploy]
+run = "pnpx wrangler pages publish public --project-name blog --env production --branch main"
