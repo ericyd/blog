@@ -9,7 +9,7 @@ https://git.sr.ht/~bt/barf/tree/8bdd163d69369316be145ac9a2e1d45b633d5d43/item/he
   --white: #f9fafb;
   --off-white: #e9eaeb;
   --link: royalblue;
-  --link-visited: hsl(261.0, 45%, 43%);
+  --link-visited: hsl(261, 45%, 43%);
   --thick-border-width: 3px;
 }
 
@@ -29,12 +29,18 @@ body {
   background: var(--white);
   color: var(--black);
   font-size: 1.6rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
 }
 
-a:link {color: var(--link);}
+a:link {
+  color: var(--link);
+}
 
-a:visited {color: var(--link-visited);}
+a:visited {
+  color: var(--link-visited);
+}
 
 hr {
   background-color: var(--gray);
@@ -47,7 +53,8 @@ nav {
   margin: 2rem 0 0;
 }
 
-main, article {
+main,
+article {
   hyphens: auto;
   margin: 0 auto;
   max-width: 64rem;
@@ -83,7 +90,7 @@ this would be simpler as an actual 'border' property, but leaving this as-is in 
 I want to reduce the width in the future */
 .homepage-article-list li:after,
 .micro-blog-list > li:after {
-  content: '';
+  content: "";
   border-bottom: 1px solid var(--gray);
   width: 100%;
   display: block;
@@ -93,11 +100,18 @@ I want to reduce the width in the future */
   margin: 2.6rem auto 0;
 }
 
+.micro-blog-list-item-permalink,
+.micro-blog-list-item-date {
+  font-size: 0.75em;
+}
+
 .homepage-article-list li a {
   display: block;
 }
 
-h2,h3,h4 {
+h2,
+h3,
+h4 {
   margin: 2rem 0 0;
 }
 
@@ -136,8 +150,8 @@ blockquote {
   padding: 0.8rem 1.6rem;
   font-size: 1rem;
   line-height: 1.5rem;
-  margin:20px 0;
-  font-style:normal;
+  margin: 20px 0;
+  font-style: normal;
   border-radius: 0.2rem;
   border-left: 0.4rem solid var(--gray);
   background: var(--off-white);
@@ -147,7 +161,7 @@ blockquote::before {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='14' viewBox='0 0 20 14'%3e %3cpath fill='currentColor' fill-rule='evenodd' d='M0.107526882%2c9.3415 C0.107526882%2c11.867625 2.12064516%2c13.9153437 4.60408602%2c13.9153437 C7.08752688%2c13.9153437 9.10064516%2c11.867625 9.10064516%2c9.3415 C9.10064516%2c6.8464375 7.13569892%2c4.81928125 4.6944086%2c4.7700625 C5.82967742%2c3.63759375 7.38451613%2c2.93803125 9.10064516%2c2.93803125 L9.10064516%2c0.1938125 C4.13397849%2c0.1938125 0.107526882%2c4.28946875 0.107526882%2c9.3415 L0.107526882%2c9.3415 Z M19.8924731%2c0.1938125 C14.9258065%2c0.1938125 10.8993548%2c4.28946875 10.8993548%2c9.3415 C10.8993548%2c11.867625 12.9126882%2c13.9153437 15.395914%2c13.9153437 C17.8793548%2c13.9153437 19.8924731%2c11.867625 19.8924731%2c9.3415 C19.8924731%2c6.8464375 17.9275269%2c4.81928125 15.4862366%2c4.7700625 C16.6215054%2c3.63759375 18.1765591%2c2.93803125 19.8924731%2c2.93803125 L19.8924731%2c0.1938125 L19.8924731%2c0.1938125 Z'/%3e %3c/svg%3e");
   background-repeat: no-repeat;
   background-position: center;
-  content: '';
+  content: "";
   width: 2rem;
   height: 2rem;
   display: block;
@@ -156,7 +170,6 @@ blockquote p {
   display: block;
   margin: 0;
 }
-
 
 figure {
   margin: 2rem 0;
@@ -201,7 +214,8 @@ tr:nth-of-type(odd) td {
   background-color: #f8f8f8;
 }
 
-th,td {
+th,
+td {
   padding: 0.6rem;
 }
 
@@ -256,7 +270,9 @@ footer {
 
 /* To keep thing lean-n-mean, none of these fonts are shipped with the site. They are just included in case the user has interesting monospace fonts available */
 .monospace {
-  font-family: "Inconsolata", "Source Code Pro", "IBM Plex Mono", "Andale Mono", "DejaVu Sans Mono", "Consolas", "Roboto Mono", "Hack", monospace;
+  font-family:
+    "Inconsolata", "Source Code Pro", "IBM Plex Mono", "Andale Mono", "DejaVu Sans Mono",
+    "Consolas", "Roboto Mono", "Hack", monospace;
 }
 
 .flex-basis-50 {
@@ -302,7 +318,7 @@ footer {
 }
 
 .bg-custom-img {
-  background: url('./header.svg') repeat;
+  background: url("./header.svg") repeat;
 }
 
 .header-anchor {

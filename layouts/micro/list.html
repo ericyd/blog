@@ -9,7 +9,7 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
     <title>
       {{ block "title" . }}
         {{ with .Params.Title }}
-          {{ . }} | 
+          {{ . }} |
         {{ end }}
         {{ .Site.Title }}
       {{ end }}
@@ -61,8 +61,10 @@ https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/layouts/_defaul
       <ul class="micro-blog-list">
         {{ range .RegularPages.ByDate.Reverse }}
         <li>
-          {{ .Page.Date | time.Format "Jan 2, 2006" }} &bullet; <a href="{{ .Page.Permalink }}">Permalink</a>
           <div>{{ .Page.Content }}</div>
+          <span class="micro-blog-list-item-date">{{ .Page.Date | time.Format "Jan 2, 2006" }}</span>
+          &bullet;
+          <a href="{{ .Page.Permalink }}" class="micro-blog-list-item-permalink">Permalink</a>
         </li>
         {{ end }}
       </ul>
